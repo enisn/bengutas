@@ -16,8 +16,7 @@ os.makedirs(os.path.join(DIST_DIR, "web"), exist_ok=True)
 os.makedirs(SRC_DIR, exist_ok=True)
 os.makedirs(DOCS_DIR, exist_ok=True)
 
-# 1. Complete Bengutas Display (Epigraphic Lapidary) Glyphs
-# 100% stone-carved, non-curvilinear 45°/60° chisel facets for titles and monuments
+# 1. BENGUTAS DISPLAY (100% Stone-Chiseled Lapidary Epigraphic Glyphs)
 bengu_tas_glyphs = {
     "A": ("M 535 800 L 456 595 H 176 L 95 800 H 5 L 280 86 L 310 40 L 340 86 L 625 800 H 535 Z M 310 170 L 426 515 H 206 Z", 633, 65),
     "B": ("M 95 86 H 320 L 410 160 L 450 240 L 410 320 L 330 380 L 425 440 L 470 530 L 425 640 L 330 800 H 95 Z M 183 162 V 340 H 290 L 340 300 L 360 250 L 340 200 L 290 162 Z M 183 416 V 724 H 300 L 355 670 L 380 580 L 355 490 L 300 416 Z", 565, 66),
@@ -77,11 +76,15 @@ lowercase_map = {
     "X": ("x", 120), "Y": ("y", 121), "Z": ("z", 122),
 }
 
-# 2. Bengutas Sans: Only subtle, balanced uppercase touches that preserve 100% stem thickness & baseline
-# Zero thin/comic lowercase letters! All lowercase (a-z, ç, ş, ğ, ı, ö, ü) use the master dataset!
-sans_subtle_touch = {
-    # Clean apex A with stela crown, perfectly matching standard 88-unit stem weight:
-    "A": ("M531.375 800l-75.0752-197-34.125-24h-250.575l-82.875 221h-88.7246l272.025-717h61.4248l23.3994 17 265.2 700h-90.6748z m-188.175-517q-2.9248-8-9.75-29t-13.1631-43.5q-6.33691-22.5-10.2373-34.5-6.8252 31-15.5996 60.5-8.77539 29.5-14.625 46.5l-78.9756 216h220.351z", 633, 65),
+# 2. BENGUTAS SANS: Pure, Harmonious, Solid Grotesque
+# All lowercase (a-z, ç, ş, ğ, ı, ö, ü), all digits, all punctuation are 100% stable from master base dataset!
+# S, s, Z, z are 100% normal, perfectly aligned, matching thickness!
+# Subtle chiseled discipline: Only K and R have straight stone kick legs, matching exact stroke weight (88 units).
+sans_subtle_overrides = {
+    # K: Vertical stem + 45° clean diagonal strike (exact 88px stem weight)
+    "K": ("M 95 86 H 183 V 415 L 450 150 H 570 L 285 435 L 585 735 L 515 800 L 183 490 V 800 H 95 Z", 614, 75),
+    # R: Clean bowl + straight 45° stone-cut leg (exact 88px stem weight)
+    "R": ("M 95 86 H 310 Q 425 86 480 138 Q 535 190 535 285 Q 535 365 485 418 Q 435 465 340 472 L 545 735 L 475 800 L 260 488 H 183 V 800 H 95 Z M 183 162 V 412 H 300 Q 375 412 410 380 Q 445 345 445 285 Q 445 225 410 195 Q 375 162 300 162 Z", 641, 82),
 }
 
 NOTDEF_SVG = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
@@ -97,7 +100,7 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
     font.familyname = family_core
     font.fullname = f"{family_core} {weight_name}"
     font.weight = weight_name
-    font.version = "1.003"
+    font.version = "1.004"
     font.copyright = "Copyright (c) 2026 Bengü Taş Type Project. Licensed under the SIL Open Font License, Version 1.1 (Reserved Font Names: 'Bengü Taş', 'Bengutas')."
     
     font.em = 1000
@@ -193,13 +196,15 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
                     g_low.correctDirection()
 
         else:
-            # Sans: PURE, HARMONIOUS, SOLID GROTESQUE
-            # 100% uniform stroke weights, perfect baselines, flawless body-text readability!
+            # Sans: Pure harmonious grotesque.
+            # Subtle stone kick only on K and R uppercase! All lowercase 100% master dataset.
+            override_unicodes = set([u for _, _, u in sans_subtle_overrides.values()])
+
             for g_item in base_glyphs:
                 u = g_item.get("unicode")
                 adv = g_item.get("advance", 500)
                 d = g_item.get("d")
-                if u is None or not d:
+                if u is None or not d or u in override_unicodes:
                     continue
                 clean_name = g_item["name"].replace("Regular ", "").replace("Bold ", "").replace(" — Export", "")
                 parts = clean_name.split(" ", 1)
@@ -210,6 +215,18 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
                 g = font.createChar(u, glyph_name)
                 g.importOutlines(svg_p)
                 g.width = adv
+                g.removeOverlap()
+                g.correctDirection()
+
+            for name, (d, adv, u) in sans_subtle_overrides.items():
+                svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="{d}" /></svg>'
+                svg_p = os.path.join(temp_dir, f"sans_touch_{name}.svg")
+                with open(svg_p, "w") as tf: tf.write(svg)
+                g = font.createChar(u, name)
+                g.importOutlines(svg_p)
+                g.width = adv + (25 if is_bold else 0)
+                if is_bold:
+                    g.changeWeight(38, "auto", 0, 0, "auto")
                 g.removeOverlap()
                 g.correctDirection()
 
@@ -242,15 +259,15 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
         shutil.copy(woff2_path, os.path.join(DOCS_DIR, f"{font.fontname}.woff2"))
         shutil.copy(ttf_path, os.path.join(DOCS_DIR, f"{font.fontname}.ttf"))
 
-        print(f"✓ Restored & Compiled {font.fontname}")
+        print(f"✓ Built {font.fontname}")
 
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
 
 if __name__ == "__main__":
-    print("Rebuilding full Bengutas font collection with restored harmonious Sans...")
+    print("Compiling production Bengutas collection...")
     compile_font(is_display=False, weight_name="Regular", is_bold=False)
     compile_font(is_display=False, weight_name="Bold", is_bold=True)
     compile_font(is_display=True, weight_name="Regular", is_bold=False)
     compile_font(is_display=True, weight_name="Bold", is_bold=True)
-    print("All fonts rebuilt successfully!")
+    print("Compilation finished successfully!")
