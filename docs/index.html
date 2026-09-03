@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bengü Taş (Bengutas) — Dual-Family Typography Specimen</title>
+  <meta name="description" content="Bengü Taş (Bengutas) — 1300 yıllık Orhun stelleri taş keski geometrisini taşıyan otantik çift aileli yazı tipi koleksiyonu.">
+  <style>
+    /* Bengutas Sans (Metin & UI) */
+    @font-face {
+      font-family: 'Bengutas Sans';
+      src: url('BengutasSans-Regular.woff2') format('woff2'),
+           url('BengutasSans-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Bengutas Sans';
+      src: url('BengutasSans-Bold.woff2') format('woff2'),
+           url('BengutasSans-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    /* Bengutas Display (Bengü Taş / Orhun Kitabe Fontu) */
+    @font-face {
+      font-family: 'Bengutas Display';
+      src: url('BengutasDisplay-Regular.woff2') format('woff2'),
+           url('BengutasDisplay-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Bengutas Display';
+      src: url('BengutasDisplay-Bold.woff2') format('woff2'),
+           url('BengutasDisplay-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    :root {
+      --bg: #110E0B;
+      --card-bg: #1B1612;
+      --card-border: #2E251E;
+      --accent: #E2B778;
+      --accent-glow: rgba(226, 183, 120, 0.12);
+      --text: #F3ECE5;
+      --text-muted: #9E9084;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Bengutas Sans', -apple-system, sans-serif;
+      line-height: 1.5;
+      padding: 40px 24px 80px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 32px;
+      margin-bottom: 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent-glow);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Bengutas Display', sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: var(--text);
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-top: 6px;
+    }
+
+    .family-meta {
+      display: flex;
+      gap: 16px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+    .family-meta span {
+      background: #1F1914;
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+    }
+
+    /* Controls Bar */
+    .controls {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 18px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 36px;
+      position: sticky;
+      top: 16px;
+      z-index: 100;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .toggle-btn {
+      background: #241D17;
+      color: var(--text);
+      border: 1px solid var(--card-border);
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .toggle-btn.active {
+      background: var(--accent);
+      color: #110E0B;
+      border-color: var(--accent);
+      font-weight: 700;
+    }
+
+    input[type="range"] {
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .section {
+      margin-bottom: 48px;
+    }
+    .section-title {
+      font-family: 'Bengutas Display', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 1.5px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Comparison Dual Cards */
+    .dual-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 860px) {
+      .dual-grid { grid-template-columns: 1fr; }
+    }
+
+    .dual-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 28px;
+      transition: border-color 0.2s;
+    }
+    .dual-card.display-card {
+      border-color: var(--accent);
+      background: #221B15;
+    }
+
+    .card-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .dual-card h2 {
+      font-size: 28px;
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+    .dual-card p {
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* Interactive Playground */
+    .playground {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .playground-input {
+      width: 100%;
+      background: #14100C;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      color: var(--text);
+      padding: 20px;
+      outline: none;
+      resize: vertical;
+      min-height: 150px;
+      line-height: 1.3;
+      transition: border-color 0.2s;
+    }
+    .playground-input:focus {
+      border-color: var(--accent);
+    }
+    .playground-input::selection {
+      background: var(--accent);
+      color: #110E0B;
+    }
+
+    /* Inscription Monument Display */
+    .stela-monument {
+      background: radial-gradient(circle at top, #241D17, #15100D);
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.6);
+      margin-bottom: 36px;
+    }
+    .stela-quote {
+      font-family: 'Bengutas Display', sans-serif;
+      font-size: 32px;
+      line-height: 1.4;
+      letter-spacing: 2px;
+      color: #FFF3E6;
+      margin-bottom: 16px;
+    }
+    .stela-author {
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: var(--accent);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    /* Glyphs Grid */
+    .glyphs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+      gap: 10px;
+    }
+    .glyph-tile {
+      background: #191410;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      aspect-ratio: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .glyph-tile:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      background: #251D16;
+      color: var(--accent);
+    }
+    .glyph-tile .char-code {
+      font-size: 10px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      font-family: -apple-system, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <span class="badge">Bengü Taş (Bengutas) Typography Collection v1.0</span>
+      <h1>BENGÜ TAŞ & BENGÜTAS SANS</h1>
+      <p class="subtitle">1300 Yıllık Göktürk Orhun Kitabelerinin Taş Keski Mimarisini Taşıyan Yazı Tipi Ailesi</p>
+    </div>
+    <div class="family-meta">
+      <span>2 Aile: Display & Sans</span>
+      <span>2 Ağırlık: 400 & 700</span>
+      <span>OFL 1.1 Açık Kaynak Lisans</span>
+    </div>
+  </header>
+
+  <!-- Controls Bar -->
+  <div class="controls">
+    <div class="control-group">
+      <span>Yazı Tipi:</span>
+      <button class="toggle-btn active" id="btnDisplay" onclick="setFont('Bengutas Display', this)">Display (Bengü Taş)</button>
+      <button class="toggle-btn" id="btnSans" onclick="setFont('Bengutas Sans', this)">Sans (Metin / UI)</button>
+    </div>
+
+    <div class="control-group">
+      <span>Ağırlık:</span>
+      <button class="toggle-btn active" id="btnReg" onclick="setWeight(400, this)">Regular (400)</button>
+      <button class="toggle-btn" id="btnBold" onclick="setWeight(700, this)">Bold (700)</button>
+    </div>
+
+    <div class="control-group">
+      <span>Boyut: <strong id="sizeVal">36px</strong></span>
+      <input type="range" id="sizeSlider" min="16" max="96" value="36" oninput="setSize(this.value)">
+    </div>
+  </div>
+
+  <!-- Stela Monument Quote -->
+  <div class="stela-monument">
+    <div class="stela-author">BİLGE KAĞAN YAZITI (MS 735) — BENGÜ TAŞ STELİ</div>
+    <div class="stela-quote" id="monumentText">
+      « ÜZE TENGRİ BASMASAR, ASRA YER TELİNMESER, TÜRK BUDUN, İLİNİN TÖRÜNÜN KİM ARTATI? »
+    </div>
+    <p style="color: var(--text-muted); font-size: 15px;">
+      "Üstte mavi gök basmasa, altta yağız yer delinmese; Türk milleti, ilini töreni kim bozabilir!"
+    </p>
+  </div>
+
+  <!-- Side-by-Side Role Comparison -->
+  <div class="section">
+    <div class="section-title">1. İKİ AİLENİN ROL PAYLAŞIMI (DUAL-FAMILY MİMARİSİ)</div>
+    <div class="dual-grid">
+      <!-- Display Card -->
+      <div class="dual-card display-card">
+        <div class="card-label">Bengutas Display (Başlık & Logo Fontu)</div>
+        <h2 style="font-family: 'Bengutas Display', sans-serif;">SARMAT HÜKÜMDARLIĞI</h2>
+        <p style="font-family: 'Bengutas Display', sans-serif; font-size: 18px; color: #E8DFD8; margin-bottom: 12px;">
+          KAĞANLAR ÇAĞINDA BOZKIR ATLILARI
+        </p>
+        <p>
+          Doğrudan Orhun taş stellerindeki demir keski vuruşlarıyla şekillendi. Başlıklarda, logolarda, kartlarda ve banner'larda benzersiz bir tarihi otorite sağlar.
+        </p>
+      </div>
+
+      <!-- Text Card -->
+      <div class="dual-card">
+        <div class="card-label">Bengutas Sans (Açıklama & UI Metin Fontu)</div>
+        <h2 style="font-family: 'Bengutas Sans', sans-serif;">Envanter ve Görev Paneli</h2>
+        <p style="font-family: 'Bengutas Sans', sans-serif; font-size: 15px; color: #C5BCB3; margin-bottom: 12px;">
+          Sarmat Yayı: Kompozit boynuz gövde ve ipek kirişten imal edilmiş kadim bozkır silahı. Menzil: 350 metre.
+        </p>
+        <p>
+          Uzun metinlerde, diyalog pencerelerinde, oyun içi menülerde ve web sayfalarında gözü asla yormayan kristal netliğinde modern grotesque font.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Playground -->
+  <div class="section">
+    <div class="section-title">2. CANLI YAZIM ALANI (PLAYGROUND)</div>
+    <div class="playground">
+      <textarea class="playground-input" id="playgroundArea" spellcheck="false" style="font-family: 'Bengutas Display'; font-size: 36px; font-weight: 400;">BENGÜ TAŞ — KADİM BOZKIR KİTABESİ
+KAĞANLAR, ASYA BOZKIRINDA BÜYÜK KURULTAYI TOPLADI.
+ÇÖLÜN VE BOZKIRIN DERİN SESSİZLİĞİNDE 127 SAVAŞÇI AT SÜRDÜ.</textarea>
+    </div>
+  </div>
+
+  <!-- Complete Character Map -->
+  <div class="section">
+    <div class="section-title">3. BENGÜ TAŞ KİTABE KARAKTER HARİTASI (A-Z, Ç, Ğ, İ, Ö, Ş, Ü, 0-9)</div>
+    <div class="glyphs-grid" id="glyphGrid"></div>
+  </div>
+
+  <script>
+    let currentFont = 'Bengutas Display';
+    let currentWeight = 400;
+
+    const playground = document.getElementById('playgroundArea');
+    const monument = document.getElementById('monumentText');
+    const glyphGrid = document.getElementById('glyphGrid');
+
+    function setFont(fontName, btn) {
+      currentFont = fontName;
+      document.querySelectorAll('.control-group:first-child .toggle-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      playground.style.fontFamily = `'${fontName}', sans-serif`;
+      monument.style.fontFamily = `'${fontName}', sans-serif`;
+      glyphGrid.style.fontFamily = `'${fontName}', sans-serif`;
+    }
+
+    function setWeight(weight, btn) {
+      currentWeight = weight;
+      document.querySelectorAll('.control-group:nth-child(2) .toggle-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      playground.style.fontWeight = weight;
+      monument.style.fontWeight = weight;
+      glyphGrid.style.fontWeight = weight;
+    }
+
+    function setSize(val) {
+      document.getElementById('sizeVal').innerText = val + 'px';
+      playground.style.fontSize = val + 'px';
+    }
+
+    const chars = [
+      'A','B','C','Ç','D','E','F','G','Ğ','H','I','İ','J','K','L','M',
+      'N','O','Ö','P','Q','R','S','Ş','T','U','Ü','V','W','X','Y','Z',
+      '0','1','2','3','4','5','6','7','8','9'
+    ];
+
+    chars.forEach(ch => {
+      const tile = document.createElement('div');
+      tile.className = 'glyph-tile';
+      tile.innerHTML = `<span>${ch}</span><span class="char-code">U+${ch.charCodeAt(0).toString(16).toUpperCase().padStart(4, '0')}</span>`;
+      tile.onclick = () => {
+        playground.value += ch;
+        playground.focus();
+      };
+      glyphGrid.appendChild(tile);
+    });
+
+    glyphGrid.style.fontFamily = `'${currentFont}', sans-serif`;
+  </script>
+
+</body>
+</html>
