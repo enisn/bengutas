@@ -48,11 +48,37 @@ Ancient monument carvers working on hard basalt and granite stelae could not sco
 
 ---
 
+## 🗿 Why "Bengü Taş"? (The Eternal Stone)
+
+In Old Turkic, the phrase is inscribed in the Orkhon runic script as **𐰋𐰭𐰇 𐱃𐱁** (*beŋü taş* or *meŋgü taş*):
+* **Bengü / Meŋü:** *Eternal, everlasting, immortal, perpetual.*
+* **Taş:** *Stone, rock, monument.*
+* **Literal Translation:** **"The Eternal Stone"** or **"Monument of Eternity."**
+
+### Historical Significance
+In the 8th century (Second Turkic Khaganate, c. AD 720–735), the Göktürks erected towering basalt and granite stelae in the Orkhon Valley of modern-day Mongolia to commemorate their leaders—most notably **Bilge Khagan**, prince **Kül Tigin**, and grand chancellor **Tonyukuk**.
+
+In these inscriptions, the rulers explicitly referred to their carved stelae as **Bengü Taş**:
+> *« ...men bökelerig bengü taş toqıtdım... »*  
+> *"I had an eternal stone carved so that the memory would not perish."*
+
+This was grounded in a poignant philosophical understanding of mortality: human life and dynasties are ephemeral, but words struck into enduring stone survive across millennia to advise and guide future generations:
+> *Öd Teŋri yasar, kisi ogli qop ölgeli törümis.*  
+> *"Time is ordained by Heaven; mortal man is born only to pass away."*  
+> — **Kül Tigin Stela (AD 732)**
+
+### Modern Typographic Vision
+This project names the typeface **Bengü Taş** to bridge that 1,300-year-old epigraphic philosophy with modern digital typography:
+1. **Stone Materiality:** The non-curvilinear, faceted 45° and 60° chisel cuts mirror the physical reality of carving granite and basalt without compasses.
+2. **Damga Heritage:** The geometry preserves structural resonances with ancient Eurasian tamgas (clan brands) and runic letters.
+3. **Open-Source Permanence:** Released under the SIL Open Font License 1.1, the font is an enduring, freely accessible cultural artifact—a modern digital *Bengü Taş* for games, literature, and visual design.
+
+---
+
 ## 📂 Repository Structure
 
 ```
 bengutas/
-├── bengutas.pen          # Vector master source file (Pencil format)
 ├── dist/                 # Ready-to-use production binaries
 │   ├── ttf/              # TrueType format (.ttf)
 │   ├── otf/              # OpenType format (.otf)
