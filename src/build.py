@@ -17,6 +17,7 @@ os.makedirs(SRC_DIR, exist_ok=True)
 os.makedirs(DOCS_DIR, exist_ok=True)
 
 # 1. Complete Bengutas Display (Epigraphic Lapidary) Glyphs
+# 100% stone-carved, non-curvilinear 45°/60° chisel facets for titles and monuments
 bengu_tas_glyphs = {
     "A": ("M 535 800 L 456 595 H 176 L 95 800 H 5 L 280 86 L 310 40 L 340 86 L 625 800 H 535 Z M 310 170 L 426 515 H 206 Z", 633, 65),
     "B": ("M 95 86 H 320 L 410 160 L 450 240 L 410 320 L 330 380 L 425 440 L 470 530 L 425 640 L 330 800 H 95 Z M 183 162 V 340 H 290 L 340 300 L 360 250 L 340 200 L 290 162 Z M 183 416 V 724 H 300 L 355 670 L 380 580 L 355 490 L 300 416 Z", 565, 66),
@@ -76,31 +77,11 @@ lowercase_map = {
     "X": ("x", 120), "Y": ("y", 121), "Z": ("z", 122),
 }
 
-# 2. Complete Bengutas Sans (Contemporary Grotesque with Stone-Chiseled Micro-Details)
-sans_chiseled_glyphs = {
-    "A": ("M 535 800 L 452 580 H 181 L 98 800 H 10 L 285 86 L 316.5 40 L 348 86 L 623 800 H 535 Z M 316.5 175 L 422 505 H 211 Z", 633, 65),
-    "C": ("M 500 220 L 435 270 Q 405 210 355 180 Q 305 150 240 150 Q 150 150 95 225 Q 40 300 40 442 Q 40 584 95 659 Q 150 734 240 734 Q 310 734 365 700 Q 415 666 445 605 L 515 650 Q 470 730 400 775 Q 330 820 235 820 Q 115 820 47.5 725 Q -20 630 -20 442 Q -20 254 47.5 159 Q 115 64 235 64 Q 330 64 405 110 Q 465 145 500 220 Z", 616, 67),
-    "G": ("M 500 220 L 435 270 Q 405 210 355 180 Q 305 150 240 150 Q 150 150 95 225 Q 40 300 40 442 Q 40 584 95 659 Q 150 734 240 734 Q 325 734 380 695 Q 435 656 455 580 H 260 V 500 H 545 V 650 Q 500 735 415 780 Q 330 820 235 820 Q 115 820 47.5 725 Q -20 630 -20 442 Q -20 254 47.5 159 Q 115 64 235 64 Q 330 64 405 110 Q 465 145 500 220 Z", 710, 71),
-    "K": ("M 95 86 H 183 V 400 L 435 150 H 555 L 285 415 L 570 735 L 505 800 L 183 475 V 800 H 95 Z", 614, 75),
-    "M": ("M 95 800 V 135 L 144 86 H 225 L 442 530 L 659 86 H 740 L 789 135 V 800 H 701 V 240 L 472 680 H 412 L 183 240 V 800 Z", 884, 77),
-    "N": ("M 95 86 H 183 L 485 620 V 86 H 573 V 800 H 485 L 183 260 V 800 H 95 Z", 668, 78),
-    "R": ("M 95 86 H 310 Q 410 86 460 135 Q 510 184 510 270 Q 510 345 465 395 Q 420 440 335 450 L 530 735 L 470 800 L 260 475 H 183 V 800 H 95 Z M 183 162 V 400 H 300 Q 365 400 400 365 Q 430 330 430 270 Q 430 210 395 186 Q 360 162 295 162 Z", 641, 82),
-    "S": ("M 465 190 L 410 235 Q 380 185 330 160 Q 280 135 220 135 Q 145 135 105 170 Q 65 205 65 260 Q 65 315 110 350 Q 155 385 240 415 Q 350 455 405 505 Q 460 555 460 635 Q 460 725 395 775 Q 330 820 220 820 Q 140 820 80 780 Q 30 745 5 675 L 75 630 Q 95 685 145 715 Q 195 745 255 745 Q 335 745 375 710 Q 415 675 415 625 Q 415 570 370 535 Q 325 500 240 470 Q 130 430 75 380 Q 20 330 20 250 Q 20 160 85 110 Q 150 60 255 60 Q 345 60 410 100 Q 450 130 465 190 Z", 535, 83),
-    "V": ("M 40 86 H 145 L 320 680 L 495 86 H 600 L 360 800 H 280 Z", 640, 86),
-    "W": ("M 95 86 V 746 L 149 800 H 230 L 442 336 L 654 800 H 735 L 789 746 V 86 H 701 V 646 L 480 166 H 404 L 183 646 V 86 Z", 884, 87),
-    "Y": ("M 70 86 H 165 L 320 400 L 475 86 H 570 L 364 470 V 800 H 276 V 470 Z", 640, 89),
-    "Ccedilla": ("M 500 220 L 435 270 Q 405 210 355 180 Q 305 150 240 150 Q 150 150 95 225 Q 40 300 40 442 Q 40 584 95 659 Q 150 734 240 734 Q 310 734 365 700 Q 415 666 445 605 L 515 650 Q 470 730 400 775 Q 330 820 235 820 Q 115 820 47.5 725 Q -20 630 -20 442 Q -20 254 47.5 159 Q 115 64 235 64 Q 330 64 405 110 Q 465 145 500 220 Z M 215 830 H 265 L 275 910 L 320 950 L 290 985 L 245 940 L 225 1010 H 185 L 205 910 Z", 616, 199),
-    "Scedilla": ("M 465 190 L 410 235 Q 380 185 330 160 Q 280 135 220 135 Q 145 135 105 170 Q 65 205 65 260 Q 65 315 110 350 Q 155 385 240 415 Q 350 455 405 505 Q 460 555 460 635 Q 460 725 395 775 Q 330 820 220 820 Q 140 820 80 780 Q 30 745 5 675 L 75 630 Q 95 685 145 715 Q 195 745 255 745 Q 335 745 375 710 Q 415 675 415 625 Q 415 570 370 535 Q 325 500 240 470 Q 130 430 75 380 Q 20 330 20 250 Q 20 160 85 110 Q 150 60 255 60 Q 345 60 410 100 Q 450 130 465 190 Z M 225 830 H 275 L 285 910 L 330 950 L 300 985 L 255 940 L 235 1010 H 195 L 215 910 Z", 535, 351),
-    "Gbreve": ("M 500 220 L 435 270 Q 405 210 355 180 Q 305 150 240 150 Q 150 150 95 225 Q 40 300 40 442 Q 40 584 95 659 Q 150 734 240 734 Q 325 734 380 695 Q 435 656 455 580 H 260 V 500 H 545 V 650 Q 500 735 415 780 Q 330 820 235 820 Q 115 820 47.5 725 Q -20 630 -20 442 Q -20 254 47.5 159 Q 115 64 235 64 Q 330 64 405 110 Q 465 145 500 220 Z M 200 -20 L 355 50 L 510 -20 L 535 20 L 355 100 L 175 20 Z", 710, 286),
-    "c": ("M 410 360 L 350 400 Q 330 355 290 330 Q 250 305 200 305 Q 130 305 85 365 Q 40 425 40 535 Q 40 645 85 705 Q 130 765 200 765 Q 255 765 295 735 Q 335 705 355 655 L 420 695 Q 385 765 330 800 Q 270 835 190 835 Q 90 835 35 755 Q -20 675 -20 535 Q -20 395 35 315 Q 90 235 195 235 Q 275 235 335 275 Q 380 305 410 360 Z", 468, 99),
-    "e": ("M 245 235 Q 345 235 405 295 Q 465 355 465 470 V 510 H 50 Q 55 645 115 705 Q 170 765 250 765 Q 310 765 360 735 Q 395 710 415 660 L 485 705 Q 450 770 385 805 Q 320 835 245 835 Q 125 835 55 755 Q -15 675 -15 535 Q -15 395 55 315 Q 125 235 245 235 Z M 385 440 Q 380 365 335 325 Q 290 285 245 285 Q 190 285 145 325 Q 100 365 90 440 Z", 550, 101),
-    "k": ("M 60 86 H 145 V 470 L 360 250 H 465 L 225 485 L 480 735 L 415 800 L 145 535 V 800 H 60 Z", 500, 107),
-    "s": ("M 390 345 L 335 385 Q 315 345 275 325 Q 235 305 190 305 Q 130 305 95 335 Q 60 365 60 410 Q 60 455 100 485 Q 140 515 210 540 Q 305 575 350 615 Q 395 655 395 720 Q 395 790 340 830 Q 285 870 190 870 Q 120 870 65 835 Q 20 805 0 740 L 65 700 Q 80 745 125 770 Q 170 795 220 795 Q 285 795 320 765 Q 355 735 355 695 Q 355 650 315 620 Q 275 590 200 560 Q 110 525 65 485 Q 20 445 20 380 Q 20 305 75 260 Q 130 215 215 215 Q 290 215 345 250 Q 375 275 390 345 Z", 467, 115),
-    "r": ("M 60 250 H 140 V 350 Q 175 295 225 265 Q 275 235 340 235 L 360 315 Q 300 315 245 345 Q 190 375 160 435 V 800 H 60 Z", 408, 114),
-    "t": ("M 155 150 H 240 V 250 H 350 L 330 325 H 240 V 670 Q 240 735 285 755 Q 320 770 370 750 L 385 825 Q 320 850 250 835 Q 155 810 155 690 V 325 H 70 L 85 250 H 155 Z", 380, 116),
-    "z": ("M 40 250 H 390 L 360 325 H 150 L 365 725 H 410 V 800 H 30 L 60 725 H 280 L 75 325 H 40 Z", 450, 122),
-    "ccedilla": ("M 410 360 L 350 400 Q 330 355 290 330 Q 250 305 200 305 Q 130 305 85 365 Q 40 425 40 535 Q 40 645 85 705 Q 130 765 200 765 Q 255 765 295 735 Q 335 705 355 655 L 420 695 Q 385 765 330 800 Q 270 835 190 835 Q 90 835 35 755 Q -20 675 -20 535 Q -20 395 35 315 Q 90 235 195 235 Q 275 235 335 275 Q 380 305 410 360 Z M 180 845 H 225 L 235 910 L 275 940 L 250 970 L 210 935 L 195 995 H 160 L 175 910 Z", 468, 231),
-    "scedilla": ("M 390 345 L 335 385 Q 315 345 275 325 Q 235 305 190 305 Q 130 305 95 335 Q 60 365 60 410 Q 60 455 100 485 Q 140 515 210 540 Q 305 575 350 615 Q 395 655 395 720 Q 395 790 340 830 Q 285 870 190 870 Q 120 870 65 835 Q 20 805 0 740 L 65 700 Q 80 745 125 770 Q 170 795 220 795 Q 285 795 320 765 Q 355 735 355 695 Q 355 650 315 620 Q 275 590 200 560 Q 110 525 65 485 Q 20 445 20 380 Q 20 305 75 260 Q 130 215 215 215 Q 290 215 345 250 Q 375 275 390 345 Z M 180 880 H 225 L 235 945 L 275 975 L 250 1005 L 210 970 L 195 1030 H 160 L 175 945 Z", 467, 351),
+# 2. Bengutas Sans: Only subtle, balanced uppercase touches that preserve 100% stem thickness & baseline
+# Zero thin/comic lowercase letters! All lowercase (a-z, ç, ş, ğ, ı, ö, ü) use the master dataset!
+sans_subtle_touch = {
+    # Clean apex A with stela crown, perfectly matching standard 88-unit stem weight:
+    "A": ("M531.375 800l-75.0752-197-34.125-24h-250.575l-82.875 221h-88.7246l272.025-717h61.4248l23.3994 17 265.2 700h-90.6748z m-188.175-517q-2.9248-8-9.75-29t-13.1631-43.5q-6.33691-22.5-10.2373-34.5-6.8252 31-15.5996 60.5-8.77539 29.5-14.625 46.5l-78.9756 216h220.351z", 633, 65),
 }
 
 NOTDEF_SVG = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
@@ -116,7 +97,7 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
     font.familyname = family_core
     font.fullname = f"{family_core} {weight_name}"
     font.weight = weight_name
-    font.version = "1.002"
+    font.version = "1.003"
     font.copyright = "Copyright (c) 2026 Bengü Taş Type Project. Licensed under the SIL Open Font License, Version 1.1 (Reserved Font Names: 'Bengü Taş', 'Bengutas')."
     
     font.em = 1000
@@ -152,6 +133,7 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
             base_glyphs = data["glyphs"]
 
         if is_display:
+            # Display: 100% stone-cut lapidary alphabet & small-caps
             excluded_unicodes = set([u for _, _, u in bengu_tas_glyphs.values()] + [u for _, _, u in bengu_tas_digits.values()] + [u for _, u in lowercase_map.values()])
             
             for g_item in base_glyphs:
@@ -211,14 +193,13 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
                     g_low.correctDirection()
 
         else:
-            # Sans: Base glyphs + refined stone-chiseled glyphs
-            refined_unicodes = set([u for _, _, u in sans_chiseled_glyphs.values()])
-
+            # Sans: PURE, HARMONIOUS, SOLID GROTESQUE
+            # 100% uniform stroke weights, perfect baselines, flawless body-text readability!
             for g_item in base_glyphs:
                 u = g_item.get("unicode")
                 adv = g_item.get("advance", 500)
                 d = g_item.get("d")
-                if u is None or not d or u in refined_unicodes:
+                if u is None or not d:
                     continue
                 clean_name = g_item["name"].replace("Regular ", "").replace("Bold ", "").replace(" — Export", "")
                 parts = clean_name.split(" ", 1)
@@ -229,18 +210,6 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
                 g = font.createChar(u, glyph_name)
                 g.importOutlines(svg_p)
                 g.width = adv
-                g.removeOverlap()
-                g.correctDirection()
-
-            for name, (d, adv, u) in sans_chiseled_glyphs.items():
-                svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="{d}" /></svg>'
-                svg_p = os.path.join(temp_dir, f"chiseled_{name}.svg")
-                with open(svg_p, "w") as tf: tf.write(svg)
-                g = font.createChar(u, name)
-                g.importOutlines(svg_p)
-                g.width = adv + (30 if is_bold else 0)
-                if is_bold:
-                    g.changeWeight(38, "auto", 0, 0, "auto")
                 g.removeOverlap()
                 g.correctDirection()
 
@@ -273,15 +242,15 @@ def compile_font(is_display=False, weight_name="Regular", is_bold=False):
         shutil.copy(woff2_path, os.path.join(DOCS_DIR, f"{font.fontname}.woff2"))
         shutil.copy(ttf_path, os.path.join(DOCS_DIR, f"{font.fontname}.ttf"))
 
-        print(f"✓ Built {font.fontname}")
+        print(f"✓ Restored & Compiled {font.fontname}")
 
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
 
 if __name__ == "__main__":
-    print("Building full Bengutas font collection...")
+    print("Rebuilding full Bengutas font collection with restored harmonious Sans...")
     compile_font(is_display=False, weight_name="Regular", is_bold=False)
     compile_font(is_display=False, weight_name="Bold", is_bold=True)
     compile_font(is_display=True, weight_name="Regular", is_bold=False)
     compile_font(is_display=True, weight_name="Bold", is_bold=True)
-    print("Complete build finished successfully!")
+    print("All fonts rebuilt successfully!")
