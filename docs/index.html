@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bengü Taş (Bengutas) — Dual-Family Typography Specimen</title>
-  <meta name="description" content="Bengü Taş (Bengutas) — 1300 yıllık Orhun stelleri taş keski geometrisini taşıyan otantik çift aileli yazı tipi koleksiyonu.">
+  <title>Bengü Taş (Bengutas) — Dual-Family Type Specimen</title>
+  <meta name="description" content="Bengü Taş (Bengutas) — Epigraphic lapidary typeface inspired by 8th-century Orkhon stelae stone inscriptions.">
   <style>
-    /* Bengutas Sans (Metin & UI) */
+    /* Bengutas Sans (Body & UI) */
     @font-face {
       font-family: 'Bengutas Sans';
       src: url('BengutasSans-Regular.woff2') format('woff2'),
@@ -22,7 +22,7 @@
       font-style: normal;
     }
 
-    /* Bengutas Display (Bengü Taş / Orhun Kitabe Fontu) */
+    /* Bengutas Display (Lapidary / Epigraphic) */
     @font-face {
       font-family: 'Bengutas Display';
       src: url('BengutasDisplay-Regular.woff2') format('woff2'),
@@ -39,13 +39,13 @@
     }
 
     :root {
-      --bg: #110E0B;
-      --card-bg: #1B1612;
-      --card-border: #2E251E;
+      --bg: #100E0C;
+      --card-bg: #181512;
+      --card-border: #2B241D;
       --accent: #E2B778;
       --accent-glow: rgba(226, 183, 120, 0.12);
       --text: #F3ECE5;
-      --text-muted: #9E9084;
+      --text-muted: #998E84;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -54,7 +54,7 @@
       color: var(--text);
       font-family: 'Bengutas Sans', -apple-system, sans-serif;
       line-height: 1.5;
-      padding: 40px 24px 80px;
+      padding: 48px 24px 96px;
       max-width: 1200px;
       margin: 0 auto;
     }
@@ -77,7 +77,7 @@
       border: 1px solid var(--accent);
       padding: 4px 12px;
       border-radius: 999px;
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 700;
       letter-spacing: 1.5px;
       text-transform: uppercase;
@@ -86,7 +86,7 @@
 
     h1 {
       font-family: 'Bengutas Display', sans-serif;
-      font-size: 44px;
+      font-size: 46px;
       font-weight: 700;
       letter-spacing: 1.5px;
       color: var(--text);
@@ -101,13 +101,13 @@
 
     .family-meta {
       display: flex;
-      gap: 16px;
+      gap: 14px;
       color: var(--text-muted);
       font-size: 13px;
     }
     .family-meta span {
-      background: #1F1914;
-      padding: 6px 12px;
+      background: #1D1814;
+      padding: 6px 14px;
       border-radius: 6px;
       border: 1px solid var(--card-border);
     }
@@ -126,19 +126,19 @@
       position: sticky;
       top: 16px;
       z-index: 100;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.55);
     }
 
     .control-group {
       display: flex;
       align-items: center;
       gap: 10px;
-      font-size: 14px;
+      font-size: 13.5px;
       color: var(--text-muted);
     }
 
     .toggle-btn {
-      background: #241D17;
+      background: #221C16;
       color: var(--text);
       border: 1px solid var(--card-border);
       padding: 8px 16px;
@@ -151,7 +151,7 @@
     }
     .toggle-btn.active {
       background: var(--accent);
-      color: #110E0B;
+      color: #100E0C;
       border-color: var(--accent);
       font-weight: 700;
     }
@@ -176,7 +176,39 @@
       gap: 10px;
     }
 
-    /* Comparison Dual Cards */
+    /* Epigraphic Monument Quote */
+    .stela-monument {
+      background: radial-gradient(circle at top, #231C15, #14100D);
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      padding: 44px 36px;
+      text-align: center;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.6);
+      margin-bottom: 40px;
+    }
+    .stela-author {
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: var(--accent);
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .stela-quote {
+      font-family: 'Bengutas Display', sans-serif;
+      font-size: 32px;
+      line-height: 1.4;
+      letter-spacing: 2px;
+      color: #FFF4E8;
+      margin-bottom: 16px;
+    }
+    .stela-trans {
+      color: var(--text-muted);
+      font-size: 15.5px;
+      font-style: italic;
+    }
+
+    /* Dual Cards */
     .dual-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -191,15 +223,14 @@
       border: 1px solid var(--card-border);
       border-radius: 12px;
       padding: 28px;
-      transition: border-color 0.2s;
     }
     .dual-card.display-card {
       border-color: var(--accent);
-      background: #221B15;
+      background: #201913;
     }
 
     .card-label {
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 700;
       letter-spacing: 1.5px;
       color: var(--accent);
@@ -217,7 +248,7 @@
       line-height: 1.6;
     }
 
-    /* Interactive Playground */
+    /* Playground */
     .playground {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -227,7 +258,7 @@
 
     .playground-input {
       width: 100%;
-      background: #14100C;
+      background: #120F0C;
       border: 1px solid var(--card-border);
       border-radius: 8px;
       color: var(--text);
@@ -235,7 +266,7 @@
       outline: none;
       resize: vertical;
       min-height: 150px;
-      line-height: 1.3;
+      line-height: 1.35;
       transition: border-color 0.2s;
     }
     .playground-input:focus {
@@ -243,33 +274,7 @@
     }
     .playground-input::selection {
       background: var(--accent);
-      color: #110E0B;
-    }
-
-    /* Inscription Monument Display */
-    .stela-monument {
-      background: radial-gradient(circle at top, #241D17, #15100D);
-      border: 2px solid var(--accent);
-      border-radius: 12px;
-      padding: 40px;
-      text-align: center;
-      box-shadow: 0 16px 40px rgba(0,0,0,0.6);
-      margin-bottom: 36px;
-    }
-    .stela-quote {
-      font-family: 'Bengutas Display', sans-serif;
-      font-size: 32px;
-      line-height: 1.4;
-      letter-spacing: 2px;
-      color: #FFF3E6;
-      margin-bottom: 16px;
-    }
-    .stela-author {
-      font-size: 14px;
-      letter-spacing: 2px;
-      color: var(--accent);
-      text-transform: uppercase;
-      font-weight: 700;
+      color: #100E0C;
     }
 
     /* Glyphs Grid */
@@ -279,7 +284,7 @@
       gap: 10px;
     }
     .glyph-tile {
-      background: #191410;
+      background: #181410;
       border: 1px solid var(--card-border);
       border-radius: 8px;
       aspect-ratio: 1;
@@ -294,7 +299,7 @@
     .glyph-tile:hover {
       border-color: var(--accent);
       transform: translateY(-2px);
-      background: #251D16;
+      background: #231C15;
       color: var(--accent);
     }
     .glyph-tile .char-code {
@@ -309,73 +314,73 @@
 
   <header>
     <div>
-      <span class="badge">Bengü Taş (Bengutas) Typography Collection v1.0</span>
-      <h1>BENGÜ TAŞ & BENGÜTAS SANS</h1>
-      <p class="subtitle">1300 Yıllık Göktürk Orhun Kitabelerinin Taş Keski Mimarisini Taşıyan Yazı Tipi Ailesi</p>
+      <span class="badge">Open Source Lapidary Typeface</span>
+      <h1>BENGÜ TAŞ (BENGUTAS)</h1>
+      <p class="subtitle">Dual-Family Typography Inspired by 8th-Century Epigraphic Inscriptions</p>
     </div>
     <div class="family-meta">
-      <span>2 Aile: Display & Sans</span>
-      <span>2 Ağırlık: 400 & 700</span>
-      <span>OFL 1.1 Açık Kaynak Lisans</span>
+      <span>Display & Sans</span>
+      <span>Regular & Bold</span>
+      <span>SIL OFL 1.1</span>
     </div>
   </header>
 
   <!-- Controls Bar -->
   <div class="controls">
     <div class="control-group">
-      <span>Yazı Tipi:</span>
-      <button class="toggle-btn active" id="btnDisplay" onclick="setFont('Bengutas Display', this)">Display (Bengü Taş)</button>
-      <button class="toggle-btn" id="btnSans" onclick="setFont('Bengutas Sans', this)">Sans (Metin / UI)</button>
+      <span>Family:</span>
+      <button class="toggle-btn active" id="btnDisplay" onclick="setFont('Bengutas Display', this)">Bengutas Display</button>
+      <button class="toggle-btn" id="btnSans" onclick="setFont('Bengutas Sans', this)">Bengutas Sans</button>
     </div>
 
     <div class="control-group">
-      <span>Ağırlık:</span>
+      <span>Weight:</span>
       <button class="toggle-btn active" id="btnReg" onclick="setWeight(400, this)">Regular (400)</button>
       <button class="toggle-btn" id="btnBold" onclick="setWeight(700, this)">Bold (700)</button>
     </div>
 
     <div class="control-group">
-      <span>Boyut: <strong id="sizeVal">36px</strong></span>
+      <span>Size: <strong id="sizeVal">36px</strong></span>
       <input type="range" id="sizeSlider" min="16" max="96" value="36" oninput="setSize(this.value)">
     </div>
   </div>
 
-  <!-- Stela Monument Quote -->
+  <!-- Monument Quote -->
   <div class="stela-monument">
-    <div class="stela-author">BİLGE KAĞAN YAZITI (MS 735) — BENGÜ TAŞ STELİ</div>
+    <div class="stela-author">KÜL TİGİN STELA (AD 732) — ORKHON VALLEY</div>
     <div class="stela-quote" id="monumentText">
-      « ÜZE TENGRİ BASMASAR, ASRA YER TELİNMESER, TÜRK BUDUN, İLİNİN TÖRÜNÜN KİM ARTATI? »
+      « ÖD TEŊRİ YASAR, KİSİ OGLİ QOP ÖLGELİ TÖRÜMİS »
     </div>
-    <p style="color: var(--text-muted); font-size: 15px;">
-      "Üstte mavi gök basmasa, altta yağız yer delinmese; Türk milleti, ilini töreni kim bozabilir!"
-    </p>
+    <div class="stela-trans">
+      "Time is ordained by Heaven; mortal man is born only to pass away."
+    </div>
   </div>
 
-  <!-- Side-by-Side Role Comparison -->
+  <!-- Role Comparison -->
   <div class="section">
-    <div class="section-title">1. İKİ AİLENİN ROL PAYLAŞIMI (DUAL-FAMILY MİMARİSİ)</div>
+    <div class="section-title">1. THE DUAL-FAMILY SYSTEM</div>
     <div class="dual-grid">
       <!-- Display Card -->
       <div class="dual-card display-card">
-        <div class="card-label">Bengutas Display (Başlık & Logo Fontu)</div>
-        <h2 style="font-family: 'Bengutas Display', sans-serif;">SARMAT HÜKÜMDARLIĞI</h2>
+        <div class="card-label">Bengutas Display (Epigraphic Lapidary)</div>
+        <h2 style="font-family: 'Bengutas Display', sans-serif;">THE BASALT INSCRIPTION</h2>
         <p style="font-family: 'Bengutas Display', sans-serif; font-size: 18px; color: #E8DFD8; margin-bottom: 12px;">
-          KAĞANLAR ÇAĞINDA BOZKIR ATLILARI
+          ETERNAL MONUMENTS OF CENTRAL EURASIA
         </p>
         <p>
-          Doğrudan Orhun taş stellerindeki demir keski vuruşlarıyla şekillendi. Başlıklarda, logolarda, kartlarda ve banner'larda benzersiz bir tarihi otorite sağlar.
+          Sculpted with non-curvilinear 45° and 60° chisel planes. Built for monumental headlines, titles, brand identities, and packaging.
         </p>
       </div>
 
       <!-- Text Card -->
       <div class="dual-card">
-        <div class="card-label">Bengutas Sans (Açıklama & UI Metin Fontu)</div>
-        <h2 style="font-family: 'Bengutas Sans', sans-serif;">Envanter ve Görev Paneli</h2>
+        <div class="card-label">Bengutas Sans (Contemporary Grotesque)</div>
+        <h2 style="font-family: 'Bengutas Sans', sans-serif;">Editorial & Screen Reading</h2>
         <p style="font-family: 'Bengutas Sans', sans-serif; font-size: 15px; color: #C5BCB3; margin-bottom: 12px;">
-          Sarmat Yayı: Kompozit boynuz gövde ve ipek kirişten imal edilmiş kadim bozkır silahı. Menzil: 350 metre.
+          An archaeological survey of basalt and granite stelae erected along the Orkhon river basin.
         </p>
         <p>
-          Uzun metinlerde, diyalog pencerelerinde, oyun içi menülerde ve web sayfalarında gözü asla yormayan kristal netliğinde modern grotesque font.
+          Clean, balanced proportions engineered for extended reading, user interfaces, editorial text, and high-density screen layouts.
         </p>
       </div>
     </div>
@@ -383,17 +388,17 @@
 
   <!-- Interactive Playground -->
   <div class="section">
-    <div class="section-title">2. CANLI YAZIM ALANI (PLAYGROUND)</div>
+    <div class="section-title">2. INTERACTIVE TESTER (TYPE HERE)</div>
     <div class="playground">
-      <textarea class="playground-input" id="playgroundArea" spellcheck="false" style="font-family: 'Bengutas Display'; font-size: 36px; font-weight: 400;">BENGÜ TAŞ — KADİM BOZKIR KİTABESİ
-KAĞANLAR, ASYA BOZKIRINDA BÜYÜK KURULTAYI TOPLADI.
-ÇÖLÜN VE BOZKIRIN DERİN SESSİZLİĞİNDE 127 SAVAŞÇI AT SÜRDÜ.</textarea>
+      <textarea class="playground-input" id="playgroundArea" spellcheck="false" style="font-family: 'Bengutas Display'; font-size: 36px; font-weight: 400;">BENGÜ TAŞ — EPIGRAPHIC STELA INSCRIPTION
+TIME IS ORDAINED BY HEAVEN, MORTAL MAN IS BORN TO DIE.
+A BRUTALIST ARCHAEOLOGICAL TYPEFACE ACROSS 1300 YEARS.</textarea>
     </div>
   </div>
 
-  <!-- Complete Character Map -->
+  <!-- Character Map -->
   <div class="section">
-    <div class="section-title">3. BENGÜ TAŞ KİTABE KARAKTER HARİTASI (A-Z, Ç, Ğ, İ, Ö, Ş, Ü, 0-9)</div>
+    <div class="section-title">3. CHARACTER MAP (A–Z, EXTENDED LATIN, 0–9)</div>
     <div class="glyphs-grid" id="glyphGrid"></div>
   </div>
 

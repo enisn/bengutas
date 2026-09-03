@@ -1,52 +1,59 @@
-# Bengü Taş (Bengutas) — Dual-Family Typography Collection
+# Bengü Taş (Bengutas)
 
 [![License: OFL-1.1](https://img.shields.io/badge/License-OFL_1.1-amber.svg)](https://opensource.org/licenses/OFL-1.1)
-[![Online Demo](https://img.shields.io/badge/Live_Specimen-GitHub_Pages-brightgreen.svg)](https://enisn.github.io/bengutas/)
+[![Online Specimen](https://img.shields.io/badge/Live_Specimen-GitHub_Pages-brightgreen.svg)](https://enisn.github.io/bengutas/)
 [![Formats](https://img.shields.io/badge/Formats-TTF_|_OTF_|_WOFF_|_WOFF2-blue.svg)](#formats)
 [![Weights](https://img.shields.io/badge/Weights-Regular_(400)_|_Bold_(700)-orange.svg)](#weights)
 
-**Bengü Taş (Bengutas)**, 1300 yıllık Orhun Yazıtları stellerinde (Kül Tigin, Bilge Kağan, Tonyukuk) sert granitin üzerine bronz ve demir keskilerle kazınan **kadim Türk taş kitabe geleneğini (lapidary / epigraphic)** modern dijital tipografiyle buluşturan özgün bir çift aileli (*dual-family*) yazı tipi koleksiyonudur.
+**Bengü Taş** (*Bengutas*) is an open-source, dual-family typographic system inspired by the 8th-century epigraphic stone inscriptions of the Orkhon Valley. It translates the severe, non-curvilinear chisel geometry of ancient Eurasian stelae into a refined modern Latin typeface.
 
-> *« Üze Tengri basmasar, asra yer telinmeser, Türk budun, ilinin törünün kim artatı? »*  
-> — **Bilge Kağan Yazıtı (MS 735)**
+> *Öd Teŋri yasar, kisi ogli qop ölgeli törümis.*  
+> *"Time is ordained by Heaven; mortal man is born only to pass away."*  
+> — **Kül Tigin Stela (AD 732)**
 
 ---
 
-## 🏛️ Canlı Tipografi Vitrini (Live Specimen)
+## 🏛️ Live Specimen & Interactive Tester
 
-Fontu tarayıcınızda canlı olarak denemek, boyut ve ağırlıkları değiştirmek için interaktif vitrini ziyaret edebilirsiniz:  
+An interactive type specimen with live font switching, variable size controls, and full character maps is available at:  
 👉 **[https://enisn.github.io/bengutas/](https://enisn.github.io/bengutas/)**
 
 ---
 
-## ⚔️ Dual-Family (Çift Aile) Mimarisi
+## 📐 The Dual-Family System
 
-Koleksiyon, birbirini kusursuz tamamlayan iki bağımsız yazı tipi ailesinden oluşur:
+Bengutas is built as a complementary two-part system designed for contrasting editorial and display applications:
 
-### 1. `Bengutas Display` (Bengü Taş — Kitabe & Başlık Fontu)
-* **Kullanım Alanı:** Oyun Logoları, Başlıklar, Bölüm İsimleri, Hükümdar Kartları, Banner'lar, Afişler.
-* **Tasarım Felsefesi:** Dairesel pergel kavisleri tamamen reddedilir. Tüm harfler (`O, C, D, G, U, B, P` dahil) 45° ve 60° açılı sert taş keski fasetleriyle yontulmuştur.
-* **Kahraman Damgalar:** `A` (Orhun 𐰀 damgası), `K` (Göktürk 𐰶 runu), `M & W` (Bengü Taş monoliti), `R & Q` (Göktürk 𐰺 runu ve hançer bacak), `S & Ş` (Göktürk 𐰽/𐰾 şimşek tamgası).
-* **Petite Small-Caps:** Küçük harfle yazıldığında antik Roma ve Göktürk geleneklerine uygun olarak orantılı küçük majusküller (Small-Caps) devreye girer.
-
-### 2. `Bengutas Sans` (Metin & UI Fontu)
-* **Kullanım Alanı:** Oyun içi envanter açıklamaları, diyalog pencereleri, ayarlar menüleri, uzun gövde metinleri ve web arayüzleri.
-* **Tasarım Felsefesi:** Gözü asla yormayan, yüksek okunabilirlikli kristal netliğinde modern grotesque yapı.
+| Family | Classification | Intended Use | Distinctive Traits |
+| :--- | :--- | :--- | :--- |
+| **Bengutas Display** | Epigraphic Lapidary | Titles, Headers, Posters, Identity | Strictly non-curvilinear; all curved forms are chiseled with 45°/60° stone chamfers. Includes automatic petite small-caps for lowercase input. |
+| **Bengutas Sans** | Contemporary Grotesque | Body Copy, UI, Editorial, Descriptions | Clean, neutral proportions with optimal legibility across small text sizes and screen environments. |
 
 ---
 
-## 📂 Dosya ve Dizin Yapısı
+## 🔍 Design Philosophy
+
+Ancient monument carvers working on hard basalt and granite stelae could not score freehand compass curves into stone. Instead, lines were struck with bronze and iron chisels in deliberate, faceted planes.
+
+**Bengutas Display** honors this epigraphic logic:
+* **Faceted Basalt Geometry:** Rounded letters (`O`, `C`, `D`, `G`, `U`, `B`, `P`) are sculpted as octagonal, chiseled stone rings rather than mechanical ellipses.
+* **Chevron & Dagger Junctions:** Diagonals meet stems at sharp, incised stone-cut angles.
+* **Petite Small-Caps:** In line with ancient monumental tradition, lowercase letters render as scaled, balanced majuscules.
+
+---
+
+## 📂 Repository Structure
 
 ```
 bengutas/
-├── bengutas.pen          # Orijinal vektör çizim kaynak dosyası (Pencil formatında)
-├── dist/                 # Kullanıma hazır font dosyaları
-│   ├── ttf/              # TrueType (.ttf) — Oyun motorları (Unity, Unreal, Godot) & Masaüstü
-│   ├── otf/              # OpenType (.otf) — Grafik tasarım (Figma, Photoshop, Illustrator) & Baskı
-│   └── web/              # Web fontları (.woff, .woff2) — Web siteleri & UI
-├── docs/                 # GitHub Pages canlı test vitrini (index.html)
-├── src/                  # Font derleme scriptleri ve kaynak vektör JSON verileri
-│   ├── build.py          # FontForge derleyici scripti
+├── bengutas.pen          # Vector master source file (Pencil format)
+├── dist/                 # Ready-to-use production binaries
+│   ├── ttf/              # TrueType format (.ttf)
+│   ├── otf/              # OpenType format (.otf)
+│   └── web/              # Web formats (.woff, .woff2)
+├── docs/                 # Interactive specimen hosted via GitHub Pages (index.html)
+├── src/                  # Build toolchain and vector datasets
+│   ├── build.py          # FontForge build script
 │   ├── regular_glyphs.json
 │   └── bold_glyphs.json
 ├── LICENSE               # SIL Open Font License 1.1
@@ -55,17 +62,12 @@ bengutas/
 
 ---
 
-## 📦 Kurulum ve Kullanım
+## 📦 Installation & Usage
 
-### 1. Masaüstü (Windows / macOS / Linux)
-* `dist/ttf/` veya `dist/otf/` klasöründeki font dosyalarını açıp **Yükle (Install)** butonuna tıklayın.
+### Desktop (macOS, Windows, Linux)
+Download the `.ttf` or `.otf` files from `dist/ttf/` or `dist/otf/` and install them via your operating system's font manager.
 
-### 2. Oyun Motorları (Unity / Unreal / Godot)
-* **Unity:** `dist/ttf/` içerisindeki dosyaları Unity projenizin `Assets/.../Fonts/` klasörüne sürükleyin. TextMeshPro ile *Font Asset* oluşturup doğrudan kullanın.
-* **Unreal Engine:** Font dosyalarını `Content/Fonts/` dizinine aktarıp Font Asset olarak bağlayın.
-* **Godot:** `.ttf` dosyasını `res://fonts/` klasörüne koyup `Theme` veya `Label` üzerinde `DynamicFont` olarak atayın.
-
-### 3. Web (@font-face CSS)
+### Web (@font-face CSS)
 ```css
 @font-face {
   font-family: 'Bengutas Display';
@@ -81,32 +83,26 @@ bengutas/
   font-style: normal;
 }
 
-h1, h2, .game-title {
-  font-family: 'Bengutas Display', sans-serif;
+h1, h2, .headline {
+  font-family: 'Bengutas Display', serif;
   letter-spacing: 1.5px;
 }
 
-body, p, .ui-description {
+body, p {
   font-family: 'Bengutas Sans', sans-serif;
 }
 ```
 
 ---
 
-## 📜 Lisans ve Kullanım Koşulları (License)
+## 📜 License
 
-Bu font yazılımı **SIL Open Font License, Version 1.1 (OFL 1.1)** altında lisanslanmıştır.  
-*(Ayrılmış Yazı Tipi Adları / Reserved Font Names: `Bengü Taş`, `Bengutas`)*
+This font software is licensed under the **SIL Open Font License, Version 1.1 (OFL 1.1)**.  
+Reserved Font Names: `Bengü Taş`, `Bengutas`.
 
-### ✅ Serbest Olanlar (Free for Commercial Use)
-* **Oyunlar:** Bağımsız veya ticari oyunlarınızda (Steam, konsollar, mobil) ücretsiz ve telifsiz kullanabilirsiniz.
-* **Uygulamalar & Web:** Ticari web sitelerinde, mobil uygulamalarda, yazılımlarda kullanabilirsiniz.
-* **Görsel & Baskı:** Logo, afiş, kitap, ambalaj, tişört, yayın ve her türlü görsel materyalde özgürce kullanabilirsiniz.
-
-### ❌ Yasak Olanlar (Resale Prohibited)
-* **Font Dosyasını Satmak:** Bu font dosyalarını tek başına para karşılığı satamazsınız.
-* **Değiştirip Satmak:** Fontu alıp küçük değişiklikler yaparak kendi fontunuzmuş gibi satışa sunamazsınız.
+* **Permitted:** Free to use in commercial and personal projects, applications, websites, games, printed publications, and brand identities without royalties.
+* **Prohibited:** Neither the font software nor any of its components may be sold by itself, or repackaged and sold under a different name.
 
 ---
 
-**Bengü Taş Project** © 2026. Designed with passion for steppe heritage and ancient history.
+**Bengü Taş (Bengutas)** — Epigraphic Lapidary Typeface Project.
