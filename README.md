@@ -129,6 +129,33 @@ body, p {
 
 ---
 
+## 🛠️ Building & Designing from Source (`bengutas.pen`)
+
+`bengutas.pen` is the **Single Source of Truth** for all vector glyphs in both typeface families.
+
+### Visual Glyph Studio (`pen.dev` / Pencil)
+The design file contains clean, distraction-free glyph matrices:
+1. **`Bengutas Display`**: Epigraphic stone-carved lapidary glyphs (A–Z, Turkish diacritics, petite small-caps, numerals, punctuation).
+2. **`Bengutas Sans`**: Balanced contemporary grotesque glyphs with subtle Orkhon stone-kick terminals.
+
+Each glyph cell is labeled with its Unicode and character name (e.g., `U+0041 A`, `U+004B K`, `U+015E Scedilla`). The cell's width sets the glyph's horizontal advance, and the inner path contains the vector outline.
+
+### Compiling Production Fonts
+To compile all production binaries (`.ttf`, `.otf`, `.woff`, `.woff2`) directly from `bengutas.pen`:
+
+```bash
+# Requires FontForge (sudo apt install fontforge)
+./build.sh
+```
+
+The compiler will:
+1. Parse all glyph vectors and metrics directly from `bengutas.pen`.
+2. Generate all 4 font families (`Display Regular/Bold`, `Sans Regular/Bold`) in TTF, OTF, WOFF, and WOFF2 formats.
+3. Update `dist/`, `docs/`, and package `docs/bengutas-fonts.zip`.
+4. Refresh local system fonts and active game project assets.
+
+---
+
 ## 📜 License
 
 This font software is licensed under the **SIL Open Font License, Version 1.1 (OFL 1.1)**.  
