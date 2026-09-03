@@ -1,9 +1,15 @@
 # Bengü Taş (Bengutas)
 
-[![License: OFL-1.1](https://img.shields.io/badge/License-OFL_1.1-amber.svg)](https://opensource.org/licenses/OFL-1.1)
-[![Online Specimen](https://img.shields.io/badge/Live_Specimen-GitHub_Pages-brightgreen.svg)](https://enisn.github.io/bengutas/)
-[![Formats](https://img.shields.io/badge/Formats-TTF_|_OTF_|_WOFF_|_WOFF2-blue.svg)](#formats)
-[![Weights](https://img.shields.io/badge/Weights-Regular_(400)_|_Bold_(700)-orange.svg)](#weights)
+<p align="center">
+  <img src="docs/banner.png" alt="Bengü Taş Typeface Hero Banner" width="800">
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/OFL-1.1"><img src="https://img.shields.io/badge/License-OFL_1.1-amber.svg" alt="License: OFL-1.1"></a>
+  <a href="https://enisn.github.io/bengutas/"><img src="https://img.shields.io/badge/Live_Specimen-GitHub_Pages-brightgreen.svg" alt="Online Specimen"></a>
+  <a href="#formats"><img src="https://img.shields.io/badge/Formats-TTF_|_OTF_|_WOFF_|_WOFF2-blue.svg" alt="Formats"></a>
+  <a href="#weights"><img src="https://img.shields.io/badge/Weights-Regular_(400)_|_Bold_(700)-orange.svg" alt="Weights"></a>
+</p>
 
 **Bengü Taş** (*Bengutas*) is an open-source, dual-family typographic system inspired by the 8th-century epigraphic stone inscriptions of the Orkhon Valley. It translates the severe, non-curvilinear chisel geometry of ancient Eurasian stelae into a refined modern Latin typeface.
 
@@ -52,6 +58,8 @@ bengutas/
 │   ├── otf/              # OpenType format (.otf)
 │   └── web/              # Web formats (.woff, .woff2)
 ├── docs/                 # Interactive specimen hosted via GitHub Pages (index.html)
+│   ├── banner.png        # Typographic hero banner
+│   └── index.html        # Live web tester
 ├── src/                  # Build toolchain and vector datasets
 │   ├── build.py          # FontForge build script
 │   ├── regular_glyphs.json
