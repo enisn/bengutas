@@ -21,4 +21,9 @@ if [ -d "$PROJECT_DIR/../SteppeKings/Assets/UI/Fonts" ]; then
   cp "$PROJECT_DIR"/dist/ttf/* "$PROJECT_DIR/../SteppeKings/Assets/UI/Fonts/"
 fi
 
+if [ -d "$PROJECT_DIR/../SteppeKingsWeb/public/fonts" ]; then
+  echo "🌐 Updating SteppeKingsWeb fonts..."
+  cp "$PROJECT_DIR"/dist/web/* "$PROJECT_DIR/../SteppeKingsWeb/public/fonts/"
+fi
+
 echo "✨ All fonts successfully compiled, packaged, and installed!"
