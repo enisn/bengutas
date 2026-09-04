@@ -479,6 +479,7 @@
 
     input[type="range"] {
       appearance: none;
+      -webkit-appearance: none;
       background: var(--surface-elev-2);
       height: 6px;
       border-radius: 3px;
@@ -486,6 +487,24 @@
       accent-color: var(--accent);
       cursor: pointer;
       width: 125px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+    }
+    input[type="range"]::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.35);
     }
     select.preset-select {
       background: var(--surface-elev);
@@ -501,6 +520,232 @@
     }
     select.preset-select:focus {
       border-color: var(--accent);
+    }
+
+    /* Studio Controls Semantic Grouping & Mobile Optimization */
+    .studio-font-row,
+    .studio-size-row,
+    .studio-secondary,
+    .studio-sliders-row,
+    .studio-styling-row {
+      display: contents;
+    }
+    .studio-toggle-btn {
+      display: none;
+    }
+
+    @keyframes studioExpand {
+      from {
+        opacity: 0;
+        transform: translateY(-6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .studio-controls {
+        position: sticky;
+        top: 8px;
+        padding: 10px 12px;
+        margin-bottom: 16px;
+        border-radius: 12px;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        background: var(--surface);
+        background: color-mix(in srgb, var(--surface) 92%, transparent);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+      }
+
+      /* Row 1: Family & Weight side-by-side on single row */
+      .studio-font-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        width: 100%;
+      }
+      .studio-font-row .control-item {
+        min-width: 0;
+        gap: 4px;
+      }
+      .studio-font-row .control-label {
+        font-size: 10.5px;
+      }
+      .studio-font-row .btn-group {
+        width: 100%;
+        display: flex;
+      }
+      .studio-font-row .studio-btn {
+        flex: 1;
+        text-align: center;
+        padding: 6px 4px;
+        font-size: 11.5px;
+      }
+
+      /* Row 2: Size slider + Toggle button */
+      .studio-size-row {
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        width: 100%;
+      }
+      .control-item-size {
+        flex: 1;
+        min-width: 0;
+        gap: 4px;
+      }
+      .control-item-size .control-label {
+        font-size: 10.5px;
+      }
+      .control-item-size input[type="range"] {
+        width: 100%;
+      }
+
+      .studio-toggle-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 32px;
+        padding: 0 10px;
+        background: var(--surface-elev);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        color: var(--text-muted);
+        font-family: inherit;
+        font-size: 11.5px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+        flex-shrink: 0;
+        user-select: none;
+      }
+      .studio-toggle-btn:hover,
+      .studio-toggle-btn.active {
+        border-color: var(--accent);
+        color: var(--accent);
+        background: var(--surface-elev-2);
+      }
+      .studio-toggle-btn .toggle-icon {
+        font-size: 11px;
+      }
+      .studio-toggle-btn .toggle-arrow {
+        font-size: 9px;
+        transition: transform 0.2s ease;
+        display: inline-block;
+      }
+      .studio-toggle-btn.active .toggle-arrow {
+        transform: rotate(180deg);
+      }
+
+      /* Secondary drawer (collapsible) */
+      .studio-secondary {
+        display: none;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        padding-top: 8px;
+        border-top: 1px dashed var(--border);
+      }
+      .studio-controls.is-expanded .studio-secondary {
+        display: flex;
+        animation: studioExpand 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      /* Sliders Row: Tracking & Leading */
+      .studio-sliders-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        width: 100%;
+      }
+      .studio-sliders-row .control-item {
+        min-width: 0;
+        gap: 4px;
+      }
+      .studio-sliders-row .control-label {
+        font-size: 10.5px;
+      }
+      .studio-sliders-row input[type="range"] {
+        width: 100%;
+      }
+
+      /* Styling Row: Align & Case */
+      .studio-styling-row {
+        display: flex;
+        gap: 8px;
+        align-items: flex-end;
+        width: 100%;
+      }
+      .control-item-align {
+        flex-shrink: 0;
+        gap: 4px;
+      }
+      .control-item-align .control-label {
+        font-size: 10.5px;
+      }
+      .control-item-align .studio-btn {
+        padding: 5px 9px;
+        font-size: 11.5px;
+      }
+      .control-item-case {
+        flex: 1;
+        min-width: 0;
+        gap: 4px;
+      }
+      .control-item-case .control-label {
+        font-size: 10.5px;
+      }
+      .control-item-case .btn-group {
+        width: 100%;
+        display: flex;
+      }
+      .control-item-case .studio-btn {
+        flex: 1;
+        text-align: center;
+        padding: 5px 4px;
+        font-size: 10.5px;
+      }
+
+      /* Preset Select */
+      .control-item-preset {
+        width: 100%;
+        gap: 4px;
+      }
+      .control-item-preset .control-label {
+        font-size: 10.5px;
+      }
+      select.preset-select {
+        width: 100%;
+        font-size: 12px;
+        padding: 6px 8px;
+      }
+
+      /* Canvas wrap mobile tuning */
+      .studio-canvas-wrap {
+        padding: 14px;
+      }
+      .studio-canvas {
+        padding: 14px;
+        min-height: 180px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 0 12px 60px;
+      }
+      .studio-controls {
+        top: 6px;
+        padding: 8px 10px;
+      }
     }
 
     .studio-canvas-wrap {
@@ -1124,66 +1369,85 @@
       </div>
 
       <!-- Controls Bar -->
-      <div class="studio-controls">
-        <div class="control-item">
-          <span class="control-label">Family</span>
-          <div class="btn-group">
-            <button class="studio-btn active" id="btnDisplay" onclick="setFontFamily('Bengutas Display')">Display</button>
-            <button class="studio-btn" id="btnSans" onclick="setFontFamily('Bengutas Sans')">Sans</button>
+      <div class="studio-controls" id="studioControls">
+        <!-- Font Selection Group: Always in one row -->
+        <div class="studio-font-row">
+          <div class="control-item control-item-family">
+            <span class="control-label">Family</span>
+            <div class="btn-group">
+              <button class="studio-btn active" id="btnDisplay" onclick="setFontFamily('Bengutas Display')">Display</button>
+              <button class="studio-btn" id="btnSans" onclick="setFontFamily('Bengutas Sans')">Sans</button>
+            </div>
+          </div>
+
+          <div class="control-item control-item-weight">
+            <span class="control-label">Weight</span>
+            <div class="btn-group">
+              <button class="studio-btn active" id="btnReg" onclick="setFontWeight(400)">Regular</button>
+              <button class="studio-btn" id="btnBold" onclick="setFontWeight(700)">Bold</button>
+            </div>
           </div>
         </div>
 
-        <div class="control-item">
-          <span class="control-label">Weight</span>
-          <div class="btn-group">
-            <button class="studio-btn active" id="btnReg" onclick="setFontWeight(400)">Regular</button>
-            <button class="studio-btn" id="btnBold" onclick="setFontWeight(700)">Bold</button>
+        <!-- Primary Size Row (Size slider + Mobile More/Less toggle) -->
+        <div class="studio-size-row">
+          <div class="control-item control-item-size">
+            <span class="control-label">Size <span class="val-tag" id="valSize">38px</span></span>
+            <input type="range" id="sliderSize" min="14" max="110" value="38" oninput="updateSize(this.value)">
           </div>
+
+          <button class="studio-toggle-btn" id="studioToggleBtn" onclick="toggleStudioControls()" type="button" aria-expanded="false" aria-label="Toggle advanced typography controls">
+            <span class="toggle-icon">⚙️</span>
+            <span class="toggle-text">More</span>
+            <span class="toggle-arrow">▾</span>
+          </button>
         </div>
 
-        <div class="control-item">
-          <span class="control-label">Size <span class="val-tag" id="valSize">38px</span></span>
-          <input type="range" id="sliderSize" min="14" max="110" value="38" oninput="updateSize(this.value)">
-        </div>
+        <!-- Secondary Controls Drawer (Collapsible on mobile, inline on desktop) -->
+        <div class="studio-secondary" id="studioSecondary">
+          <div class="studio-sliders-row">
+            <div class="control-item control-item-tracking">
+              <span class="control-label">Tracking <span class="val-tag" id="valTracking">+2.0px</span></span>
+              <input type="range" id="sliderTracking" min="-2" max="16" step="0.5" value="2" oninput="updateTracking(this.value)">
+            </div>
 
-        <div class="control-item">
-          <span class="control-label">Tracking <span class="val-tag" id="valTracking">+2.0px</span></span>
-          <input type="range" id="sliderTracking" min="-2" max="16" step="0.5" value="2" oninput="updateTracking(this.value)">
-        </div>
-
-        <div class="control-item">
-          <span class="control-label">Leading <span class="val-tag" id="valLeading">1.35</span></span>
-          <input type="range" id="sliderLeading" min="0.85" max="2.2" step="0.05" value="1.35" oninput="updateLeading(this.value)">
-        </div>
-
-        <div class="control-item">
-          <span class="control-label">Align</span>
-          <div class="btn-group">
-            <button class="studio-btn active" onclick="setAlign('left', this)">L</button>
-            <button class="studio-btn" onclick="setAlign('center', this)">C</button>
-            <button class="studio-btn" onclick="setAlign('right', this)">R</button>
+            <div class="control-item control-item-leading">
+              <span class="control-label">Leading <span class="val-tag" id="valLeading">1.35</span></span>
+              <input type="range" id="sliderLeading" min="0.85" max="2.2" step="0.05" value="1.35" oninput="updateLeading(this.value)">
+            </div>
           </div>
-        </div>
 
-        <div class="control-item">
-          <span class="control-label">Case</span>
-          <div class="btn-group">
-            <button class="studio-btn active" onclick="setCase('none', this)">As Typed</button>
-            <button class="studio-btn" onclick="setCase('uppercase', this)">UPPER</button>
-            <button class="studio-btn" onclick="setCase('lowercase', this)">small-caps</button>
+          <div class="studio-styling-row">
+            <div class="control-item control-item-align">
+              <span class="control-label">Align</span>
+              <div class="btn-group">
+                <button class="studio-btn active" onclick="setAlign('left', this)">L</button>
+                <button class="studio-btn" onclick="setAlign('center', this)">C</button>
+                <button class="studio-btn" onclick="setAlign('right', this)">R</button>
+              </div>
+            </div>
+
+            <div class="control-item control-item-case">
+              <span class="control-label">Case</span>
+              <div class="btn-group">
+                <button class="studio-btn active" onclick="setCase('none', this)">As Typed</button>
+                <button class="studio-btn" onclick="setCase('uppercase', this)">UPPER</button>
+                <button class="studio-btn" onclick="setCase('lowercase', this)">small-caps</button>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="control-item">
-          <span class="control-label">Preset Text</span>
-          <select class="preset-select" id="presetSelect" onchange="applyPreset(this.value)">
-            <option value="monument">📜 Kül Tigin Stela Inscription</option>
-            <option value="english_pangram">🦊 Universal English Pangram</option>
-            <option value="turkish_pangram">🇹🇷 Turkish Pangram (Ç, Ğ, İ, Ö, Ş, Ü)</option>
-            <option value="game_hud">⚔️ Strategy & RPG Game Lore</option>
-            <option value="epigraphic">🏛️ Monumental Lapidary Title</option>
-            <option value="editorial">📖 Archaeological Survey Report</option>
-          </select>
+          <div class="control-item control-item-preset">
+            <span class="control-label">Preset Text</span>
+            <select class="preset-select" id="presetSelect" onchange="applyPreset(this.value)">
+              <option value="monument">📜 Kül Tigin Stela Inscription</option>
+              <option value="english_pangram">🦊 Universal English Pangram</option>
+              <option value="turkish_pangram">🇹🇷 Turkish Pangram (Ç, Ğ, İ, Ö, Ş, Ü)</option>
+              <option value="game_hud">⚔️ Strategy & RPG Game Lore</option>
+              <option value="epigraphic">🏛️ Monumental Lapidary Title</option>
+              <option value="editorial">📖 Archaeological Survey Report</option>
+            </select>
+          </div>
         </div>
       </div>
 
@@ -1546,6 +1810,17 @@ body, p {
       if (presets[key] && studioInput) {
         studioInput.value = presets[key];
       }
+    }
+
+    function toggleStudioControls() {
+      const controls = document.getElementById('studioControls');
+      const btn = document.getElementById('studioToggleBtn');
+      if (!controls || !btn) return;
+      const isExpanded = controls.classList.toggle('is-expanded');
+      btn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      const textEl = btn.querySelector('.toggle-text');
+      if (textEl) textEl.innerText = isExpanded ? 'Less' : 'More';
+      btn.classList.toggle('active', isExpanded);
     }
 
     function updateStudio() {
