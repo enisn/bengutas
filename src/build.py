@@ -79,7 +79,7 @@ def compile_family(family_key, is_display=False):
         font.familyname = family_name
         font.fullname = f"{family_name} {weight_name}"
         font.weight = weight_name
-        font.version = "1.005"
+        font.version = "1.100"
         font.copyright = "Copyright (c) 2026 Bengü Taş Type Project. Licensed under the SIL Open Font License, Version 1.1 (Reserved Font Names: 'Bengü Taş', 'Bengutas')."
         
         # Professional 1000 UPM Typographic Metrics

@@ -90,6 +90,7 @@ bengutas/
 │   ├── build.py          # FontForge build script
 │   ├── regular_glyphs.json
 │   └── bold_glyphs.json
+├── CHANGELOG.md          # Version history
 ├── LICENSE               # SIL Open Font License 1.1
 └── README.md
 ```
@@ -98,8 +99,11 @@ bengutas/
 
 ## 📦 Installation & Usage
 
+### Downloads
+Each version is published on [GitHub Releases](https://github.com/enisn/bengutas/releases/latest) with a `bengutas-fonts-<version>.zip` bundle (TTF, OTF, WOFF, WOFF2) and the individual TTF files. Changes between versions are listed in [`CHANGELOG.md`](CHANGELOG.md).
+
 ### Desktop (macOS, Windows, Linux)
-Download the `.ttf` or `.otf` files from `dist/ttf/` or `dist/otf/` and install them via your operating system's font manager.
+Download the `.ttf` or `.otf` files from the latest release (or from `dist/ttf/` / `dist/otf/`) and install them via your operating system's font manager.
 
 ### Web (@font-face CSS)
 ```css
