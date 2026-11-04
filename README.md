@@ -45,6 +45,7 @@ Ancient monument carvers working on hard basalt and granite stelae could not sco
 * **Faceted Basalt Geometry:** Rounded letters (`O`, `C`, `D`, `G`, `U`, `B`, `P`) are sculpted as octagonal, chiseled stone rings rather than mechanical ellipses.
 * **Chevron & Dagger Junctions:** Diagonals meet stems at sharp, incised stone-cut angles.
 * **Petite Small-Caps:** In line with ancient monumental tradition, lowercase letters render as scaled, balanced majuscules.
+* **Turkish-Aware Small-Cap `i`:** A small capital I carries no dot, so lowercase `i` renders dotless by default (`Village` → VILLAGE, matching the already dotless petite-cap `j`). Text tagged Turkish, Azeri, Crimean Tatar, Kazakh or Tatar gets the dotted form back through the OpenType `locl` feature (`Bilge` → BİLGE), while `ı` always stays dotless. See [Turkish `i` in Display](#turkish-i-in-display).
 
 ---
 
@@ -131,6 +132,16 @@ body, p {
 }
 ```
 
+### Turkish `i` in Display
+Bengutas Display renders lowercase as petite small-caps, and a small capital I has no dot. The default `i` is therefore dotless; the dotted form lives in the glyph `i.loclTRK` and is selected by the OpenType `locl` feature when text is tagged with a Turkic language (`TRK`, `AZE`, `CRT`, `KAZ`, `TAT`).
+
+```html
+<h1 lang="en">Village</h1>   <!-- VILLAGE -->
+<h1 lang="tr">Bilge Kağan</h1> <!-- BİLGE KAĞAN -->
+```
+
+Browsers, Word, InDesign and Affinity honor the language tag. For engines that ignore `locl` (for example Unity TextMeshPro), use the **Bengutas Display TR** build (`BengutasDisplayTR-*.ttf`): it is the same font with the dotted `i` as the default, meant to be assigned to the Turkish locale.
+
 ---
 
 ## 🛠️ Building & Designing from Source (`bengutas.pen`)
@@ -154,7 +165,7 @@ To compile all production binaries (`.ttf`, `.otf`, `.woff`, `.woff2`) directly 
 
 The compiler will:
 1. Parse all glyph vectors and metrics directly from `bengutas.pen`.
-2. Generate all 4 font families (`Display Regular/Bold`, `Sans Regular/Bold`) in TTF, OTF, WOFF, and WOFF2 formats.
+2. Generate all 6 fonts (`Display Regular/Bold`, `Display TR Regular/Bold`, `Sans Regular/Bold`) in TTF, OTF, WOFF, and WOFF2 formats, adding the `locl` feature for the Turkish small-cap `i`.
 3. Update `dist/`, `docs/`, and package `docs/bengutas-fonts.zip`.
 4. Refresh local system fonts and active game project assets.
 

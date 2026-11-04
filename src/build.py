@@ -19,6 +19,26 @@ NOTDEF_SVG = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
   <path d="M 60 100 H 440 V 800 H 60 Z M 110 150 V 750 H 390 V 150 Z" />
 </svg>'''
 
+# Display renders lowercase as petite small-caps. A small capital I never carries
+# a dot in Latin typography (petite-cap j is already dotless), so the default
+# `i` is the dotless petite cap. The dotted petite cap drawn in bengutas.pen is
+# kept as the unencoded glyph `i.loclTRK` and substituted back in by the OpenType
+# `locl` feature for the Turkic languages whose uppercase i keeps its dot.
+TURKIC_LANGS = ["TRK", "AZE", "CRT", "KAZ", "TAT"]
+
+def build_locl_fea():
+    systems = "\n".join(f"languagesystem latn {l};" for l in TURKIC_LANGS)
+    rules = "\n".join(f"  language {l} exclude_dflt;\n  sub i by i.loclTRK;" for l in TURKIC_LANGS)
+    return f"""languagesystem DFLT dflt;
+languagesystem latn dflt;
+{systems}
+
+feature locl {{
+  script latn;
+{rules}
+}} locl;
+"""
+
 def load_glyphs_from_pen(pen_file):
     """
     Parses bengutas.pen and extracts glyph dictionaries for Display and Sans.
@@ -64,7 +84,13 @@ def load_glyphs_from_pen(pen_file):
         
     return extracted
 
-def compile_family(family_key, is_display=False):
+def compile_family(family_key, is_display=False, turkish_default=False):
+    """
+    turkish_default=True builds the "Bengutas Display TR" variant: the dotted
+    petite-cap i is the default glyph, for engines that do not honor the
+    OpenType `locl` feature (e.g. Unity TextMeshPro). Assign it to the Turkish
+    locale in such engines; everywhere else use the main family with lang tags.
+    """
     glyphs_db = glyphs_data.get(family_key, [])
     if not glyphs_db:
         print(f"Warning: No glyphs found for {family_key} in {PEN_PATH}!")
@@ -72,6 +98,20 @@ def compile_family(family_key, is_display=False):
 
     family_name = "Bengutas Display" if is_display else "Bengutas Sans"
     ps_prefix = "BengutasDisplay" if is_display else "BengutasSans"
+    if turkish_default:
+        family_name += " TR"
+        ps_prefix += "TR"
+
+    # Display only: swap the encoded `i` outline for the dotless one and keep the
+    # dotted outline as `i.loclTRK` (unencoded, reached through `locl`).
+    i_dotted_d = None
+    if is_display:
+        by_u = {g["unicode"]: g for g in glyphs_db}
+        if 0x69 in by_u and 0x131 in by_u:
+            i_dotted_d = by_u[0x69]["d"]
+            dotless_d = by_u[0x131]["d"]
+            glyphs_db = [dict(g, d=(i_dotted_d if turkish_default else dotless_d)) if g["unicode"] == 0x69 else g
+                         for g in glyphs_db]
 
     for weight_name, is_bold in [("Regular", False), ("Bold", True)]:
         font = fontforge.font()
@@ -79,7 +119,7 @@ def compile_family(family_key, is_display=False):
         font.familyname = family_name
         font.fullname = f"{family_name} {weight_name}"
         font.weight = weight_name
-        font.version = "1.100"
+        font.version = "1.200"
         font.copyright = "Copyright (c) 2026 Bengü Taş Type Project. Licensed under the SIL Open Font License, Version 1.1 (Reserved Font Names: 'Bengü Taş', 'Bengutas')."
         
         # Professional 1000 UPM Typographic Metrics
@@ -110,28 +150,35 @@ def compile_family(family_key, is_display=False):
         temp_dir = tempfile.mkdtemp(prefix="ff_build_pen_")
         
         try:
+            svg_counter = [0]
+            def import_glyph(u, glyph_name, adv, d):
+                svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="{d}" /></svg>'
+                svg_counter[0] += 1
+                svg_p = os.path.join(temp_dir, f"glyph_{svg_counter[0]}.svg")
+                with open(svg_p, "w", encoding="utf-8") as tf:
+                    tf.write(svg)
+                g = font.createChar(u, glyph_name)
+                g.importOutlines(svg_p)
+                g.width = adv + (30 if is_bold else 0)
+                if is_bold:
+                    g.changeWeight(38, "auto", 0, 0, "auto")
+                g.removeOverlap()
+                g.correctDirection()
+                return g
+
             # Import glyphs extracted directly from bengutas.pen
             for g_item in glyphs_db:
-                u = g_item["unicode"]
-                adv = g_item["advance"]
-                d = g_item["d"]
-                glyph_name = g_item["name"]
-                
-                if d and d.strip():
-                    svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="{d}" /></svg>'
-                    svg_p = os.path.join(temp_dir, f"glyph_{u}.svg")
-                    with open(svg_p, "w", encoding="utf-8") as tf:
-                        tf.write(svg)
-                        
-                    g = font.createChar(u, glyph_name)
-                    g.importOutlines(svg_p)
-                    g.width = adv + (30 if is_bold else 0)
-                    
-                    if is_bold:
-                        g.changeWeight(38, "auto", 0, 0, "auto")
-                        
-                    g.removeOverlap()
-                    g.correctDirection()
+                if g_item["d"] and g_item["d"].strip():
+                    import_glyph(g_item["unicode"], g_item["name"], g_item["advance"], g_item["d"])
+
+            # Dotted petite-cap i for Turkic locales (Display only)
+            if i_dotted_d and not turkish_default:
+                i_adv = next(g["advance"] for g in glyphs_db if g["unicode"] == 0x69)
+                import_glyph(-1, "i.loclTRK", i_adv, i_dotted_d)
+                fea_p = os.path.join(temp_dir, "locl.fea")
+                with open(fea_p, "w", encoding="utf-8") as tf:
+                    tf.write(build_locl_fea())
+                font.mergeFeature(fea_p)
                     
             # Space & non-breaking space
             space_width = 300 if is_bold else 280
@@ -176,5 +223,6 @@ if __name__ == "__main__":
     print(f"Found {len(glyphs_data['display'])} Display glyphs and {len(glyphs_data['sans'])} Sans glyphs.")
     
     compile_family("display", is_display=True)
+    compile_family("display", is_display=True, turkish_default=True)
     compile_family("sans", is_display=False)
     print("=== All fonts built directly from bengutas.pen successfully! ===")

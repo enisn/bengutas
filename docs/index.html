@@ -1042,6 +1042,15 @@
       margin-bottom: 12px;
       line-height: 1;
     }
+    .anatomy-chars.locl-demo {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .anatomy-card p span[lang] {
+      font-family: 'Bengutas Display', sans-serif;
+      color: var(--accent);
+    }
     .anatomy-card.sans-anatomy .anatomy-chars {
       font-family: 'Bengutas Sans', sans-serif;
       font-size: 36px;
@@ -1669,6 +1678,17 @@ BENGÜ TAŞ — 1300 YEARS OF BASALT CHISEL GEOMETRY.</textarea>
           <h4>Automatic Petite Small-Caps</h4>
           <p>
             In Bengutas Display, lowercase input renders as harmoniously proportioned petite small-caps, echoing the monumental tradition where all stone writing is majuscule.
+          </p>
+        </div>
+
+        <div class="anatomy-card">
+          <div class="anatomy-chars locl-demo">
+            <span lang="en">Village</span>
+            <span lang="tr">Bilge</span>
+          </div>
+          <h4>Turkish-Aware Small-Cap i</h4>
+          <p>
+            A small capital I carries no dot, so lowercase <code>i</code> renders dotless by default (<span lang="en">Village</span>). Text tagged <code>lang="tr"</code> (also az, crh, kk, tt) restores the dotted form through the OpenType <code>locl</code> feature (<span lang="tr">Bilge, İstanbul</span>), while <code>ı</code> stays dotless (<span lang="tr">ılık</span>). For engines without <code>locl</code> support, the <em>Bengutas Display TR</em> build ships the dotted default.
           </p>
         </div>
 
