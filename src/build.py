@@ -119,7 +119,7 @@ def compile_family(family_key, is_display=False, turkish_default=False):
         font.familyname = family_name
         font.fullname = f"{family_name} {weight_name}"
         font.weight = weight_name
-        font.version = "1.200"
+        font.version = "2.000"
         font.copyright = "Copyright (c) 2026 Bengü Taş Type Project. Licensed under the SIL Open Font License, Version 1.1 (Reserved Font Names: 'Bengü Taş', 'Bengutas')."
         
         # Professional 1000 UPM Typographic Metrics
@@ -160,10 +160,18 @@ def compile_family(family_key, is_display=False, turkish_default=False):
                 g = font.createChar(u, glyph_name)
                 g.importOutlines(svg_p)
                 g.width = adv + (30 if is_bold else 0)
-                if is_bold:
-                    g.changeWeight(38, "auto", 0, 0, "auto")
                 g.removeOverlap()
                 g.correctDirection()
+                if is_bold:
+                    g.changeWeight(32, "auto", 0, 0, "auto")
+                    g.removeOverlap()
+                    clean_layer = fontforge.layer()
+                    for c in g.foreground:
+                        bb = c.boundingBox()
+                        if len(c) >= 3 and (bb[2] - bb[0]) >= 4 and (bb[3] - bb[1]) >= 4:
+                            clean_layer += c
+                    g.foreground = clean_layer
+                    g.correctDirection()
                 return g
 
             # Import glyphs extracted directly from bengutas.pen
