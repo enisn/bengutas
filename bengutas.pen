@@ -51,7 +51,7 @@
               "type": "text",
               "id": "230877",
               "name": "Title",
-              "content": "BENGUTAS DISPLAY V2 \u00b7 ORKHON BOW (YAY) & ACUTE CHISEL MASTERS",
+              "content": "BENGUTAS DISPLAY V2 · ORKHON BOW (YAY) & ACUTE CHISEL MASTERS",
               "fontSize": 36,
               "fontWeight": "800",
               "fill": "$ink"
@@ -60,7 +60,7 @@
               "type": "text",
               "id": "d241b0",
               "name": "Subtitle",
-              "content": "UPM 1000 \u00b7 Baseline: y=800 \u00b7 Cap-Height: y=86 \u00b7 Edit vector paths or adjust cell width for spacing",
+              "content": "UPM 1000 · Baseline: y=800 · Cap-Height: y=86 · Edit vector paths or adjust cell width for spacing",
               "fontSize": 16,
               "fill": "$muted"
             }
@@ -69,7 +69,7 @@
         {
           "type": "frame",
           "id": "1c42b8",
-          "name": "Section \u00b7 Uppercase A\u2013Z",
+          "name": "Section · Uppercase A–Z",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -79,7 +79,7 @@
               "type": "text",
               "id": "d11525",
               "name": "Section Label",
-              "content": "UPPERCASE A\u2013Z (26 GLYPHS)",
+              "content": "UPPERCASE A–Z (26 GLYPHS)",
               "fontSize": 14,
               "fontWeight": "700",
               "letterSpacing": 2,
@@ -88,7 +88,7 @@
             {
               "type": "frame",
               "id": "d9ebb7",
-              "name": "Row \u00b7 Uppercase A\u2013Z",
+              "name": "Row · Uppercase A–Z",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -856,7 +856,7 @@
         {
           "type": "frame",
           "id": "0d2281",
-          "name": "Section \u00b7 Turkish Uppercase",
+          "name": "Section · Turkish Uppercase",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -875,7 +875,7 @@
             {
               "type": "frame",
               "id": "c8f6b9",
-              "name": "Row \u00b7 Turkish Uppercase",
+              "name": "Row · Turkish Uppercase",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -885,7 +885,7 @@
                 {
                   "type": "frame",
                   "id": "bd2ced",
-                  "name": "U+00C7 \u00c7",
+                  "name": "U+00C7 Ç",
                   "width": 575,
                   "height": 1000,
                   "fill": "$panel",
@@ -914,7 +914,7 @@
                 {
                   "type": "frame",
                   "id": "5232d3",
-                  "name": "U+00D6 \u00d6",
+                  "name": "U+00D6 Ö",
                   "width": 740,
                   "height": 1000,
                   "fill": "$panel",
@@ -943,7 +943,7 @@
                 {
                   "type": "frame",
                   "id": "6e6a11",
-                  "name": "U+00DC \u00dc",
+                  "name": "U+00DC Ü",
                   "width": 720,
                   "height": 1000,
                   "fill": "$panel",
@@ -972,7 +972,7 @@
                 {
                   "type": "frame",
                   "id": "f8a2bc",
-                  "name": "U+011E \u011e",
+                  "name": "U+011E Ğ",
                   "width": 625,
                   "height": 1000,
                   "fill": "$panel",
@@ -1001,7 +1001,7 @@
                 {
                   "type": "frame",
                   "id": "3bcc1b",
-                  "name": "U+0130 \u0130",
+                  "name": "U+0130 İ",
                   "width": 379,
                   "height": 1000,
                   "fill": "$panel",
@@ -1030,7 +1030,7 @@
                 {
                   "type": "frame",
                   "id": "14f7d5",
-                  "name": "U+015E \u015e",
+                  "name": "U+015E Ş",
                   "width": 545,
                   "height": 1000,
                   "fill": "$panel",
@@ -1059,7 +1059,7 @@
                 {
                   "type": "frame",
                   "id": "cccd9c",
-                  "name": "U+00C2 \u00c2",
+                  "name": "U+00C2 Â",
                   "width": 633,
                   "height": 1000,
                   "fill": "$panel",
@@ -1088,7 +1088,7 @@
                 {
                   "type": "frame",
                   "id": "e7691d",
-                  "name": "U+00CE \u00ce",
+                  "name": "U+00CE Î",
                   "width": 379,
                   "height": 1000,
                   "fill": "$panel",
@@ -1117,7 +1117,7 @@
                 {
                   "type": "frame",
                   "id": "746e3a",
-                  "name": "U+00DB \u00db",
+                  "name": "U+00DB Û",
                   "width": 720,
                   "height": 1000,
                   "fill": "$panel",
@@ -1150,7 +1150,7 @@
         {
           "type": "frame",
           "id": "817087",
-          "name": "Section \u00b7 Lowercase a\u2013z",
+          "name": "Section · Lowercase a–z",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -1160,7 +1160,7 @@
               "type": "text",
               "id": "9dc77f",
               "name": "Section Label",
-              "content": "LOWERCASE A\u2013Z (26 GLYPHS)",
+              "content": "LOWERCASE A–Z (26 GLYPHS)",
               "fontSize": 14,
               "fontWeight": "700",
               "letterSpacing": 2,
@@ -1169,7 +1169,7 @@
             {
               "type": "frame",
               "id": "d06346",
-              "name": "Row \u00b7 Lowercase a\u2013z",
+              "name": "Row · Lowercase a–z",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -1937,7 +1937,7 @@
         {
           "type": "frame",
           "id": "338b25",
-          "name": "Section \u00b7 Turkish Lowercase",
+          "name": "Section · Turkish Lowercase",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -1956,7 +1956,7 @@
             {
               "type": "frame",
               "id": "2b7c86",
-              "name": "Row \u00b7 Turkish Lowercase",
+              "name": "Row · Turkish Lowercase",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -1966,7 +1966,7 @@
                 {
                   "type": "frame",
                   "id": "0c90d2",
-                  "name": "U+00E7 \u00e7",
+                  "name": "U+00E7 ç",
                   "width": 477,
                   "height": 1000,
                   "fill": "$panel",
@@ -1995,7 +1995,7 @@
                 {
                   "type": "frame",
                   "id": "dcdb76",
-                  "name": "U+00F6 \u00f6",
+                  "name": "U+00F6 ö",
                   "width": 614,
                   "height": 1000,
                   "fill": "$panel",
@@ -2024,7 +2024,7 @@
                 {
                   "type": "frame",
                   "id": "1e633d",
-                  "name": "U+00FC \u00fc",
+                  "name": "U+00FC ü",
                   "width": 598,
                   "height": 1000,
                   "fill": "$panel",
@@ -2053,7 +2053,7 @@
                 {
                   "type": "frame",
                   "id": "de1fb5",
-                  "name": "U+011F \u011f",
+                  "name": "U+011F ğ",
                   "width": 519,
                   "height": 1000,
                   "fill": "$panel",
@@ -2082,7 +2082,7 @@
                 {
                   "type": "frame",
                   "id": "b9abba",
-                  "name": "U+0131 \u0131",
+                  "name": "U+0131 ı",
                   "width": 315,
                   "height": 1000,
                   "fill": "$panel",
@@ -2111,7 +2111,7 @@
                 {
                   "type": "frame",
                   "id": "99087d",
-                  "name": "U+015F \u015f",
+                  "name": "U+015F ş",
                   "width": 452,
                   "height": 1000,
                   "fill": "$panel",
@@ -2140,7 +2140,7 @@
                 {
                   "type": "frame",
                   "id": "3852c1",
-                  "name": "U+00E2 \u00e2",
+                  "name": "U+00E2 â",
                   "width": 525,
                   "height": 1000,
                   "fill": "$panel",
@@ -2169,7 +2169,7 @@
                 {
                   "type": "frame",
                   "id": "382735",
-                  "name": "U+00EE \u00ee",
+                  "name": "U+00EE î",
                   "width": 315,
                   "height": 1000,
                   "fill": "$panel",
@@ -2198,7 +2198,7 @@
                 {
                   "type": "frame",
                   "id": "961945",
-                  "name": "U+00FB \u00fb",
+                  "name": "U+00FB û",
                   "width": 598,
                   "height": 1000,
                   "fill": "$panel",
@@ -2231,7 +2231,7 @@
         {
           "type": "frame",
           "id": "64e4d2",
-          "name": "Section \u00b7 Numerals 0\u20139",
+          "name": "Section · Numerals 0–9",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -2241,7 +2241,7 @@
               "type": "text",
               "id": "11b540",
               "name": "Section Label",
-              "content": "NUMERALS 0\u20139 (10 GLYPHS)",
+              "content": "NUMERALS 0–9 (10 GLYPHS)",
               "fontSize": 14,
               "fontWeight": "700",
               "letterSpacing": 2,
@@ -2250,7 +2250,7 @@
             {
               "type": "frame",
               "id": "405097",
-              "name": "Row \u00b7 Numerals 0\u20139",
+              "name": "Row · Numerals 0–9",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -2554,7 +2554,7 @@
         {
           "type": "frame",
           "id": "3a613a",
-          "name": "Section \u00b7 Punctuation & Symbols (1)",
+          "name": "Section · Punctuation & Symbols (1)",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -2573,7 +2573,7 @@
             {
               "type": "frame",
               "id": "06fbbc",
-              "name": "Row \u00b7 Punctuation & Symbols (1)",
+              "name": "Row · Punctuation & Symbols (1)",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -3370,7 +3370,7 @@
         {
           "type": "frame",
           "id": "50ea28",
-          "name": "Section \u00b7 Punctuation & Symbols (2)",
+          "name": "Section · Punctuation & Symbols (2)",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -3389,7 +3389,7 @@
             {
               "type": "frame",
               "id": "ee34a8",
-              "name": "Row \u00b7 Punctuation & Symbols (2)",
+              "name": "Row · Punctuation & Symbols (2)",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -3457,7 +3457,7 @@
                 {
                   "type": "frame",
                   "id": "cee5f2",
-                  "name": "U+00A3 \u00a3",
+                  "name": "U+00A3 £",
                   "width": 565,
                   "height": 1000,
                   "fill": "$panel",
@@ -3486,7 +3486,7 @@
                 {
                   "type": "frame",
                   "id": "6a731e",
-                  "name": "U+00B0 \u00b0",
+                  "name": "U+00B0 °",
                   "width": 398,
                   "height": 1000,
                   "fill": "$panel",
@@ -3515,7 +3515,7 @@
                 {
                   "type": "frame",
                   "id": "01256e",
-                  "name": "U+00B1 \u00b1",
+                  "name": "U+00B1 ±",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -3544,7 +3544,7 @@
                 {
                   "type": "frame",
                   "id": "4c6d80",
-                  "name": "U+00B7 \u00b7",
+                  "name": "U+00B7 ·",
                   "width": 262,
                   "height": 1000,
                   "fill": "$panel",
@@ -3573,7 +3573,7 @@
                 {
                   "type": "frame",
                   "id": "e40a5c",
-                  "name": "U+00D7 \u00d7",
+                  "name": "U+00D7 ×",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -3602,7 +3602,7 @@
                 {
                   "type": "frame",
                   "id": "1bb6c3",
-                  "name": "U+00F7 \u00f7",
+                  "name": "U+00F7 ÷",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -3631,7 +3631,7 @@
                 {
                   "type": "frame",
                   "id": "093a1d",
-                  "name": "U+2013 \u2013",
+                  "name": "U+2013 –",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -3660,7 +3660,7 @@
                 {
                   "type": "frame",
                   "id": "9372a4",
-                  "name": "U+2014 \u2014",
+                  "name": "U+2014 —",
                   "width": 920,
                   "height": 1000,
                   "fill": "$panel",
@@ -3689,7 +3689,7 @@
                 {
                   "type": "frame",
                   "id": "014626",
-                  "name": "U+2018 \u2018",
+                  "name": "U+2018 ‘",
                   "width": 242,
                   "height": 1000,
                   "fill": "$panel",
@@ -3718,7 +3718,7 @@
                 {
                   "type": "frame",
                   "id": "d9a97a",
-                  "name": "U+2019 \u2019",
+                  "name": "U+2019 ’",
                   "width": 242,
                   "height": 1000,
                   "fill": "$panel",
@@ -3747,7 +3747,7 @@
                 {
                   "type": "frame",
                   "id": "e95ff6",
-                  "name": "U+201C \u201c",
+                  "name": "U+201C “",
                   "width": 416,
                   "height": 1000,
                   "fill": "$panel",
@@ -3776,7 +3776,7 @@
                 {
                   "type": "frame",
                   "id": "58bc33",
-                  "name": "U+201D \u201d",
+                  "name": "U+201D ”",
                   "width": 416,
                   "height": 1000,
                   "fill": "$panel",
@@ -3805,7 +3805,7 @@
                 {
                   "type": "frame",
                   "id": "03f980",
-                  "name": "U+2022 \u2022",
+                  "name": "U+2022 •",
                   "width": 360,
                   "height": 1000,
                   "fill": "$panel",
@@ -3834,7 +3834,7 @@
                 {
                   "type": "frame",
                   "id": "09787c",
-                  "name": "U+2026 \u2026",
+                  "name": "U+2026 …",
                   "width": 680,
                   "height": 1000,
                   "fill": "$panel",
@@ -3863,7 +3863,7 @@
                 {
                   "type": "frame",
                   "id": "53d879",
-                  "name": "U+2030 \u2030",
+                  "name": "U+2030 ‰",
                   "width": 1148,
                   "height": 1000,
                   "fill": "$panel",
@@ -3892,7 +3892,7 @@
                 {
                   "type": "frame",
                   "id": "96c622",
-                  "name": "U+20AC \u20ac",
+                  "name": "U+20AC €",
                   "width": 580,
                   "height": 1000,
                   "fill": "$panel",
@@ -3921,7 +3921,7 @@
                 {
                   "type": "frame",
                   "id": "6f50eb",
-                  "name": "U+20BA \u20ba",
+                  "name": "U+20BA ₺",
                   "width": 565,
                   "height": 1000,
                   "fill": "$panel",
@@ -3950,7 +3950,7 @@
                 {
                   "type": "frame",
                   "id": "1ee554",
-                  "name": "U+2190 \u2190",
+                  "name": "U+2190 ←",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -3979,7 +3979,7 @@
                 {
                   "type": "frame",
                   "id": "5ab552",
-                  "name": "U+2191 \u2191",
+                  "name": "U+2191 ↑",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -4008,7 +4008,7 @@
                 {
                   "type": "frame",
                   "id": "9bf3c2",
-                  "name": "U+2192 \u2192",
+                  "name": "U+2192 →",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -4037,7 +4037,7 @@
                 {
                   "type": "frame",
                   "id": "ade5e3",
-                  "name": "U+2193 \u2193",
+                  "name": "U+2193 ↓",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -4066,7 +4066,7 @@
                 {
                   "type": "frame",
                   "id": "348a97",
-                  "name": "U+2212 \u2212",
+                  "name": "U+2212 −",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -4095,7 +4095,7 @@
                 {
                   "type": "frame",
                   "id": "8dd114",
-                  "name": "U+2264 \u2264",
+                  "name": "U+2264 ≤",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -4124,7 +4124,7 @@
                 {
                   "type": "frame",
                   "id": "aa7da2",
-                  "name": "U+2265 \u2265",
+                  "name": "U+2265 ≥",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -4157,7 +4157,7 @@
         {
           "type": "frame",
           "id": "63760d",
-          "name": "Section \u00b7 Punctuation & Symbols (3)",
+          "name": "Section · Punctuation & Symbols (3)",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -4176,7 +4176,7 @@
             {
               "type": "frame",
               "id": "d1b55b",
-              "name": "Row \u00b7 Punctuation & Symbols (3)",
+              "name": "Row · Punctuation & Symbols (3)",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -4186,7 +4186,7 @@
                 {
                   "type": "frame",
                   "id": "dba2be",
-                  "name": "U+2039 \u2039",
+                  "name": "U+2039 ‹",
                   "width": 304,
                   "height": 1000,
                   "fill": "$panel",
@@ -4215,7 +4215,7 @@
                 {
                   "type": "frame",
                   "id": "f66c4d",
-                  "name": "U+203A \u203a",
+                  "name": "U+203A ›",
                   "width": 304,
                   "height": 1000,
                   "fill": "$panel",
@@ -4244,7 +4244,7 @@
                 {
                   "type": "frame",
                   "id": "1fce99",
-                  "name": "U+00AB \u00ab",
+                  "name": "U+00AB «",
                   "width": 500,
                   "height": 1000,
                   "fill": "$panel",
@@ -4273,7 +4273,7 @@
                 {
                   "type": "frame",
                   "id": "f253b6",
-                  "name": "U+00BB \u00bb",
+                  "name": "U+00BB »",
                   "width": 500,
                   "height": 1000,
                   "fill": "$panel",
@@ -4360,7 +4360,7 @@
                 {
                   "type": "frame",
                   "id": "9ec6b8",
-                  "name": "U+2032 \u2032",
+                  "name": "U+2032 ′",
                   "width": 262,
                   "height": 1000,
                   "fill": "$panel",
@@ -4389,7 +4389,7 @@
                 {
                   "type": "frame",
                   "id": "ec223b",
-                  "name": "U+2033 \u2033",
+                  "name": "U+2033 ″",
                   "width": 441,
                   "height": 1000,
                   "fill": "$panel",
@@ -4418,7 +4418,7 @@
                 {
                   "type": "frame",
                   "id": "c2ed2d",
-                  "name": "U+2194 \u2194",
+                  "name": "U+2194 ↔",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -4447,7 +4447,7 @@
                 {
                   "type": "frame",
                   "id": "357ba7",
-                  "name": "U+2195 \u2195",
+                  "name": "U+2195 ↕",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -4476,7 +4476,7 @@
                 {
                   "type": "frame",
                   "id": "eb5118",
-                  "name": "U+25B2 \u25b2",
+                  "name": "U+25B2 ▲",
                   "width": 640,
                   "height": 1000,
                   "fill": "$panel",
@@ -4505,7 +4505,7 @@
                 {
                   "type": "frame",
                   "id": "5dc2bf",
-                  "name": "U+25BC \u25bc",
+                  "name": "U+25BC ▼",
                   "width": 640,
                   "height": 1000,
                   "fill": "$panel",
@@ -4534,7 +4534,7 @@
                 {
                   "type": "frame",
                   "id": "bacdef",
-                  "name": "U+25B4 \u25b4",
+                  "name": "U+25B4 ▴",
                   "width": 430,
                   "height": 1000,
                   "fill": "$panel",
@@ -4563,7 +4563,7 @@
                 {
                   "type": "frame",
                   "id": "48241b",
-                  "name": "U+25BE \u25be",
+                  "name": "U+25BE ▾",
                   "width": 430,
                   "height": 1000,
                   "fill": "$panel",
@@ -4592,7 +4592,7 @@
                 {
                   "type": "frame",
                   "id": "3a8de8",
-                  "name": "U+25C0 \u25c0",
+                  "name": "U+25C0 ◀",
                   "width": 568,
                   "height": 1000,
                   "fill": "$panel",
@@ -4621,7 +4621,7 @@
                 {
                   "type": "frame",
                   "id": "9bd537",
-                  "name": "U+25B6 \u25b6",
+                  "name": "U+25B6 ▶",
                   "width": 568,
                   "height": 1000,
                   "fill": "$panel",
@@ -4679,7 +4679,7 @@
                 {
                   "type": "frame",
                   "id": "3c4adc",
-                  "name": "U+2248 \u2248",
+                  "name": "U+2248 ≈",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -4708,7 +4708,7 @@
                 {
                   "type": "frame",
                   "id": "d39c04",
-                  "name": "U+00A9 \u00a9",
+                  "name": "U+00A9 ©",
                   "width": 800,
                   "height": 1000,
                   "fill": "$panel",
@@ -4737,7 +4737,7 @@
                 {
                   "type": "frame",
                   "id": "388297",
-                  "name": "U+25CF \u25cf",
+                  "name": "U+25CF ●",
                   "width": 700,
                   "height": 1000,
                   "fill": "$panel",
@@ -4766,7 +4766,7 @@
                 {
                   "type": "frame",
                   "id": "b00bea",
-                  "name": "U+25CB \u25cb",
+                  "name": "U+25CB ○",
                   "width": 700,
                   "height": 1000,
                   "fill": "$panel",
@@ -4795,7 +4795,7 @@
                 {
                   "type": "frame",
                   "id": "0430c3",
-                  "name": "U+2605 \u2605",
+                  "name": "U+2605 ★",
                   "width": 720,
                   "height": 1000,
                   "fill": "$panel",
@@ -4824,7 +4824,7 @@
                 {
                   "type": "frame",
                   "id": "9936c5",
-                  "name": "U+2713 \u2713",
+                  "name": "U+2713 ✓",
                   "width": 780,
                   "height": 1000,
                   "fill": "$panel",
@@ -4853,7 +4853,7 @@
                 {
                   "type": "frame",
                   "id": "47892a",
-                  "name": "U+2717 \u2717",
+                  "name": "U+2717 ✗",
                   "width": 740,
                   "height": 1000,
                   "fill": "$panel",
@@ -4912,7 +4912,7 @@
               "type": "text",
               "id": "d2b091",
               "name": "Title",
-              "content": "BENGUTAS SANS V2 \u00b7 LAPIDARY GROTESQUE MASTERS",
+              "content": "BENGUTAS SANS V2 · LAPIDARY GROTESQUE MASTERS",
               "fontSize": 36,
               "fontWeight": "800",
               "fill": "$ink"
@@ -4921,7 +4921,7 @@
               "type": "text",
               "id": "bf7ed9",
               "name": "Subtitle",
-              "content": "UPM 1000 \u00b7 Baseline: y=800 \u00b7 Cap-Height: y=86 \u00b7 Edit vector paths or adjust cell width for spacing",
+              "content": "UPM 1000 · Baseline: y=800 · Cap-Height: y=86 · Edit vector paths or adjust cell width for spacing",
               "fontSize": 16,
               "fill": "$muted"
             }
@@ -4930,7 +4930,7 @@
         {
           "type": "frame",
           "id": "a3f281",
-          "name": "Section \u00b7 Uppercase A\u2013Z",
+          "name": "Section · Uppercase A–Z",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -4940,7 +4940,7 @@
               "type": "text",
               "id": "0cc3cf",
               "name": "Section Label",
-              "content": "UPPERCASE A\u2013Z (26 GLYPHS)",
+              "content": "UPPERCASE A–Z (26 GLYPHS)",
               "fontSize": 14,
               "fontWeight": "700",
               "letterSpacing": 2,
@@ -4949,7 +4949,7 @@
             {
               "type": "frame",
               "id": "620425",
-              "name": "Row \u00b7 Uppercase A\u2013Z",
+              "name": "Row · Uppercase A–Z",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -4974,7 +4974,7 @@
                       "name": "Outline",
                       "width": 633,
                       "height": 1000,
-                      "geometry": "M 531.0 800.0 L 456.0 603.0 L 422.0 579.0 L 172.0 579.0 L 89.0 800.0 L 0.0 800.0 L 272.0 83.0 L 333.0 83.0 L 357.0 100.0 L 622.0 800.0 Z M 343.0 283.0 Q 340.0 275.0 333.5 254.0 Q 327.0 233.0 320.5 210.5 Q 314.0 188.0 310.0 176.0 Q 303.0 207.0 294.5 236.5 Q 286.0 266.0 280.0 283.0 L 201.0 499.0 L 421.0 499.0 Z",
+                      "geometry": "M 531 800 L 450 579 L 182 579 L 95 800 L 0 800 L 268 118 L 346 68 L 624 800 Z M 314 184 L 210 478 L 228 499 L 404 499 L 422 478 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5003,7 +5003,7 @@
                       "name": "Outline",
                       "width": 634,
                       "height": 1000,
-                      "geometry": "M 293.0 86.0 Q 424.0 86.0 491.0 125.5 Q 558.0 165.0 558.0 263.0 Q 558.0 326.0 523.5 367.5 Q 489.0 409.0 425.0 421.0 L 425.0 426.0 Q 469.0 433.0 504.5 452.0 Q 540.0 471.0 560.5 506.0 Q 581.0 541.0 581.0 597.0 Q 581.0 694.0 516.0 747.0 Q 451.0 800.0 339.0 800.0 L 95.0 800.0 L 95.0 86.0 Z M 311.0 390.0 Q 401.0 390.0 434.0 360.5 Q 467.0 331.0 467.0 273.0 Q 467.0 214.0 426.5 188.5 Q 386.0 163.0 297.0 163.0 L 182.0 163.0 L 182.0 390.0 Z M 182.0 465.0 L 182.0 724.0 L 323.0 724.0 Q 415.0 724.0 451.0 687.0 Q 487.0 650.0 487.0 590.0 Q 487.0 534.0 449.5 499.5 Q 412.0 465.0 316.0 465.0 Z",
+                      "geometry": "M 95 138 L 182 78 L 182 110 L 210 86 L 293 86 Q 424 86 491 125.5 Q 558 165 558 263 Q 558 326 523.5 367.5 Q 489 409 425 421 L 402 424 L 425 427 Q 469 433 504.5 452 Q 540 471 560.5 506 Q 581 541 581 597 Q 581 694 516 747 Q 451 800 339 800 L 95 800 Z M 311 390 Q 401 390 434 360.5 Q 467 331 467 273 Q 467 214 426.5 188.5 Q 386 163 297 163 L 182 163 L 182 390 Z M 182 465 L 182 724 L 323 724 Q 415 724 451 687 Q 487 650 487 590 Q 487 534 449.5 499.5 Q 412 465 316 465 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5032,7 +5032,7 @@
                       "name": "Outline",
                       "width": 616,
                       "height": 1000,
-                      "geometry": "M 393.0 155.0 Q 281.0 155.0 216.5 232.0 Q 152.0 309.0 152.0 443.0 Q 152.0 576.0 212.0 653.5 Q 272.0 731.0 392.0 731.0 Q 438.0 731.0 479.0 723.0 Q 520.0 715.0 585.0 710.0 L 535.0 785.0 Q 520.0 796.0 478.5 803.0 Q 437.0 810.0 379.0 810.0 Q 273.0 810.0 202.0 765.0 Q 131.0 720.0 95.0 637.0 Q 59.0 554.0 59.0 442.0 Q 59.0 334.0 97.5 251.5 Q 136.0 169.0 211.5 122.5 Q 287.0 76.0 394.0 76.0 Q 504.0 76.0 605.0 100.0 L 530.0 196.0 Q 519.0 179.0 479.5 167.0 Q 440.0 155.0 393.0 155.0 Z",
+                      "geometry": "M 393 155 Q 281 155 216.5 232 Q 152 309 152 443 Q 152 576 212 653.5 Q 272 731 392 731 Q 442 731 486 721 Q 530 711 588 696 L 542 786 Q 520 798 478 804 Q 436 810 379 810 Q 273 810 202 765 Q 131 720 95 637 Q 59 554 59 442 Q 59 334 97.5 251.5 Q 136 169 211.5 122.5 Q 287 76 394 76 Q 504 76 602 104 L 534 198 Q 514 177 476 166 Q 438 155 393 155 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5061,7 +5061,7 @@
                       "name": "Outline",
                       "width": 712,
                       "height": 1000,
-                      "geometry": "M 652.0 436.0 Q 652.0 617.0 556.0 708.5 Q 460.0 800.0 289.0 800.0 L 95.0 800.0 L 95.0 86.0 L 309.0 86.0 Q 414.0 86.0 491.0 126.0 Q 568.0 166.0 610.0 243.5 Q 652.0 321.0 652.0 436.0 Z M 560.0 439.0 Q 560.0 296.0 491.0 229.5 Q 422.0 163.0 296.0 163.0 L 182.0 163.0 L 182.0 723.0 L 277.0 723.0 Q 560.0 723.0 560.0 439.0 Z",
+                      "geometry": "M 95 138 L 182 78 L 182 110 L 212 86 L 309 86 Q 414 86 491 126 Q 568 166 610 243.5 Q 652 321 652 436 Q 652 617 556 708.5 Q 460 800 289 800 L 95 800 Z M 560 439 Q 560 296 491 229.5 Q 422 163 296 163 L 182 163 L 182 723 L 277 723 Q 560 723 560 439 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5090,7 +5090,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 95 142 L 183 78 L 183 86 L 502 86 L 468 164 L 183 164 L 183 402 L 456 402 L 422 478 L 183 478 L 183 724 L 508 724 L 474 800 L 95 800 Z",
+                      "geometry": "M 95 142 L 183 78 L 183 110 L 210 86 L 504 86 L 468 178 L 446 164 L 183 164 L 183 402 L 206 418 L 226 402 L 458 402 L 422 492 L 402 478 L 183 478 L 183 724 L 206 740 L 226 724 L 482 724 L 512 706 L 476 800 L 95 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5119,7 +5119,7 @@
                       "name": "Outline",
                       "width": 519,
                       "height": 1000,
-                      "geometry": "M 95 142 L 183 78 L 183 86 L 494 86 L 460 164 L 183 164 L 183 408 L 448 408 L 414 484 L 183 484 L 183 800 L 95 800 Z",
+                      "geometry": "M 95 142 L 183 78 L 183 110 L 210 86 L 496 86 L 460 178 L 438 164 L 183 164 L 183 408 L 206 424 L 226 408 L 450 408 L 414 498 L 394 484 L 183 484 L 183 800 L 95 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5148,7 +5148,7 @@
                       "name": "Outline",
                       "width": 710,
                       "height": 1000,
-                      "geometry": "M 373.0 416.0 L 638.0 423.0 L 638.0 773.0 Q 581.0 792.0 523.5 801.0 Q 466.0 810.0 393.0 810.0 Q 285.0 810.0 211.0 765.5 Q 137.0 721.0 98.0 638.5 Q 59.0 556.0 59.0 443.0 Q 59.0 331.0 102.0 249.0 Q 145.0 167.0 225.5 121.5 Q 306.0 76.0 420.0 76.0 Q 479.0 76.0 531.0 87.0 Q 583.0 98.0 645.0 100.0 L 575.0 198.0 Q 558.0 179.0 511.5 167.0 Q 465.0 155.0 415.0 155.0 Q 291.0 155.0 221.0 232.0 Q 151.0 309.0 151.0 443.0 Q 151.0 528.0 178.0 593.5 Q 205.0 659.0 262.5 695.5 Q 320.0 732.0 413.0 732.0 Q 459.0 732.0 491.5 727.0 Q 524.0 722.0 550.0 715.0 L 550.0 503.0 L 413.0 510.0 Z",
+                      "geometry": "M 340 416 L 638 416 L 638 773 Q 581 792 523.5 801 Q 466 810 393 810 Q 285 810 211 765.5 Q 137 721 98 638.5 Q 59 556 59 443 Q 59 331 102 249 Q 145 167 225.5 121.5 Q 306 76 420 76 Q 479 76 531 87 Q 583 98 645 104 L 575 198 Q 558 179 511.5 167 Q 465 155 415 155 Q 291 155 221 232 Q 151 309 151 443 Q 151 528 178 593.5 Q 205 659 262.5 695.5 Q 320 732 413 732 Q 459 732 491.5 727 Q 524 722 550 715 L 550 516 L 530 498 L 384 498 L 364 514 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5177,7 +5177,7 @@
                       "name": "Outline",
                       "width": 713,
                       "height": 1000,
-                      "geometry": "M 95 142 L 183 78 L 183 398 L 530 398 L 530 142 L 618 78 L 618 800 L 530 800 L 530 476 L 183 476 L 183 800 L 95 800 Z",
+                      "geometry": "M 95 142 L 183 78 L 183 398 L 204 414 L 222 398 L 491 398 L 509 414 L 530 398 L 530 142 L 618 78 L 618 800 L 530 800 L 530 476 L 509 460 L 491 476 L 222 476 L 204 460 L 183 476 L 183 800 L 95 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5235,7 +5235,7 @@
                       "name": "Outline",
                       "width": 266,
                       "height": 1000,
-                      "geometry": "M -4.0 990.0 Q -27.0 990.0 -44.5 986.5 Q -62.0 983.0 -84.0 981.0 L -69.0 898.0 Q -60.0 905.0 -42.5 908.0 Q -25.0 911.0 -6.0 911.0 Q 19.0 911.0 40.5 901.0 Q 62.0 891.0 76.0 866.0 Q 90.0 841.0 90.0 796.0 L 90.0 86.0 L 177.0 100.0 L 177.0 789.0 Q 177.0 892.0 127.5 941.0 Q 78.0 990.0 -4.0 990.0 Z",
+                      "geometry": "M -4 990 Q -27 990 -44.5 986.5 Q -62 983 -86 976 L -58 894 Q -48 903 -32 907 Q -16 911 -4 911 Q 21 911 41.5 901 Q 62 891 76 866 Q 90 841 90 796 L 90 142 L 177 78 L 177 789 Q 177 892 127.5 941 Q 78 990 -4 990 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5264,7 +5264,7 @@
                       "name": "Outline",
                       "width": 614,
                       "height": 1000,
-                      "geometry": "M 95.0 115.0 L 183.0 86.0 L 183.0 415.0 L 450.0 165.0 L 585.0 145.0 L 285.0 435.0 L 585.0 735.0 L 515.0 800.0 L 183.0 490.0 L 183.0 800.0 L 95.0 800.0 Z",
+                      "geometry": "M 95 142 L 183 78 L 183 418 L 456 86 L 564 86 L 288 414 Q 436 568 584 800 L 478 800 Q 348 594 226 472 L 183 522 L 183 800 L 95 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5293,7 +5293,7 @@
                       "name": "Outline",
                       "width": 493,
                       "height": 1000,
-                      "geometry": "M 95 142 L 183 78 L 183 724 L 478 724 L 448 800 L 95 800 Z",
+                      "geometry": "M 95 142 L 183 78 L 183 724 L 206 742 L 226 724 L 454 724 L 484 706 L 450 800 L 95 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5322,7 +5322,7 @@
                       "name": "Outline",
                       "width": 884,
                       "height": 1000,
-                      "geometry": "M 402.0 800.0 L 173.0 174.0 L 169.0 174.0 Q 172.0 205.0 174.0 257.5 Q 176.0 310.0 176.0 367.0 L 176.0 800.0 L 95.0 800.0 L 95.0 115.0 L 196.0 86.0 L 234.0 122.0 L 439.0 662.0 L 443.0 671.0 L 651.0 113.0 L 689.0 86.0 L 790.0 86.0 L 790.0 800.0 L 703.0 800.0 L 703.0 361.0 Q 703.0 309.0 705.5 258.0 Q 708.0 207.0 710.0 175.0 L 706.0 175.0 L 474.0 800.0 Z",
+                      "geometry": "M 402 800 L 176 196 L 176 800 L 95 800 L 95 142 L 182 78 L 182 116 L 216 86 L 441 668 L 668 86 L 703 116 L 703 142 L 790 78 L 790 800 L 703 800 L 703 196 L 474 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5351,7 +5351,7 @@
                       "name": "Outline",
                       "width": 741,
                       "height": 1000,
-                      "geometry": "M 646.0 800.0 L 566.0 800.0 L 531.0 781.0 L 172.0 207.0 L 168.0 207.0 Q 170.0 242.0 173.0 294.0 Q 176.0 346.0 176.0 401.0 L 176.0 800.0 L 95.0 800.0 L 95.0 115.0 L 174.0 86.0 L 208.0 105.0 L 567.0 677.0 L 571.0 677.0 Q 570.0 661.0 568.5 629.0 Q 567.0 597.0 566.0 559.0 Q 565.0 521.0 565.0 489.0 L 565.0 86.0 L 646.0 86.0 Z",
+                      "geometry": "M 646 800 L 556 800 L 176 204 L 176 800 L 95 800 L 95 142 L 182 78 L 182 114 L 212 86 L 565 668 L 565 142 L 646 78 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5409,7 +5409,7 @@
                       "name": "Outline",
                       "width": 590,
                       "height": 1000,
-                      "geometry": "M 279.0 86.0 Q 415.0 86.0 477.5 141.0 Q 540.0 196.0 540.0 296.0 Q 540.0 355.0 514.0 406.5 Q 488.0 458.0 427.5 490.0 Q 367.0 522.0 262.0 522.0 L 182.0 522.0 L 182.0 800.0 L 95.0 800.0 L 95.0 115.0 L 182.0 86.0 Z M 271.0 163.0 L 182.0 163.0 L 182.0 445.0 L 253.0 445.0 Q 352.0 445.0 400.5 412.0 Q 449.0 379.0 449.0 300.0 Q 449.0 231.0 406.5 197.0 Q 364.0 163.0 271.0 163.0 Z",
+                      "geometry": "M 95 142 L 182 78 L 182 110 L 210 86 L 279 86 Q 415 86 477.5 141 Q 540 196 540 296 Q 540 355 514 406.5 Q 488 458 427.5 490 Q 367 522 262 522 L 210 522 L 182 504 L 182 800 L 95 800 Z M 271 163 L 182 163 L 182 445 L 253 445 Q 352 445 400.5 412 Q 449 379 449 300 Q 449 231 406.5 197 Q 364 163 271 163 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5438,7 +5438,7 @@
                       "name": "Outline",
                       "width": 761,
                       "height": 1000,
-                      "geometry": "M 702.0 442.0 Q 702.0 573.0 651.0 665.0 Q 600.0 757.0 507.0 789.0 L 709.0 954.0 L 550.0 976.0 L 419.0 805.0 Q 400.0 809.0 393.5 809.5 Q 387.0 810.0 381.0 810.0 Q 273.0 810.0 201.5 764.0 Q 130.0 718.0 94.5 635.0 Q 59.0 552.0 59.0 441.0 Q 59.0 331.0 94.5 249.0 Q 130.0 167.0 201.5 121.0 Q 273.0 75.0 382.0 75.0 Q 487.0 75.0 558.0 120.5 Q 629.0 166.0 665.5 248.5 Q 702.0 331.0 702.0 442.0 Z M 152.0 442.0 Q 152.0 577.0 207.5 654.5 Q 263.0 732.0 381.0 732.0 Q 500.0 732.0 554.5 654.5 Q 609.0 577.0 609.0 442.0 Q 609.0 307.0 554.5 230.5 Q 500.0 154.0 382.0 154.0 Q 264.0 154.0 208.0 230.5 Q 152.0 307.0 152.0 442.0 Z",
+                      "geometry": "M 702 442 Q 702 573 651 665 Q 600 757 507 789 L 716 942 L 568 978 L 419 805 Q 400 809 393.5 809.5 Q 387 810 381 810 Q 273 810 201.5 764 Q 130 718 94.5 635 Q 59 552 59 441 Q 59 331 94.5 249 Q 130 167 201.5 121 Q 273 75 382 75 Q 487 75 558 120.5 Q 629 166 665.5 248.5 Q 702 331 702 442 Z M 152 442 Q 152 577 207.5 654.5 Q 263 732 381 732 Q 500 732 554.5 654.5 Q 609 577 609 442 Q 609 307 554.5 230.5 Q 500 154 382 154 Q 264 154 208 230.5 Q 152 307 152 442 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5467,7 +5467,7 @@
                       "name": "Outline",
                       "width": 641,
                       "height": 1000,
-                      "geometry": "M 95.0 115.0 L 183.0 86.0 L 310.0 86.0 Q 425.0 86.0 480.0 138.0 Q 535.0 190.0 535.0 285.0 Q 535.0 365.0 485.0 418.0 Q 435.0 465.0 340.0 472.0 L 545.0 735.0 L 475.0 800.0 L 260.0 488.0 L 183.0 488.0 L 183.0 800.0 L 95.0 800.0 Z M 183.0 162.0 L 183.0 412.0 L 300.0 412.0 Q 375.0 412.0 410.0 380.0 Q 445.0 345.0 445.0 285.0 Q 445.0 225.0 410.0 195.0 Q 375.0 162.0 300.0 162.0 Z",
+                      "geometry": "M 95 142 L 183 78 L 183 110 L 212 86 L 310 86 Q 425 86 480 138 Q 535 190 535 285 Q 535 365 485 418 Q 435 465 348 474 Q 448 598 552 800 L 452 800 Q 358 618 258 488 L 183 488 L 183 800 L 95 800 Z M 183 162 L 183 412 L 300 412 Q 375 412 410 380 Q 445 345 445 285 Q 445 225 410 195 Q 375 162 300 162 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5496,7 +5496,7 @@
                       "name": "Outline",
                       "width": 535,
                       "height": 1000,
-                      "geometry": "M 489.0 609.0 Q 489.0 704.0 422.0 757.0 Q 355.0 810.0 241.0 810.0 Q 182.0 810.0 132.5 801.0 Q 83.0 792.0 25.0 785.0 L 75.0 686.0 Q 85.0 706.0 137.0 719.0 Q 189.0 732.0 245.0 732.0 Q 323.0 732.0 362.5 701.0 Q 402.0 670.0 402.0 617.0 Q 402.0 582.0 387.0 558.0 Q 372.0 534.0 336.5 513.5 Q 301.0 493.0 238.0 470.0 Q 149.0 437.0 103.5 389.0 Q 58.0 341.0 58.0 258.0 Q 58.0 201.0 86.5 160.5 Q 115.0 120.0 165.0 98.0 Q 215.0 76.0 281.0 76.0 Q 338.0 76.0 386.0 87.0 Q 434.0 98.0 480.0 111.0 L 439.0 196.0 Q 409.0 177.0 367.0 166.0 Q 325.0 155.0 279.0 155.0 Q 214.0 155.0 180.5 183.5 Q 147.0 212.0 147.0 259.0 Q 147.0 295.0 161.5 319.0 Q 176.0 343.0 209.5 362.0 Q 243.0 381.0 299.0 403.0 Q 361.0 426.0 403.5 452.5 Q 446.0 479.0 467.5 516.0 Q 489.0 553.0 489.0 609.0 Z",
+                      "geometry": "M 489 609 Q 489 704 422 757 Q 355 810 241 810 Q 182 810 132.5 801 Q 83 792 25 782 L 76 684 Q 90 706 139 719 Q 188 732 245 732 Q 323 732 362.5 701 Q 402 670 402 617 Q 402 582 387 558 Q 372 534 336.5 513.5 Q 301 493 238 470 Q 149 437 103.5 389 Q 58 341 58 258 Q 58 201 86.5 160.5 Q 115 120 165 98 Q 215 76 281 76 Q 338 76 386 87 Q 434 98 484 114 L 438 198 Q 408 177 366.5 166 Q 325 155 279 155 Q 214 155 180.5 183.5 Q 147 212 147 259 Q 147 295 161.5 319 Q 176 343 209.5 362 Q 243 381 299 403 Q 361 426 403.5 452.5 Q 446 479 467.5 516 Q 489 553 489 609 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5525,7 +5525,7 @@
                       "name": "Outline",
                       "width": 542,
                       "height": 1000,
-                      "geometry": "M 315.0 800.0 L 227.0 800.0 L 227.0 165.0 L 20.0 170.0 L 0.0 86.0 L 545.0 86.0 L 510.0 165.0 L 315.0 165.0 Z",
+                      "geometry": "M 315 800 L 227 800 L 227 186 L 205 165 L 54 165 L 32 180 L 0 86 L 546 86 L 510 180 L 488 165 L 337 165 L 315 186 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5554,7 +5554,7 @@
                       "name": "Outline",
                       "width": 713,
                       "height": 1000,
-                      "geometry": "M 624.0 548.0 Q 624.0 622.0 595.0 681.5 Q 566.0 741.0 506.0 775.5 Q 446.0 810.0 353.0 810.0 Q 223.0 810.0 155.5 737.5 Q 88.0 665.0 88.0 546.0 L 88.0 115.0 L 175.0 86.0 L 175.0 549.0 Q 175.0 636.0 220.5 684.0 Q 266.0 732.0 358.0 732.0 Q 452.0 732.0 494.5 680.5 Q 537.0 629.0 537.0 548.0 L 537.0 86.0 L 624.0 86.0 Z",
+                      "geometry": "M 624 548 Q 624 622 595 681.5 Q 566 741 506 775.5 Q 446 810 353 810 Q 223 810 155.5 737.5 Q 88 665 88 546 L 88 142 L 175 78 L 175 549 Q 175 636 220.5 684 Q 266 732 358 732 Q 452 732 494.5 680.5 Q 537 629 537 548 L 537 142 L 624 78 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5583,7 +5583,7 @@
                       "name": "Outline",
                       "width": 595,
                       "height": 1000,
-                      "geometry": "M 585.0 86.0 L 343.0 781.0 L 317.0 800.0 L 249.0 800.0 L 0.0 86.0 L 92.0 86.0 L 249.0 544.0 Q 264.0 588.0 275.0 626.5 Q 286.0 665.0 292.0 700.0 Q 299.0 665.0 310.0 626.0 Q 321.0 587.0 336.0 542.0 L 492.0 86.0 Z",
+                      "geometry": "M 585 78 L 336 800 L 254 800 L 0 122 L 92 78 L 249 544 Q 264 588 275 626.5 Q 286 665 293 700 Q 300 665 311 626 Q 322 587 336 542 L 492 122 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5612,7 +5612,7 @@
                       "name": "Outline",
                       "width": 907,
                       "height": 1000,
-                      "geometry": "M 894.0 86.0 L 714.0 781.0 L 689.0 800.0 L 620.0 800.0 L 485.0 332.0 L 469.0 274.0 Q 461.0 245.0 456.0 222.0 L 449.0 191.0 Q 448.0 204.0 439.0 246.5 Q 430.0 289.0 416.0 335.0 L 291.0 781.0 L 265.0 800.0 L 196.0 800.0 L 12.0 86.0 L 103.0 86.0 L 212.0 522.0 Q 223.0 568.0 231.5 611.0 Q 240.0 654.0 245.0 692.0 Q 250.0 653.0 259.5 607.0 Q 269.0 561.0 282.0 517.0 L 405.0 86.0 L 495.0 86.0 L 623.0 520.0 Q 637.0 566.0 646.5 611.5 Q 656.0 657.0 661.0 692.0 Q 666.0 655.0 674.5 611.5 Q 683.0 568.0 695.0 521.0 L 802.0 86.0 Z",
+                      "geometry": "M 894 78 L 708 800 L 622 800 L 485 332 L 469 274 Q 461 245 456 222 L 449 191 Q 448 204 439 246.5 Q 430 289 416 335 L 285 800 L 198 800 L 12 122 L 103 78 L 212 522 Q 223 568 231.5 611 Q 240 654 245 692 Q 250 653 259.5 607 Q 269 561 282 517 L 405 112 L 495 78 L 623 520 Q 637 566 646.5 611.5 Q 656 657 661 692 Q 666 655 674.5 611.5 Q 683 568 695 521 L 802 122 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5641,7 +5641,7 @@
                       "name": "Outline",
                       "width": 578,
                       "height": 1000,
-                      "geometry": "M 567.0 800.0 L 468.0 800.0 L 284.0 490.0 L 97.0 800.0 L 4.0 800.0 L 221.0 450.0 L 221.0 406.0 L 19.0 86.0 L 116.0 86.0 L 287.0 366.0 L 458.0 86.0 L 551.0 86.0 L 349.0 404.0 L 349.0 448.0 Z",
+                      "geometry": "M 567 800 L 468 800 L 284 490 L 97 800 L 4 800 L 221 448 L 221 408 L 19 120 L 116 78 L 287 366 L 458 120 L 551 78 L 349 406 L 349 448 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5670,7 +5670,7 @@
                       "name": "Outline",
                       "width": 562,
                       "height": 1000,
-                      "geometry": "M 260.0 407.0 L 292.0 407.0 L 457.0 86.0 L 552.0 86.0 L 331.0 500.0 L 320.0 549.0 L 320.0 800.0 L 232.0 800.0 L 232.0 527.0 L 0.0 86.0 L 96.0 86.0 Z",
+                      "geometry": "M 276 418 L 457 120 L 552 78 L 320 518 L 320 800 L 232 800 L 232 518 L 0 120 L 96 78 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5699,7 +5699,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 520.0 800.0 L 37.0 800.0 L 37.0 732.0 L 404.0 166.0 L 49.0 166.0 L 49.0 86.0 L 525.0 86.0 L 495.0 154.0 L 143.0 720.0 L 520.0 720.0 Z",
+                      "geometry": "M 488 800 L 37 800 L 37 732 L 404 166 L 74 166 L 52 182 L 24 86 L 525 86 L 495 154 L 143 720 L 492 720 L 522 702 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5717,7 +5717,7 @@
         {
           "type": "frame",
           "id": "ae6317",
-          "name": "Section \u00b7 Turkish Uppercase",
+          "name": "Section · Turkish Uppercase",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -5736,7 +5736,7 @@
             {
               "type": "frame",
               "id": "894e59",
-              "name": "Row \u00b7 Turkish Uppercase",
+              "name": "Row · Turkish Uppercase",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -5746,7 +5746,7 @@
                 {
                   "type": "frame",
                   "id": "0a4c5c",
-                  "name": "U+00C7 \u00c7",
+                  "name": "U+00C7 Ç",
                   "width": 616,
                   "height": 1000,
                   "fill": "$panel",
@@ -5761,7 +5761,7 @@
                       "name": "Outline",
                       "width": 616,
                       "height": 1000,
-                      "geometry": "M 393.0 155.0 Q 281.0 155.0 216.5 232.0 Q 152.0 309.0 152.0 443.0 Q 152.0 576.0 212.0 653.5 Q 272.0 731.0 392.0 731.0 Q 438.0 731.0 479.0 723.0 Q 520.0 715.0 585.0 710.0 L 535.0 785.0 Q 520.0 796.0 478.5 803.0 Q 437.0 810.0 379.0 810.0 Q 273.0 810.0 202.0 765.0 Q 131.0 720.0 95.0 637.0 Q 59.0 554.0 59.0 442.0 Q 59.0 334.0 97.5 251.5 Q 136.0 169.0 211.5 122.5 Q 287.0 76.0 394.0 76.0 Q 504.0 76.0 605.0 100.0 L 530.0 196.0 Q 519.0 179.0 479.5 167.0 Q 440.0 155.0 393.0 155.0 Z M 275 800 L 335 800 L 335 890 L 410 890 L 440 945 L 380 975 L 275 910 Z",
+                      "geometry": "M 393 155 Q 281 155 216.5 232 Q 152 309 152 443 Q 152 576 212 653.5 Q 272 731 392 731 Q 442 731 486 721 Q 530 711 588 696 L 542 786 Q 520 798 478 804 Q 436 810 379 810 Q 273 810 202 765 Q 131 720 95 637 Q 59 554 59 442 Q 59 334 97.5 251.5 Q 136 169 211.5 122.5 Q 287 76 394 76 Q 504 76 602 104 L 534 198 Q 514 177 476 166 Q 438 155 393 155 Z M 275 800 L 335 800 L 335 890 L 410 890 L 440 945 L 380 975 L 275 910 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5775,7 +5775,7 @@
                 {
                   "type": "frame",
                   "id": "5c481b",
-                  "name": "U+00D6 \u00d6",
+                  "name": "U+00D6 Ö",
                   "width": 761,
                   "height": 1000,
                   "fill": "$panel",
@@ -5790,7 +5790,7 @@
                       "name": "Outline",
                       "width": 761,
                       "height": 1000,
-                      "geometry": "M 244.0 -59.0 Q 244.0 -85.0 257.5 -96.5 Q 271.0 -108.0 289.5 -108.0 Q 308.0 -108.0 321.5 -96.5 Q 335.0 -85.0 335.0 -59.0 Q 335.0 -34.0 321.5 -21.5 Q 308.0 -9.0 289.5 -9.0 Q 271.0 -9.0 257.5 -21.5 Q 244.0 -34.0 244.0 -59.0 Z M 427.0 -59.0 Q 427.0 -85.0 440.0 -96.5 Q 453.0 -108.0 471.5 -108.0 Q 490.0 -108.0 504.0 -96.5 Q 518.0 -85.0 518.0 -59.0 Q 518.0 -34.0 504.0 -21.5 Q 490.0 -9.0 471.5 -9.0 Q 453.0 -9.0 440.0 -21.5 Q 427.0 -34.0 427.0 -59.0 Z M 702.0 442.0 Q 702.0 553.0 665.5 635.5 Q 629.0 718.0 558.0 764.0 Q 487.0 810.0 381.0 810.0 Q 273.0 810.0 201.5 764.0 Q 130.0 718.0 94.5 635.0 Q 59.0 552.0 59.0 441.0 Q 59.0 331.0 94.5 249.0 Q 130.0 167.0 201.5 121.0 Q 273.0 75.0 382.0 75.0 Q 487.0 75.0 558.0 120.5 Q 629.0 166.0 665.5 248.5 Q 702.0 331.0 702.0 442.0 Z M 152.0 442.0 Q 152.0 577.0 207.5 654.5 Q 263.0 732.0 381.0 732.0 Q 500.0 732.0 554.5 654.5 Q 609.0 577.0 609.0 442.0 Q 609.0 307.0 554.5 230.5 Q 500.0 154.0 382.0 154.0 Q 264.0 154.0 208.0 230.5 Q 152.0 307.0 152.0 442.0 Z",
+                      "geometry": "M 286 -112 L 336 -58 L 286 -4 L 236 -58 Z M 476 -112 L 526 -58 L 476 -4 L 426 -58 Z M 702 442 Q 702 553 665.5 635.5 Q 629 718 558 764 Q 487 810 381 810 Q 273 810 201.5 764 Q 130 718 94.5 635 Q 59 552 59 441 Q 59 331 94.5 249 Q 130 167 201.5 121 Q 273 75 382 75 Q 487 75 558 120.5 Q 629 166 665.5 248.5 Q 702 331 702 442 Z M 152 442 Q 152 577 207.5 654.5 Q 263 732 381 732 Q 500 732 554.5 654.5 Q 609 577 609 442 Q 609 307 554.5 230.5 Q 500 154 382 154 Q 264 154 208 230.5 Q 152 307 152 442 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5804,7 +5804,7 @@
                 {
                   "type": "frame",
                   "id": "aab51a",
-                  "name": "U+00DC \u00dc",
+                  "name": "U+00DC Ü",
                   "width": 713,
                   "height": 1000,
                   "fill": "$panel",
@@ -5819,7 +5819,7 @@
                       "name": "Outline",
                       "width": 713,
                       "height": 1000,
-                      "geometry": "M 219.0 -59.0 Q 219.0 -85.0 233.0 -96.5 Q 247.0 -108.0 265.5 -108.0 Q 284.0 -108.0 297.5 -96.5 Q 311.0 -85.0 311.0 -59.0 Q 311.0 -34.0 297.5 -21.5 Q 284.0 -9.0 265.5 -9.0 Q 247.0 -9.0 233.0 -21.5 Q 219.0 -34.0 219.0 -59.0 Z M 403.0 -59.0 Q 403.0 -85.0 416.0 -96.5 Q 429.0 -108.0 447.5 -108.0 Q 466.0 -108.0 479.5 -96.5 Q 493.0 -85.0 493.0 -59.0 Q 493.0 -34.0 479.5 -21.5 Q 466.0 -9.0 447.5 -9.0 Q 429.0 -9.0 416.0 -21.5 Q 403.0 -34.0 403.0 -59.0 Z M 624.0 548.0 Q 624.0 622.0 595.0 681.5 Q 566.0 741.0 506.0 775.5 Q 446.0 810.0 353.0 810.0 Q 223.0 810.0 155.5 737.5 Q 88.0 665.0 88.0 546.0 L 88.0 115.0 L 175.0 86.0 L 175.0 549.0 Q 175.0 636.0 220.5 684.0 Q 266.0 732.0 358.0 732.0 Q 452.0 732.0 494.5 680.5 Q 537.0 629.0 537.0 548.0 L 537.0 86.0 L 624.0 86.0 Z",
+                      "geometry": "M 262 -112 L 312 -58 L 262 -4 L 212 -58 Z M 450 -112 L 500 -58 L 450 -4 L 400 -58 Z M 624 548 Q 624 622 595 681.5 Q 566 741 506 775.5 Q 446 810 353 810 Q 223 810 155.5 737.5 Q 88 665 88 546 L 88 142 L 175 78 L 175 549 Q 175 636 220.5 684 Q 266 732 358 732 Q 452 732 494.5 680.5 Q 537 629 537 548 L 537 142 L 624 78 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5833,7 +5833,7 @@
                 {
                   "type": "frame",
                   "id": "8d6dd5",
-                  "name": "U+011E \u011e",
+                  "name": "U+011E Ğ",
                   "width": 710,
                   "height": 1000,
                   "fill": "$panel",
@@ -5848,7 +5848,7 @@
                       "name": "Outline",
                       "width": 710,
                       "height": 1000,
-                      "geometry": "M 551.0 -118.0 Q 546.0 -58.0 506.5 -21.0 Q 467.0 16.0 397.0 16.0 Q 325.0 16.0 288.5 -20.5 Q 252.0 -57.0 248.0 -118.0 L 300.0 -118.0 Q 305.0 -77.0 329.5 -66.0 Q 354.0 -55.0 399.0 -55.0 Q 437.0 -55.0 464.5 -67.0 Q 492.0 -79.0 497.0 -118.0 Z M 373.0 416.0 L 638.0 423.0 L 638.0 773.0 Q 581.0 792.0 523.5 801.0 Q 466.0 810.0 393.0 810.0 Q 285.0 810.0 211.0 765.5 Q 137.0 721.0 98.0 638.5 Q 59.0 556.0 59.0 443.0 Q 59.0 331.0 102.0 249.0 Q 145.0 167.0 225.5 121.5 Q 306.0 76.0 420.0 76.0 Q 479.0 76.0 531.0 87.0 Q 583.0 98.0 645.0 100.0 L 575.0 198.0 Q 558.0 179.0 511.5 167.0 Q 465.0 155.0 415.0 155.0 Q 291.0 155.0 221.0 232.0 Q 151.0 309.0 151.0 443.0 Q 151.0 528.0 178.0 593.5 Q 205.0 659.0 262.5 695.5 Q 320.0 732.0 413.0 732.0 Q 459.0 732.0 491.5 727.0 Q 524.0 722.0 550.0 715.0 L 550.0 503.0 L 413.0 510.0 Z",
+                      "geometry": "M 248 -114 L 308 -130 L 398 -48 L 488 -130 L 548 -114 L 418 18 L 378 18 Z M 340 416 L 638 416 L 638 773 Q 581 792 523.5 801 Q 466 810 393 810 Q 285 810 211 765.5 Q 137 721 98 638.5 Q 59 556 59 443 Q 59 331 102 249 Q 145 167 225.5 121.5 Q 306 76 420 76 Q 479 76 531 87 Q 583 98 645 104 L 575 198 Q 558 179 511.5 167 Q 465 155 415 155 Q 291 155 221 232 Q 151 309 151 443 Q 151 528 178 593.5 Q 205 659 262.5 695.5 Q 320 732 413 732 Q 459 732 491.5 727 Q 524 722 550 715 L 550 516 L 530 498 L 384 498 L 364 514 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5862,7 +5862,7 @@
                 {
                   "type": "frame",
                   "id": "dfa44c",
-                  "name": "U+0130 \u0130",
+                  "name": "U+0130 İ",
                   "width": 379,
                   "height": 1000,
                   "fill": "$panel",
@@ -5877,7 +5877,7 @@
                       "name": "Outline",
                       "width": 379,
                       "height": 1000,
-                      "geometry": "M 145 142 L 233 78 L 233 800 L 145 800 Z M 189 -76 L 230 -32 L 189 12 L 148 -32 Z",
+                      "geometry": "M 145 142 L 233 78 L 233 800 L 145 800 Z M 189 -100 L 239 -46 L 189 8 L 139 -46 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5891,7 +5891,7 @@
                 {
                   "type": "frame",
                   "id": "ca4c69",
-                  "name": "U+015E \u015e",
+                  "name": "U+015E Ş",
                   "width": 535,
                   "height": 1000,
                   "fill": "$panel",
@@ -5906,7 +5906,7 @@
                       "name": "Outline",
                       "width": 535,
                       "height": 1000,
-                      "geometry": "M 489.0 609.0 Q 489.0 704.0 422.0 757.0 Q 355.0 810.0 241.0 810.0 Q 182.0 810.0 132.5 801.0 Q 83.0 792.0 25.0 785.0 L 75.0 686.0 Q 85.0 706.0 137.0 719.0 Q 189.0 732.0 245.0 732.0 Q 323.0 732.0 362.5 701.0 Q 402.0 670.0 402.0 617.0 Q 402.0 582.0 387.0 558.0 Q 372.0 534.0 336.5 513.5 Q 301.0 493.0 238.0 470.0 Q 149.0 437.0 103.5 389.0 Q 58.0 341.0 58.0 258.0 Q 58.0 201.0 86.5 160.5 Q 115.0 120.0 165.0 98.0 Q 215.0 76.0 281.0 76.0 Q 338.0 76.0 386.0 87.0 Q 434.0 98.0 480.0 111.0 L 439.0 196.0 Q 409.0 177.0 367.0 166.0 Q 325.0 155.0 279.0 155.0 Q 214.0 155.0 180.5 183.5 Q 147.0 212.0 147.0 259.0 Q 147.0 295.0 161.5 319.0 Q 176.0 343.0 209.5 362.0 Q 243.0 381.0 299.0 403.0 Q 361.0 426.0 403.5 452.5 Q 446.0 479.0 467.5 516.0 Q 489.0 553.0 489.0 609.0 Z M 235 800 L 295 800 L 295 890 L 370 890 L 400 945 L 340 975 L 235 910 Z",
+                      "geometry": "M 489 609 Q 489 704 422 757 Q 355 810 241 810 Q 182 810 132.5 801 Q 83 792 25 782 L 76 684 Q 90 706 139 719 Q 188 732 245 732 Q 323 732 362.5 701 Q 402 670 402 617 Q 402 582 387 558 Q 372 534 336.5 513.5 Q 301 493 238 470 Q 149 437 103.5 389 Q 58 341 58 258 Q 58 201 86.5 160.5 Q 115 120 165 98 Q 215 76 281 76 Q 338 76 386 87 Q 434 98 484 114 L 438 198 Q 408 177 366.5 166 Q 325 155 279 155 Q 214 155 180.5 183.5 Q 147 212 147 259 Q 147 295 161.5 319 Q 176 343 209.5 362 Q 243 381 299 403 Q 361 426 403.5 452.5 Q 446 479 467.5 516 Q 489 553 489 609 Z M 235 800 L 295 800 L 295 890 L 370 890 L 400 945 L 340 975 L 235 910 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5920,7 +5920,7 @@
                 {
                   "type": "frame",
                   "id": "97fb01",
-                  "name": "U+00C2 \u00c2",
+                  "name": "U+00C2 Â",
                   "width": 633,
                   "height": 1000,
                   "fill": "$panel",
@@ -5935,7 +5935,7 @@
                       "name": "Outline",
                       "width": 633,
                       "height": 1000,
-                      "geometry": "M 531.0 800.0 L 456.0 603.0 L 422.0 579.0 L 172.0 579.0 L 89.0 800.0 L 0.0 800.0 L 272.0 83.0 L 333.0 83.0 L 357.0 100.0 L 622.0 800.0 Z M 343.0 283.0 Q 340.0 275.0 333.5 254.0 Q 327.0 233.0 320.5 210.5 Q 314.0 188.0 310.0 176.0 Q 303.0 207.0 294.5 236.5 Q 286.0 266.0 280.0 283.0 L 201.0 499.0 L 421.0 499.0 Z M 314.5 -138.0 L 436.5 -30.0 L 400.7 10.4 L 314.5 -65.9 L 228.3 10.4 L 192.5 -30.0 Z",
+                      "geometry": "M 531 800 L 450 579 L 182 579 L 95 800 L 0 800 L 268 118 L 346 68 L 624 800 Z M 314 184 L 210 478 L 228 499 L 404 499 L 422 478 Z M 314.5 -138 L 436.5 -30 L 400.7 10.4 L 314.5 -65.9 L 228.3 10.4 L 192.5 -30 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5949,8 +5949,8 @@
                 {
                   "type": "frame",
                   "id": "3d0c4b",
-                  "name": "U+00CE \u00ce",
-                  "width": 331,
+                  "name": "U+00CE Î",
+                  "width": 379,
                   "height": 1000,
                   "fill": "$panel",
                   "stroke": "$muted",
@@ -5964,7 +5964,7 @@
                       "name": "Outline",
                       "width": 331,
                       "height": 1000,
-                      "geometry": "M 291.0 800.0 L 39.0 800.0 L 39.0 748.0 L 121.0 729.0 L 121.0 158.0 L 39.0 138.0 L 39.0 86.0 L 291.0 86.0 L 291.0 138.0 L 209.0 158.0 L 209.0 729.0 L 291.0 748.0 Z M 165.0 -138.0 L 287.0 -30.0 L 251.2 10.4 L 165.0 -65.9 L 78.8 10.4 L 43.0 -30.0 Z",
+                      "geometry": "M 145 142 L 233 78 L 233 800 L 145 800 Z M 189 -138 L 311 -30 L 275.2 10.4 L 189 -65.9 L 102.8 10.4 L 67 -30 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -5978,7 +5978,7 @@
                 {
                   "type": "frame",
                   "id": "c3e03b",
-                  "name": "U+00DB \u00db",
+                  "name": "U+00DB Û",
                   "width": 713,
                   "height": 1000,
                   "fill": "$panel",
@@ -5993,7 +5993,7 @@
                       "name": "Outline",
                       "width": 713,
                       "height": 1000,
-                      "geometry": "M 624.0 548.0 Q 624.0 622.0 595.0 681.5 Q 566.0 741.0 506.0 775.5 Q 446.0 810.0 353.0 810.0 Q 223.0 810.0 155.5 737.5 Q 88.0 665.0 88.0 546.0 L 88.0 115.0 L 175.0 86.0 L 175.0 549.0 Q 175.0 636.0 220.5 684.0 Q 266.0 732.0 358.0 732.0 Q 452.0 732.0 494.5 680.5 Q 537.0 629.0 537.0 548.0 L 537.0 86.0 L 624.0 86.0 Z M 356.0 -138.0 L 478.0 -30.0 L 442.2 10.4 L 356.0 -65.9 L 269.8 10.4 L 234.0 -30.0 Z",
+                      "geometry": "M 624 548 Q 624 622 595 681.5 Q 566 741 506 775.5 Q 446 810 353 810 Q 223 810 155.5 737.5 Q 88 665 88 546 L 88 142 L 175 78 L 175 549 Q 175 636 220.5 684 Q 266 732 358 732 Q 452 732 494.5 680.5 Q 537 629 537 548 L 537 142 L 624 78 Z M 356 -138 L 478 -30 L 442.2 10.4 L 356 -65.9 L 269.8 10.4 L 234 -30 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6011,7 +6011,7 @@
         {
           "type": "frame",
           "id": "a1d640",
-          "name": "Section \u00b7 Lowercase a\u2013z",
+          "name": "Section · Lowercase a–z",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -6021,7 +6021,7 @@
               "type": "text",
               "id": "8d4732",
               "name": "Section Label",
-              "content": "LOWERCASE A\u2013Z (26 GLYPHS)",
+              "content": "LOWERCASE A–Z (26 GLYPHS)",
               "fontSize": 14,
               "fontWeight": "700",
               "letterSpacing": 2,
@@ -6030,7 +6030,7 @@
             {
               "type": "frame",
               "id": "b4cb4b",
-              "name": "Row \u00b7 Lowercase a\u2013z",
+              "name": "Row · Lowercase a–z",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -6055,7 +6055,7 @@
                       "name": "Outline",
                       "width": 547,
                       "height": 1000,
-                      "geometry": "M 281.0 255.0 Q 376.0 255.0 422.0 298.0 Q 468.0 341.0 468.0 435.0 L 478.0 782.0 L 412.0 792.0 L 389.0 724.0 L 385.0 724.0 Q 351.0 768.0 313.5 789.0 Q 276.0 810.0 210.0 810.0 Q 138.0 810.0 91.5 771.5 Q 45.0 733.0 45.0 651.0 Q 45.0 571.0 106.5 527.5 Q 168.0 484.0 295.0 480.0 L 384.0 477.0 L 384.0 445.0 Q 384.0 378.0 356.0 352.0 Q 328.0 326.0 276.0 326.0 Q 235.0 326.0 198.0 338.0 Q 160.0 350.0 131.0 368.0 L 93.0 298.0 Q 136.0 282.0 183.0 268.5 Q 230.0 255.0 281.0 255.0 Z M 306.0 541.0 Q 209.0 545.0 171.5 573.0 Q 134.0 601.0 134.0 652.0 Q 134.0 697.0 160.5 718.0 Q 187.0 739.0 229.0 739.0 Q 295.0 739.0 339.0 701.5 Q 383.0 664.0 383.0 586.0 L 383.0 538.0 Z",
+                      "geometry": "M 281 255 Q 376 255 422 298 Q 468 341 468 435 L 468 800 L 402 800 L 389 726 L 385 726 Q 351 768 313.5 789 Q 276 810 210 810 Q 138 810 91.5 771.5 Q 45 733 45 651 Q 45 571 106.5 527.5 Q 168 484 295 480 L 384 477 L 384 445 Q 384 378 356 352 Q 328 326 276 326 Q 235 326 198 338 Q 160 350 126 370 L 88 296 Q 136 280 183 267.5 Q 230 255 281 255 Z M 306 541 Q 209 545 171.5 573 Q 134 601 134 652 Q 134 697 160.5 718 Q 187 739 229 739 Q 295 739 339 701.5 Q 383 664 383 586 L 383 538 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6084,7 +6084,7 @@
                       "name": "Outline",
                       "width": 600,
                       "height": 1000,
-                      "geometry": "M 169.0 225.0 Q 169.0 259.0 167.5 288.5 Q 166.0 318.0 164.0 335.0 L 169.0 335.0 Q 191.0 301.0 230.0 278.0 Q 269.0 255.0 331.0 255.0 Q 428.0 255.0 487.0 324.5 Q 546.0 394.0 546.0 532.0 Q 546.0 670.0 486.5 740.0 Q 427.0 810.0 331.0 810.0 Q 269.0 810.0 230.0 787.0 Q 191.0 764.0 169.0 732.0 L 162.0 732.0 L 144.0 800.0 L 83.0 800.0 L 83.0 58.0 L 169.0 25.0 Z M 316.0 328.0 Q 233.0 328.0 201.0 377.0 Q 169.0 426.0 169.0 529.0 L 169.0 533.0 Q 169.0 632.0 200.5 684.5 Q 232.0 737.0 318.0 737.0 Q 388.0 737.0 422.5 684.0 Q 457.0 631.0 457.0 531.0 Q 457.0 328.0 316.0 328.0 Z",
+                      "geometry": "M 169 225 Q 169 259 167.5 288.5 Q 166 318 164 335 L 169 335 Q 191 301 230 278 Q 269 255 331 255 Q 428 255 487 324.5 Q 546 394 546 532 Q 546 670 486.5 740 Q 427 810 331 810 Q 269 810 230 787 Q 191 764 169 732 L 162 732 L 144 800 L 83 800 L 83 78 L 169 20 Z M 316 328 Q 233 328 201 377 Q 169 426 169 529 L 169 533 Q 169 632 200.5 684.5 Q 232 737 318 737 Q 388 737 422.5 684 Q 457 631 457 531 Q 457 328 316 328 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6113,7 +6113,7 @@
                       "name": "Outline",
                       "width": 468,
                       "height": 1000,
-                      "geometry": "M 292.0 810.0 Q 223.0 810.0 169.0 781.0 Q 115.0 752.0 84.5 691.0 Q 54.0 630.0 54.0 535.0 Q 54.0 436.0 86.0 374.0 Q 118.0 312.0 173.0 283.0 Q 228.0 254.0 298.0 254.0 Q 338.0 254.0 375.0 262.5 Q 412.0 271.0 468.0 280.0 L 395.0 348.0 Q 386.0 347.0 355.0 339.0 Q 324.0 331.0 296.0 331.0 Q 142.0 331.0 142.0 534.0 Q 142.0 631.0 179.5 682.5 Q 217.0 734.0 292.0 734.0 Q 334.0 734.0 367.0 725.0 Q 400.0 716.0 405.0 718.0 L 468.0 765.0 Q 401.0 795.0 369.0 802.5 Q 337.0 810.0 292.0 810.0 Z",
+                      "geometry": "M 292 810 Q 223 810 169 781 Q 115 752 84.5 691 Q 54 630 54 535 Q 54 436 86 374 Q 118 312 173 283 Q 228 254 298 254 Q 338 254 375 262.5 Q 412 271 464 284 L 402 354 Q 386 345 355 338 Q 324 331 296 331 Q 142 331 142 534 Q 142 631 179.5 682.5 Q 217 734 292 734 Q 334 734 367 725 Q 400 716 418 708 L 464 770 Q 401 795 369 802.5 Q 337 810 292 810 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6142,7 +6142,7 @@
                       "name": "Outline",
                       "width": 600,
                       "height": 1000,
-                      "geometry": "M 268.0 810.0 Q 171.0 810.0 112.5 740.5 Q 54.0 671.0 54.0 533.0 Q 54.0 395.0 113.0 324.5 Q 172.0 254.0 269.0 254.0 Q 330.0 254.0 368.5 277.0 Q 407.0 300.0 431.0 333.0 L 437.0 333.0 Q 436.0 320.0 433.5 294.5 Q 431.0 269.0 431.0 254.0 L 431.0 58.0 L 517.0 25.0 L 517.0 800.0 L 448.0 800.0 L 435.0 728.0 L 431.0 728.0 Q 408.0 762.0 369.0 786.0 Q 330.0 810.0 268.0 810.0 Z M 282.0 737.0 Q 365.0 737.0 398.5 690.5 Q 432.0 644.0 432.0 550.0 L 432.0 534.0 Q 432.0 434.0 400.0 380.5 Q 368.0 327.0 281.0 327.0 Q 212.0 327.0 177.0 383.5 Q 142.0 440.0 142.0 535.0 Q 142.0 631.0 177.0 684.0 Q 212.0 737.0 282.0 737.0 Z",
+                      "geometry": "M 268 810 Q 171 810 112.5 740.5 Q 54 671 54 533 Q 54 395 113 324.5 Q 172 254 269 254 Q 330 254 368.5 277 Q 407 300 431 333 L 437 333 Q 436 320 433.5 294.5 Q 431 269 431 254 L 431 78 L 517 20 L 517 800 L 448 800 L 435 728 L 431 728 Q 408 762 369 786 Q 330 810 268 810 Z M 282 737 Q 365 737 398.5 690.5 Q 432 644 432 550 L 432 534 Q 432 434 400 380.5 Q 368 327 281 327 Q 212 327 177 383.5 Q 142 440 142 535 Q 142 631 177 684 Q 212 737 282 737 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6200,7 +6200,7 @@
                       "name": "Outline",
                       "width": 398,
                       "height": 1000,
-                      "geometry": "M 312.0 332.0 L 192.0 332.0 L 192.0 800.0 L 106.0 788.0 L 106.0 332.0 L 24.0 336.0 L 10.0 285.0 L 106.0 261.0 L 106.0 230.0 Q 106.0 126.0 151.0 80.5 Q 196.0 35.0 276.0 35.0 Q 307.0 35.0 333.0 40.5 Q 359.0 46.0 387.0 56.0 L 355.0 122.0 Q 339.0 117.0 318.5 112.0 Q 298.0 107.0 277.0 107.0 Q 234.0 107.0 213.0 136.5 Q 192.0 166.0 192.0 229.0 L 192.0 264.0 L 332.0 264.0 L 308.0 332.0 Z",
+                      "geometry": "M 312 332 L 192 332 L 192 800 L 106 800 L 106 332 L 24 332 L 10 264 L 106 264 L 106 230 Q 106 126 151 80.5 Q 196 35 276 35 Q 307 35 333 40.5 Q 359 46 387 56 L 355 122 Q 339 117 318.5 112 Q 298 107 277 107 Q 234 107 213 136.5 Q 192 166 192 229 L 192 264 L 336 264 L 312 332 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6229,7 +6229,7 @@
                       "name": "Outline",
                       "width": 600,
                       "height": 1000,
-                      "geometry": "M 268.0 254.0 Q 320.0 254.0 361.5 274.0 Q 403.0 294.0 432.0 335.0 L 437.0 335.0 L 448.0 280.0 L 528.0 262.0 L 517.0 809.0 Q 517.0 924.0 460.0 982.0 Q 403.0 1040.0 283.0 1040.0 Q 168.0 1040.0 95.0 1006.0 L 95.0 925.0 Q 172.0 967.0 288.0 967.0 Q 355.0 967.0 393.5 926.5 Q 432.0 886.0 432.0 816.0 L 432.0 795.0 Q 432.0 783.0 433.0 760.5 Q 434.0 738.0 435.0 729.0 L 431.0 729.0 Q 378.0 810.0 269.0 810.0 Q 168.0 810.0 111.0 737.0 Q 54.0 664.0 54.0 533.0 Q 54.0 405.0 111.0 329.5 Q 168.0 254.0 268.0 254.0 Z M 280.0 328.0 Q 214.0 328.0 178.0 381.5 Q 142.0 435.0 142.0 534.0 Q 142.0 633.0 178.0 685.5 Q 214.0 738.0 282.0 738.0 Q 361.0 738.0 397.0 694.5 Q 433.0 651.0 433.0 554.0 L 433.0 533.0 Q 433.0 423.0 396.0 375.5 Q 359.0 328.0 280.0 328.0 Z",
+                      "geometry": "M 268 254 Q 320 254 361.5 274 Q 403 294 432 335 L 437 335 L 450 282 L 524 238 L 517 809 Q 517 924 460 982 Q 403 1040 283 1040 Q 168 1040 92 1004 L 116 924 Q 178 967 288 967 Q 355 967 393.5 926.5 Q 432 886 432 816 L 432 795 Q 432 783 433 760.5 Q 434 738 435 729 L 431 729 Q 378 810 269 810 Q 168 810 111 737 Q 54 664 54 533 Q 54 405 111 329.5 Q 168 254 268 254 Z M 280 328 Q 214 328 178 381.5 Q 142 435 142 534 Q 142 633 178 685.5 Q 214 738 282 738 Q 361 738 397 694.5 Q 433 651 433 554 L 433 533 Q 433 423 396 375.5 Q 359 328 280 328 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6258,7 +6258,7 @@
                       "name": "Outline",
                       "width": 603,
                       "height": 1000,
-                      "geometry": "M 169.0 263.0 Q 169.0 303.0 164.0 338.0 L 170.0 338.0 Q 195.0 297.0 238.5 276.0 Q 282.0 255.0 332.0 255.0 Q 428.0 255.0 476.0 301.5 Q 524.0 348.0 524.0 451.0 L 524.0 800.0 L 439.0 800.0 L 439.0 457.0 Q 439.0 328.0 322.0 328.0 Q 234.0 328.0 201.5 378.5 Q 169.0 429.0 169.0 523.0 L 169.0 800.0 L 83.0 800.0 L 83.0 58.0 L 169.0 25.0 Z",
+                      "geometry": "M 169 263 Q 169 303 164 338 L 170 338 Q 195 297 238.5 276 Q 282 255 332 255 Q 428 255 476 301.5 Q 524 348 524 451 L 524 800 L 439 800 L 439 457 Q 439 328 322 328 Q 234 328 201.5 378.5 Q 169 429 169 523 L 169 800 L 83 800 L 83 78 L 169 20 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6287,7 +6287,7 @@
                       "name": "Outline",
                       "width": 252,
                       "height": 1000,
-                      "geometry": "M 127.0 63.0 Q 146.0 63.0 161.0 76.5 Q 176.0 90.0 176.0 119.0 Q 176.0 147.0 161.0 161.0 Q 146.0 175.0 127.0 175.0 Q 105.0 175.0 90.5 161.0 Q 76.0 147.0 76.0 119.0 Q 76.0 90.0 90.5 76.5 Q 105.0 63.0 127.0 63.0 Z M 169.0 248.0 L 169.0 800.0 L 83.0 800.0 L 83.0 282.0 Z",
+                      "geometry": "M 126 60 L 180 118 L 126 176 L 72 118 Z M 83 800 L 83 292 L 169 236 L 169 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6316,7 +6316,7 @@
                       "name": "Outline",
                       "width": 252,
                       "height": 1000,
-                      "geometry": "M 76.0 119.0 Q 76.0 90.0 90.5 76.5 Q 105.0 63.0 127.0 63.0 Q 146.0 63.0 161.0 76.5 Q 176.0 90.0 176.0 119.0 Q 176.0 147.0 161.0 161.0 Q 146.0 175.0 127.0 175.0 Q 105.0 175.0 90.5 161.0 Q 76.0 147.0 76.0 119.0 Z M 21.0 1040.0 Q -3.0 1040.0 -21.5 1036.5 Q -40.0 1033.0 -54.0 1028.0 L -40.0 962.0 Q -39.0 961.0 -23.5 964.0 Q -8.0 967.0 11.0 967.0 Q 42.0 967.0 62.5 949.5 Q 83.0 932.0 83.0 883.0 L 83.0 282.0 L 169.0 248.0 L 169.0 880.0 Q 169.0 955.0 133.5 997.5 Q 98.0 1040.0 21.0 1040.0 Z",
+                      "geometry": "M 126 60 L 180 118 L 126 176 L 72 118 Z M 21 1040 Q -3 1040 -21.5 1036.5 Q -40 1033 -56 1026 L -36 958 Q -24 964 -8 965.5 Q 8 967 11 967 Q 42 967 62.5 949.5 Q 83 932 83 883 L 83 292 L 169 236 L 169 880 Q 169 955 133.5 997.5 Q 98 1040 21 1040 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6345,7 +6345,7 @@
                       "name": "Outline",
                       "width": 522,
                       "height": 1000,
-                      "geometry": "M 168.0 437.0 Q 168.0 453.0 166.5 479.0 Q 165.0 505.0 164.0 524.0 L 168.0 524.0 Q 174.0 516.0 185.5 501.0 Q 197.0 486.0 209.0 470.5 Q 221.0 455.0 230.0 445.0 L 397.0 264.0 L 497.0 264.0 L 295.0 483.0 L 293.0 504.0 L 512.0 800.0 L 409.0 800.0 L 235.0 561.0 L 216.0 559.0 L 168.0 603.0 L 168.0 800.0 L 83.0 800.0 L 83.0 58.0 L 168.0 25.0 Z",
+                      "geometry": "M 168 437 Q 168 453 166.5 479 Q 165 505 164 524 L 168 524 Q 184 504 218 462 L 396 254 L 498 254 L 292 486 Q 404 624 514 800 L 412 800 Q 320 650 228 548 L 168 608 L 168 800 L 83 800 L 83 78 L 168 20 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6403,7 +6403,7 @@
                       "name": "Outline",
                       "width": 912,
                       "height": 1000,
-                      "geometry": "M 656.0 254.0 Q 745.0 254.0 789.0 300.5 Q 833.0 347.0 833.0 451.0 L 833.0 800.0 L 748.0 800.0 L 748.0 455.0 Q 748.0 328.0 642.0 328.0 Q 566.0 328.0 533.0 373.0 Q 500.0 418.0 500.0 504.0 L 500.0 800.0 L 415.0 800.0 L 415.0 455.0 Q 415.0 328.0 308.0 328.0 Q 229.0 328.0 199.0 378.0 Q 169.0 428.0 169.0 522.0 L 169.0 800.0 L 83.0 800.0 L 83.0 282.0 L 152.0 248.0 L 165.0 337.0 L 170.0 337.0 Q 194.0 295.0 235.5 274.5 Q 277.0 254.0 324.0 254.0 Q 447.0 254.0 484.0 344.0 L 488.0 344.0 Q 515.0 298.0 560.0 276.0 Q 605.0 254.0 656.0 254.0 Z",
+                      "geometry": "M 656 254 Q 745 254 789 300.5 Q 833 347 833 451 L 833 800 L 748 800 L 748 455 Q 748 328 642 328 Q 566 328 533 373 Q 500 418 500 504 L 500 800 L 415 800 L 415 455 Q 415 328 308 328 Q 229 328 199 378 Q 169 428 169 522 L 169 800 L 83 800 L 83 292 L 156 236 L 165 337 L 170 337 Q 194 295 235.5 274.5 Q 277 254 324 254 Q 447 254 484 344 L 488 344 Q 515 298 560 276 Q 605 254 656 254 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6432,7 +6432,7 @@
                       "name": "Outline",
                       "width": 603,
                       "height": 1000,
-                      "geometry": "M 334.0 254.0 Q 428.0 254.0 476.0 300.5 Q 524.0 347.0 524.0 451.0 L 524.0 800.0 L 439.0 800.0 L 439.0 457.0 Q 439.0 328.0 322.0 328.0 Q 235.0 328.0 202.0 378.0 Q 169.0 428.0 169.0 522.0 L 169.0 800.0 L 83.0 800.0 L 83.0 282.0 L 152.0 248.0 L 165.0 337.0 L 170.0 337.0 Q 195.0 295.0 240.0 274.5 Q 285.0 254.0 334.0 254.0 Z",
+                      "geometry": "M 334 254 Q 428 254 476 300.5 Q 524 347 524 451 L 524 800 L 439 800 L 439 457 Q 439 328 322 328 Q 235 328 202 378 Q 169 428 169 522 L 169 800 L 83 800 L 83 292 L 156 236 L 165 337 L 170 337 Q 195 295 240 274.5 Q 285 254 334 254 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6490,7 +6490,7 @@
                       "name": "Outline",
                       "width": 600,
                       "height": 1000,
-                      "geometry": "M 332.0 254.0 Q 428.0 254.0 487.0 323.0 Q 546.0 392.0 546.0 531.0 Q 546.0 668.0 487.0 739.0 Q 428.0 810.0 331.0 810.0 Q 270.0 810.0 230.5 786.5 Q 191.0 763.0 169.0 732.0 L 163.0 732.0 Q 165.0 749.0 167.0 775.0 Q 169.0 801.0 169.0 820.0 L 169.0 1040.0 L 83.0 1040.0 L 83.0 282.0 L 153.0 248.0 L 165.0 337.0 L 169.0 337.0 Q 192.0 302.0 230.0 278.0 Q 268.0 254.0 332.0 254.0 Z M 316.0 328.0 Q 236.0 328.0 203.5 374.0 Q 171.0 420.0 169.0 514.0 L 169.0 531.0 Q 169.0 630.0 200.5 683.5 Q 232.0 737.0 318.0 737.0 Q 366.0 737.0 396.5 710.0 Q 427.0 683.0 442.0 636.5 Q 457.0 590.0 457.0 530.0 Q 457.0 438.0 422.5 383.0 Q 388.0 328.0 316.0 328.0 Z",
+                      "geometry": "M 332 254 Q 428 254 487 323 Q 546 392 546 531 Q 546 668 487 739 Q 428 810 331 810 Q 270 810 230.5 786.5 Q 191 763 169 732 L 163 732 Q 165 749 167 775 Q 169 801 169 820 L 169 1040 L 83 1040 L 83 292 L 156 236 L 165 337 L 169 337 Q 192 302 230 278 Q 268 254 332 254 Z M 316 328 Q 236 328 203.5 374 Q 171 420 169 514 L 169 531 Q 169 630 200.5 683.5 Q 232 737 318 737 Q 366 737 396.5 710 Q 427 683 442 636.5 Q 457 590 457 530 Q 457 438 422.5 383 Q 388 328 316 328 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6519,7 +6519,7 @@
                       "name": "Outline",
                       "width": 600,
                       "height": 1000,
-                      "geometry": "M 431.0 811.0 Q 431.0 793.0 432.0 769.0 Q 433.0 745.0 436.0 728.0 L 430.0 728.0 Q 408.0 762.0 368.5 786.0 Q 329.0 810.0 266.0 810.0 Q 172.0 810.0 113.0 740.5 Q 54.0 671.0 54.0 533.0 Q 54.0 395.0 114.0 324.5 Q 174.0 254.0 269.0 254.0 Q 331.0 254.0 370.0 278.0 Q 409.0 302.0 432.0 337.0 L 436.0 337.0 L 449.0 282.0 L 517.0 248.0 L 517.0 1040.0 L 431.0 1040.0 Z M 283.0 737.0 Q 364.0 737.0 397.5 691.5 Q 431.0 646.0 432.0 552.0 L 432.0 534.0 Q 432.0 432.0 399.0 379.5 Q 366.0 327.0 281.0 327.0 Q 211.0 327.0 176.5 383.5 Q 142.0 440.0 142.0 535.0 Q 142.0 630.0 177.0 683.5 Q 212.0 737.0 283.0 737.0 Z",
+                      "geometry": "M 431 811 Q 431 793 432 769 Q 433 745 436 728 L 430 728 Q 408 762 368.5 786 Q 329 810 266 810 Q 172 810 113 740.5 Q 54 671 54 533 Q 54 395 114 324.5 Q 174 254 269 254 Q 331 254 370 278 Q 409 302 432 337 L 436 337 L 448 292 L 517 236 L 517 1040 L 431 1040 Z M 283 737 Q 364 737 397.5 691.5 Q 431 646 432 552 L 432 534 Q 432 432 399 379.5 Q 366 327 281 327 Q 211 327 176.5 383.5 Q 142 440 142 535 Q 142 630 177 683.5 Q 212 737 283 737 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6548,7 +6548,7 @@
                       "name": "Outline",
                       "width": 408,
                       "height": 1000,
-                      "geometry": "M 327.0 254.0 Q 341.0 254.0 358.0 255.5 Q 380.0 258.0 416.0 270.0 L 377.0 341.0 Q 365.0 338.0 349.5 336.0 Q 334.0 334.0 321.0 334.0 Q 281.0 334.0 246.0 356.5 Q 211.0 379.0 190.0 419.5 Q 169.0 460.0 169.0 514.0 L 169.0 800.0 L 83.0 788.0 L 83.0 282.0 L 153.0 248.0 L 163.0 362.0 L 167.0 362.0 Q 192.0 318.0 232.0 286.0 Q 272.0 254.0 327.0 254.0 Z",
+                      "geometry": "M 327 254 Q 341 254 358 255.5 Q 380 258 416 270 L 377 344 Q 365 338 349.5 336 Q 334 334 321 334 Q 281 334 246 356.5 Q 211 379 190 419.5 Q 169 460 169 514 L 169 800 L 83 800 L 83 292 L 156 236 L 163 362 L 167 362 Q 192 318 232 286 Q 272 254 327 254 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6606,7 +6606,7 @@
                       "name": "Outline",
                       "width": 352,
                       "height": 1000,
-                      "geometry": "M 257.0 738.0 Q 277.0 738.0 297.5 734.5 Q 318.0 731.0 331.0 727.0 L 319.0 794.0 Q 317.0 801.0 291.5 805.5 Q 266.0 810.0 243.0 810.0 Q 202.0 810.0 167.5 795.5 Q 133.0 781.0 111.5 745.0 Q 90.0 709.0 90.0 644.0 L 90.0 332.0 L 24.0 336.0 L 10.0 285.0 L 91.0 255.0 L 125.0 141.0 L 176.0 153.0 L 176.0 264.0 L 334.0 264.0 L 305.0 332.0 L 175.0 332.0 L 175.0 642.0 Q 175.0 691.0 198.0 714.5 Q 221.0 738.0 257.0 738.0 Z",
+                      "geometry": "M 257 738 Q 277 738 297.5 734.5 Q 318 731 334 724 L 316 796 Q 310 802 288 806 Q 266 810 243 810 Q 202 810 167.5 795.5 Q 133 781 111.5 745 Q 90 709 90 644 L 90 332 L 22 332 L 10 264 L 90 264 L 90 178 L 176 122 L 176 264 L 336 264 L 306 332 L 175 332 L 175 642 Q 175 691 198 714.5 Q 221 738 257 738 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6635,7 +6635,7 @@
                       "name": "Outline",
                       "width": 603,
                       "height": 1000,
-                      "geometry": "M 520.0 248.0 L 520.0 800.0 L 449.0 800.0 L 437.0 729.0 L 433.0 729.0 Q 408.0 771.0 363.0 790.5 Q 318.0 810.0 267.0 810.0 Q 173.0 810.0 125.0 763.5 Q 77.0 717.0 77.0 615.0 L 77.0 282.0 L 164.0 248.0 L 164.0 609.0 Q 164.0 737.0 280.0 737.0 Q 367.0 737.0 400.5 687.0 Q 434.0 637.0 434.0 543.0 L 434.0 282.0 Z",
+                      "geometry": "M 520 236 L 520 800 L 449 800 L 437 729 L 433 729 Q 408 771 363 790.5 Q 318 810 267 810 Q 173 810 125 763.5 Q 77 717 77 615 L 77 292 L 164 236 L 164 609 Q 164 737 280 737 Q 367 737 400.5 687 Q 434 637 434 543 L 434 292 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6664,7 +6664,7 @@
                       "name": "Outline",
                       "width": 506,
                       "height": 1000,
-                      "geometry": "M 198.0 800.0 L 0.0 282.0 L 92.0 248.0 L 203.0 580.0 Q 211.0 602.0 219.5 629.0 Q 228.0 656.0 235.0 680.5 Q 242.0 705.0 245.0 722.0 L 249.0 722.0 Q 253.0 705.0 260.0 680.0 Q 267.0 655.0 276.5 628.0 Q 286.0 601.0 292.0 580.0 L 404.0 282.0 L 495.0 248.0 L 301.0 787.0 L 283.0 800.0 Z",
+                      "geometry": "M 204 800 L 0 288 L 92 242 L 203 580 Q 211 602 219.5 629 Q 228 656 235 680.5 Q 242 705 245 722 L 249 722 Q 253 705 260 680 Q 267 655 276.5 628 Q 286 601 292 580 L 404 288 L 495 242 L 294 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6693,7 +6693,7 @@
                       "name": "Outline",
                       "width": 766,
                       "height": 1000,
-                      "geometry": "M 420.0 497.0 Q 408.0 456.0 398.5 416.5 Q 389.0 377.0 384.0 355.0 L 380.0 355.0 Q 376.0 377.0 367.5 416.5 Q 359.0 456.0 345.0 498.0 L 255.0 786.0 L 238.0 799.0 L 154.0 799.0 L 11.0 282.0 L 99.0 248.0 L 172.0 549.0 Q 182.0 592.0 192.0 636.0 Q 202.0 680.0 206.0 709.0 L 210.0 709.0 Q 214.0 692.0 219.0 667.0 Q 224.0 642.0 231.0 614.5 Q 238.0 587.0 245.0 565.0 L 337.0 282.0 L 431.0 248.0 L 521.0 565.0 Q 531.0 599.0 541.5 639.0 Q 552.0 679.0 556.0 708.0 L 560.0 708.0 Q 563.0 683.0 573.0 639.0 Q 583.0 595.0 595.0 549.0 L 668.0 282.0 L 756.0 248.0 L 614.0 786.0 L 597.0 799.0 L 510.0 799.0 Z",
+                      "geometry": "M 420 497 Q 408 456 398.5 416.5 Q 389 377 384 355 L 380 355 Q 376 377 367.5 416.5 Q 359 456 345 498 L 250 800 L 156 800 L 11 288 L 99 242 L 172 549 Q 182 592 192 636 Q 202 680 206 709 L 210 709 Q 214 692 219 667 Q 224 642 231 614.5 Q 238 587 245 565 L 337 284 L 431 242 L 521 565 Q 531 599 541.5 639 Q 552 679 556 708 L 560 708 Q 563 683 573 639 Q 583 595 595 549 L 668 288 L 756 242 L 610 800 L 512 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6780,7 +6780,7 @@
                       "name": "Outline",
                       "width": 458,
                       "height": 1000,
-                      "geometry": "M 420.0 800.0 L 38.0 800.0 L 38.0 742.0 L 319.0 332.0 L 55.0 332.0 L 55.0 264.0 L 425.0 264.0 L 400.0 330.0 L 137.0 732.0 L 432.0 732.0 Z",
+                      "geometry": "M 404 800 L 38 800 L 38 742 L 319 332 L 76 332 L 56 346 L 34 264 L 425 264 L 400 330 L 137 732 L 406 732 L 432 716 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6798,7 +6798,7 @@
         {
           "type": "frame",
           "id": "b7b8b0",
-          "name": "Section \u00b7 Turkish Lowercase",
+          "name": "Section · Turkish Lowercase",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -6817,7 +6817,7 @@
             {
               "type": "frame",
               "id": "3eb1ac",
-              "name": "Row \u00b7 Turkish Lowercase",
+              "name": "Row · Turkish Lowercase",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -6827,7 +6827,7 @@
                 {
                   "type": "frame",
                   "id": "f899d5",
-                  "name": "U+00E7 \u00e7",
+                  "name": "U+00E7 ç",
                   "width": 468,
                   "height": 1000,
                   "fill": "$panel",
@@ -6842,7 +6842,7 @@
                       "name": "Outline",
                       "width": 468,
                       "height": 1000,
-                      "geometry": "M 292.0 810.0 Q 223.0 810.0 169.0 781.0 Q 115.0 752.0 84.5 691.0 Q 54.0 630.0 54.0 535.0 Q 54.0 436.0 86.0 374.0 Q 118.0 312.0 173.0 283.0 Q 228.0 254.0 298.0 254.0 Q 338.0 254.0 375.0 262.5 Q 412.0 271.0 468.0 280.0 L 395.0 348.0 Q 386.0 347.0 355.0 339.0 Q 324.0 331.0 296.0 331.0 Q 142.0 331.0 142.0 534.0 Q 142.0 631.0 179.5 682.5 Q 217.0 734.0 292.0 734.0 Q 334.0 734.0 367.0 725.0 Q 400.0 716.0 405.0 718.0 L 468.0 765.0 Q 401.0 795.0 369.0 802.5 Q 337.0 810.0 292.0 810.0 Z M 205 800 L 260 800 L 260 880 L 330 880 L 355 930 L 300 955 L 205 895 Z",
+                      "geometry": "M 292 810 Q 223 810 169 781 Q 115 752 84.5 691 Q 54 630 54 535 Q 54 436 86 374 Q 118 312 173 283 Q 228 254 298 254 Q 338 254 375 262.5 Q 412 271 464 284 L 402 354 Q 386 345 355 338 Q 324 331 296 331 Q 142 331 142 534 Q 142 631 179.5 682.5 Q 217 734 292 734 Q 334 734 367 725 Q 400 716 418 708 L 464 770 Q 401 795 369 802.5 Q 337 810 292 810 Z M 205 800 L 260 800 L 260 880 L 330 880 L 355 930 L 300 955 L 205 895 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6856,7 +6856,7 @@
                 {
                   "type": "frame",
                   "id": "1d2c37",
-                  "name": "U+00F6 \u00f6",
+                  "name": "U+00F6 ö",
                   "width": 590,
                   "height": 1000,
                   "fill": "$panel",
@@ -6871,7 +6871,7 @@
                       "name": "Outline",
                       "width": 590,
                       "height": 1000,
-                      "geometry": "M 158.0 119.0 Q 158.0 93.0 171.5 81.5 Q 185.0 70.0 203.5 70.0 Q 222.0 70.0 236.0 81.5 Q 250.0 93.0 250.0 119.0 Q 250.0 144.0 236.0 156.5 Q 222.0 169.0 203.5 169.0 Q 185.0 169.0 171.5 156.5 Q 158.0 144.0 158.0 119.0 Z M 341.0 119.0 Q 341.0 93.0 354.5 81.5 Q 368.0 70.0 386.5 70.0 Q 405.0 70.0 418.5 81.5 Q 432.0 93.0 432.0 119.0 Q 432.0 144.0 418.5 156.5 Q 405.0 169.0 386.5 169.0 Q 368.0 169.0 354.5 156.5 Q 341.0 144.0 341.0 119.0 Z M 537.0 531.0 Q 537.0 664.0 471.5 737.0 Q 406.0 810.0 293.0 810.0 Q 224.0 810.0 170.0 777.5 Q 116.0 745.0 85.0 682.5 Q 54.0 620.0 54.0 531.0 Q 54.0 398.0 119.0 326.0 Q 184.0 254.0 296.0 254.0 Q 368.0 254.0 422.0 286.5 Q 476.0 319.0 506.5 380.5 Q 537.0 442.0 537.0 531.0 Z M 142.0 531.0 Q 142.0 626.0 178.5 681.5 Q 215.0 737.0 295.0 737.0 Q 374.0 737.0 411.0 681.5 Q 448.0 626.0 448.5 531.0 Q 449.0 436.0 411.5 382.0 Q 374.0 328.0 294.5 328.0 Q 215.0 328.0 178.5 382.0 Q 142.0 436.0 142.0 531.0 Z",
+                      "geometry": "M 200 66 L 248 118 L 200 170 L 152 118 Z M 390 66 L 438 118 L 390 170 L 342 118 Z M 537 531 Q 537 664 471.5 737 Q 406 810 293 810 Q 224 810 170 777.5 Q 116 745 85 682.5 Q 54 620 54 531 Q 54 398 119 326 Q 184 254 296 254 Q 368 254 422 286.5 Q 476 319 506.5 380.5 Q 537 442 537 531 Z M 142 531 Q 142 626 178.5 681.5 Q 215 737 295 737 Q 374 737 411 681.5 Q 448 626 448.5 531 Q 449 436 411.5 382 Q 374 328 294.5 328 Q 215 328 178.5 382 Q 142 436 142 531 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6885,7 +6885,7 @@
                 {
                   "type": "frame",
                   "id": "1d5111",
-                  "name": "U+00FC \u00fc",
+                  "name": "U+00FC ü",
                   "width": 603,
                   "height": 1000,
                   "fill": "$panel",
@@ -6900,7 +6900,7 @@
                       "name": "Outline",
                       "width": 603,
                       "height": 1000,
-                      "geometry": "M 164.0 119.0 Q 164.0 93.0 177.5 81.5 Q 191.0 70.0 209.5 70.0 Q 228.0 70.0 241.5 81.5 Q 255.0 93.0 255.0 119.0 Q 255.0 144.0 241.5 156.5 Q 228.0 169.0 209.5 169.0 Q 191.0 169.0 177.5 156.5 Q 164.0 144.0 164.0 119.0 Z M 347.0 119.0 Q 347.0 93.0 360.0 81.5 Q 373.0 70.0 391.5 70.0 Q 410.0 70.0 424.0 81.5 Q 438.0 93.0 438.0 119.0 Q 438.0 144.0 424.0 156.5 Q 410.0 169.0 391.5 169.0 Q 373.0 169.0 360.0 156.5 Q 347.0 144.0 347.0 119.0 Z M 520.0 248.0 L 520.0 800.0 L 449.0 800.0 L 437.0 729.0 L 433.0 729.0 Q 408.0 771.0 363.0 790.5 Q 318.0 810.0 267.0 810.0 Q 173.0 810.0 125.0 763.5 Q 77.0 717.0 77.0 615.0 L 77.0 282.0 L 164.0 248.0 L 164.0 609.0 Q 164.0 737.0 280.0 737.0 Q 367.0 737.0 400.5 687.0 Q 434.0 637.0 434.0 543.0 L 434.0 282.0 Z",
+                      "geometry": "M 204 66 L 252 118 L 204 170 L 156 118 Z M 394 66 L 442 118 L 394 170 L 346 118 Z M 520 236 L 520 800 L 449 800 L 437 729 L 433 729 Q 408 771 363 790.5 Q 318 810 267 810 Q 173 810 125 763.5 Q 77 717 77 615 L 77 292 L 164 236 L 164 609 Q 164 737 280 737 Q 367 737 400.5 687 Q 434 637 434 543 L 434 292 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6914,7 +6914,7 @@
                 {
                   "type": "frame",
                   "id": "c5f3bb",
-                  "name": "U+011F \u011f",
+                  "name": "U+011F ğ",
                   "width": 600,
                   "height": 1000,
                   "fill": "$panel",
@@ -6929,7 +6929,7 @@
                       "name": "Outline",
                       "width": 600,
                       "height": 1000,
-                      "geometry": "M 446.0 60.0 Q 441.0 120.0 401.5 157.0 Q 362.0 194.0 292.0 194.0 Q 219.0 194.0 182.5 157.5 Q 146.0 121.0 142.0 60.0 L 195.0 60.0 Q 200.0 101.0 224.5 112.0 Q 249.0 123.0 293.0 123.0 Q 331.0 123.0 359.0 111.0 Q 387.0 99.0 392.0 60.0 Z M 268.0 254.0 Q 320.0 254.0 361.5 274.0 Q 403.0 294.0 432.0 335.0 L 437.0 335.0 L 448.0 280.0 L 528.0 262.0 L 517.0 809.0 Q 517.0 924.0 460.0 982.0 Q 403.0 1040.0 283.0 1040.0 Q 168.0 1040.0 95.0 1006.0 L 95.0 925.0 Q 172.0 967.0 288.0 967.0 Q 355.0 967.0 393.5 926.5 Q 432.0 886.0 432.0 816.0 L 432.0 795.0 Q 432.0 783.0 433.0 760.5 Q 434.0 738.0 435.0 729.0 L 431.0 729.0 Q 378.0 810.0 269.0 810.0 Q 168.0 810.0 111.0 737.0 Q 54.0 664.0 54.0 533.0 Q 54.0 405.0 111.0 329.5 Q 168.0 254.0 268.0 254.0 Z M 280.0 328.0 Q 214.0 328.0 178.0 381.5 Q 142.0 435.0 142.0 534.0 Q 142.0 633.0 178.0 685.5 Q 214.0 738.0 282.0 738.0 Q 361.0 738.0 397.0 694.5 Q 433.0 651.0 433.0 554.0 L 433.0 533.0 Q 433.0 423.0 396.0 375.5 Q 359.0 328.0 280.0 328.0 Z",
+                      "geometry": "M 144 64 L 204 48 L 294 130 L 384 48 L 444 64 L 314 196 L 274 196 Z M 268 254 Q 320 254 361.5 274 Q 403 294 432 335 L 437 335 L 450 282 L 524 238 L 517 809 Q 517 924 460 982 Q 403 1040 283 1040 Q 168 1040 92 1004 L 116 924 Q 178 967 288 967 Q 355 967 393.5 926.5 Q 432 886 432 816 L 432 795 Q 432 783 433 760.5 Q 434 738 435 729 L 431 729 Q 378 810 269 810 Q 168 810 111 737 Q 54 664 54 533 Q 54 405 111 329.5 Q 168 254 268 254 Z M 280 328 Q 214 328 178 381.5 Q 142 435 142 534 Q 142 633 178 685.5 Q 214 738 282 738 Q 361 738 397 694.5 Q 433 651 433 554 L 433 533 Q 433 423 396 375.5 Q 359 328 280 328 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -6943,7 +6943,7 @@
                 {
                   "type": "frame",
                   "id": "ecd205",
-                  "name": "U+0131 \u0131",
+                  "name": "U+0131 ı",
                   "width": 252,
                   "height": 1000,
                   "fill": "$panel",
@@ -6972,7 +6972,7 @@
                 {
                   "type": "frame",
                   "id": "9b1d9c",
-                  "name": "U+015F \u015f",
+                  "name": "U+015F ş",
                   "width": 467,
                   "height": 1000,
                   "fill": "$panel",
@@ -6987,7 +6987,7 @@
                       "name": "Outline",
                       "width": 467,
                       "height": 1000,
-                      "geometry": "M 423.0 652.0 Q 423.0 730.0 366.5 770.0 Q 310.0 810.0 214.0 810.0 Q 160.0 810.0 120.5 801.0 Q 81.0 792.0 28.0 785.0 L 80.0 688.0 Q 82.0 712.0 126.5 725.5 Q 171.0 739.0 216.0 739.0 Q 282.0 739.0 311.0 717.5 Q 340.0 696.0 340.0 660.0 Q 340.0 640.0 329.5 624.0 Q 319.0 608.0 291.0 592.0 Q 263.0 576.0 212.0 556.0 Q 161.0 536.0 125.0 516.0 Q 89.0 496.0 69.5 468.0 Q 50.0 440.0 50.0 396.0 Q 50.0 328.0 104.0 291.0 Q 158.0 254.0 246.0 254.0 Q 293.0 254.0 334.5 263.5 Q 376.0 273.0 440.0 275.0 L 360.0 350.0 Q 350.0 346.0 314.0 336.0 Q 278.0 326.0 240.0 326.0 Q 187.0 326.0 159.5 343.5 Q 132.0 361.0 132.0 391.0 Q 132.0 413.0 144.5 428.5 Q 157.0 444.0 186.5 458.5 Q 216.0 473.0 266.0 493.0 Q 316.0 512.0 351.0 532.0 Q 386.0 552.0 404.5 580.5 Q 423.0 609.0 423.0 652.0 Z M 205 800 L 260 800 L 260 880 L 330 880 L 355 930 L 300 955 L 205 895 Z",
+                      "geometry": "M 423 652 Q 423 730 366.5 770 Q 310 810 214 810 Q 160 810 120.5 801 Q 81 792 28 785 L 80 688 Q 82 712 126.5 725.5 Q 171 739 216 739 Q 282 739 311 717.5 Q 340 696 340 660 Q 340 640 329.5 624 Q 319 608 291 592 Q 263 576 212 556 Q 161 536 125 516 Q 89 496 69.5 468 Q 50 440 50 396 Q 50 328 104 291 Q 158 254 246 254 Q 293 254 334.5 263.5 Q 376 273 440 275 L 360 350 Q 350 346 314 336 Q 278 326 240 326 Q 187 326 159.5 343.5 Q 132 361 132 391 Q 132 413 144.5 428.5 Q 157 444 186.5 458.5 Q 216 473 266 493 Q 316 512 351 532 Q 386 552 404.5 580.5 Q 423 609 423 652 Z M 205 800 L 260 800 L 260 880 L 330 880 L 355 930 L 300 955 L 205 895 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7001,7 +7001,7 @@
                 {
                   "type": "frame",
                   "id": "543ba1",
-                  "name": "U+00E2 \u00e2",
+                  "name": "U+00E2 â",
                   "width": 547,
                   "height": 1000,
                   "fill": "$panel",
@@ -7016,7 +7016,7 @@
                       "name": "Outline",
                       "width": 547,
                       "height": 1000,
-                      "geometry": "M 281.0 255.0 Q 376.0 255.0 422.0 298.0 Q 468.0 341.0 468.0 435.0 L 478.0 782.0 L 412.0 792.0 L 389.0 724.0 L 385.0 724.0 Q 351.0 768.0 313.5 789.0 Q 276.0 810.0 210.0 810.0 Q 138.0 810.0 91.5 771.5 Q 45.0 733.0 45.0 651.0 Q 45.0 571.0 106.5 527.5 Q 168.0 484.0 295.0 480.0 L 384.0 477.0 L 384.0 445.0 Q 384.0 378.0 356.0 352.0 Q 328.0 326.0 276.0 326.0 Q 235.0 326.0 198.0 338.0 Q 160.0 350.0 131.0 368.0 L 93.0 298.0 Q 136.0 282.0 183.0 268.5 Q 230.0 255.0 281.0 255.0 Z M 306.0 541.0 Q 209.0 545.0 171.5 573.0 Q 134.0 601.0 134.0 652.0 Q 134.0 697.0 160.5 718.0 Q 187.0 739.0 229.0 739.0 Q 295.0 739.0 339.0 701.5 Q 383.0 664.0 383.0 586.0 L 383.0 538.0 Z M 268.0 50.0 L 390.0 158.0 L 354.2 198.4 L 268.0 122.1 L 181.8 198.4 L 146.0 158.0 Z",
+                      "geometry": "M 281 255 Q 376 255 422 298 Q 468 341 468 435 L 468 800 L 402 800 L 389 726 L 385 726 Q 351 768 313.5 789 Q 276 810 210 810 Q 138 810 91.5 771.5 Q 45 733 45 651 Q 45 571 106.5 527.5 Q 168 484 295 480 L 384 477 L 384 445 Q 384 378 356 352 Q 328 326 276 326 Q 235 326 198 338 Q 160 350 126 370 L 88 296 Q 136 280 183 267.5 Q 230 255 281 255 Z M 306 541 Q 209 545 171.5 573 Q 134 601 134 652 Q 134 697 160.5 718 Q 187 739 229 739 Q 295 739 339 701.5 Q 383 664 383 586 L 383 538 Z M 268 50 L 390 158 L 354.2 198.4 L 268 122.1 L 181.8 198.4 L 146 158 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7030,7 +7030,7 @@
                 {
                   "type": "frame",
                   "id": "a9a22b",
-                  "name": "U+00EE \u00ee",
+                  "name": "U+00EE î",
                   "width": 252,
                   "height": 1000,
                   "fill": "$panel",
@@ -7045,7 +7045,7 @@
                       "name": "Outline",
                       "width": 252,
                       "height": 1000,
-                      "geometry": "M 169.0 248.0 L 169.0 800.0 L 83.0 800.0 L 83.0 282.0 Z M 126.0 50.0 L 248.0 158.0 L 212.2 198.4 L 126.0 122.1 L 39.8 198.4 L 4.0 158.0 Z",
+                      "geometry": "M 83 800 L 83 292 L 169 236 L 169 800 Z M 126 50 L 248 158 L 212.2 198.4 L 126 122.1 L 39.8 198.4 L 4 158 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7059,7 +7059,7 @@
                 {
                   "type": "frame",
                   "id": "084323",
-                  "name": "U+00FB \u00fb",
+                  "name": "U+00FB û",
                   "width": 603,
                   "height": 1000,
                   "fill": "$panel",
@@ -7074,7 +7074,7 @@
                       "name": "Outline",
                       "width": 603,
                       "height": 1000,
-                      "geometry": "M 520.0 248.0 L 520.0 800.0 L 449.0 800.0 L 437.0 729.0 L 433.0 729.0 Q 408.0 771.0 363.0 790.5 Q 318.0 810.0 267.0 810.0 Q 173.0 810.0 125.0 763.5 Q 77.0 717.0 77.0 615.0 L 77.0 282.0 L 164.0 248.0 L 164.0 609.0 Q 164.0 737.0 280.0 737.0 Q 367.0 737.0 400.5 687.0 Q 434.0 637.0 434.0 543.0 L 434.0 282.0 Z M 298.5 50.0 L 420.5 158.0 L 384.7 198.4 L 298.5 122.1 L 212.3 198.4 L 176.5 158.0 Z",
+                      "geometry": "M 520 236 L 520 800 L 449 800 L 437 729 L 433 729 Q 408 771 363 790.5 Q 318 810 267 810 Q 173 810 125 763.5 Q 77 717 77 615 L 77 292 L 164 236 L 164 609 Q 164 737 280 737 Q 367 737 400.5 687 Q 434 637 434 543 L 434 292 Z M 298.5 50 L 420.5 158 L 384.7 198.4 L 298.5 122.1 L 212.3 198.4 L 176.5 158 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7092,7 +7092,7 @@
         {
           "type": "frame",
           "id": "eb073a",
-          "name": "Section \u00b7 Numerals 0\u20139",
+          "name": "Section · Numerals 0–9",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -7102,7 +7102,7 @@
               "type": "text",
               "id": "17a2ae",
               "name": "Section Label",
-              "content": "NUMERALS 0\u20139 (10 GLYPHS)",
+              "content": "NUMERALS 0–9 (10 GLYPHS)",
               "fontSize": 14,
               "fontWeight": "700",
               "letterSpacing": 2,
@@ -7111,7 +7111,7 @@
             {
               "type": "frame",
               "id": "a4860e",
-              "name": "Row \u00b7 Numerals 0\u20139",
+              "name": "Row · Numerals 0–9",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -7165,7 +7165,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 346.0 800.0 L 262.0 788.0 L 262.0 301.0 Q 262.0 258.0 263.0 232.0 Q 264.0 206.0 266.0 178.0 Q 251.0 194.0 238.0 205.0 Q 225.0 216.0 206.0 233.0 L 128.0 293.0 L 77.0 232.0 L 260.0 68.0 L 346.0 98.0 Z",
+                      "geometry": "M 346 800 L 262 800 L 262 192 L 236 216 L 126 300 L 74 232 L 266 68 L 346 68 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7194,7 +7194,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 525.0 722.0 L 490.0 800.0 L 47.0 800.0 L 47.0 727.0 L 229.0 538.0 Q 282.0 484.0 318.0 442.0 Q 354.0 400.0 372.5 359.5 Q 391.0 319.0 391.0 271.0 Q 391.0 212.0 357.0 181.5 Q 323.0 151.0 268.0 151.0 Q 217.0 151.0 178.5 169.0 Q 140.0 187.0 100.0 219.0 L 55.0 160.0 Q 96.0 125.0 149.0 100.5 Q 202.0 76.0 268.0 76.0 Q 366.0 76.0 422.5 126.5 Q 479.0 177.0 479.0 266.0 Q 479.0 322.0 456.5 371.0 Q 434.0 420.0 394.0 467.5 Q 354.0 515.0 300.0 569.0 L 155.0 716.0 L 155.0 720.0 L 507.0 720.0 Z",
+                      "geometry": "M 526 704 L 492 800 L 47 800 L 47 727 L 229 538 Q 282 484 318 442 Q 354 400 372.5 359.5 Q 391 319 391 271 Q 391 212 357 181.5 Q 323 151 268 151 Q 217 151 178.5 169 Q 140 187 100 219 L 55 160 Q 96 125 149 100.5 Q 202 76 268 76 Q 366 76 422.5 126.5 Q 479 177 479 266 Q 479 322 456.5 371 Q 434 420 394 467.5 Q 354 515 300 569 L 155 716 L 155 720 L 496 720 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7252,7 +7252,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 538.0 638.0 L 437.0 638.0 L 437.0 800.0 L 354.0 800.0 L 354.0 638.0 L 20.0 638.0 L 20.0 563.0 L 348.0 82.0 L 437.0 82.0 L 437.0 559.0 L 538.0 559.0 Z M 354.0 334.0 Q 354.0 282.0 356.0 245.5 Q 358.0 209.0 359.0 176.0 L 355.0 176.0 Q 347.0 195.0 335.5 217.0 Q 324.0 239.0 313.0 254.0 L 104.0 559.0 L 354.0 559.0 Z",
+                      "geometry": "M 518 638 L 437 638 L 437 800 L 354 800 L 354 638 L 20 638 L 20 563 L 348 96 L 437 72 L 437 559 L 544 559 Z M 354 334 Q 354 282 356 245.5 Q 358 209 359 176 L 355 176 Q 347 195 335.5 217 Q 324 239 313 254 L 104 559 L 354 559 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7281,7 +7281,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 268.0 362.0 Q 375.0 362.0 438.5 417.0 Q 502.0 472.0 502.0 572.0 Q 502.0 683.0 433.5 746.5 Q 365.0 810.0 242.0 810.0 Q 188.0 810.0 141.0 800.0 Q 94.0 790.0 38.0 782.0 L 80.0 685.0 Q 97.0 710.0 147.0 722.5 Q 197.0 735.0 243.0 735.0 Q 320.0 735.0 367.0 697.5 Q 414.0 660.0 414.0 581.0 Q 414.0 511.0 372.5 473.5 Q 331.0 436.0 240.0 436.0 Q 213.0 436.0 177.5 441.0 Q 142.0 446.0 121.0 451.0 L 78.0 423.0 L 104.0 86.0 L 480.0 86.0 L 440.0 166.0 L 177.0 166.0 L 161.0 373.0 Q 177.0 370.0 205.5 366.0 Q 234.0 362.0 268.0 362.0 Z",
+                      "geometry": "M 268 362 Q 375 362 438.5 417 Q 502 472 502 572 Q 502 683 433.5 746.5 Q 365 810 242 810 Q 188 810 141 800 Q 94 790 38 782 L 80 685 Q 97 710 147 722.5 Q 197 735 243 735 Q 320 735 367 697.5 Q 414 660 414 581 Q 414 511 372.5 473.5 Q 331 436 240 436 Q 213 436 177.5 441 Q 142 446 121 451 L 78 423 L 104 86 L 484 86 L 446 178 L 424 166 L 177 166 L 161 373 Q 177 370 205.5 366 Q 234 362 268 362 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7339,7 +7339,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 120.0 795.0 L 418.0 166.0 L 55.0 170.0 L 30.0 86.0 L 510.0 86.0 L 498.0 154.0 L 233.0 800.0 Z",
+                      "geometry": "M 120 800 L 418 166 L 76 166 L 54 182 L 26 86 L 510 86 L 498 154 L 233 800 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7415,7 +7415,7 @@
         {
           "type": "frame",
           "id": "d43495",
-          "name": "Section \u00b7 Punctuation & Symbols (1)",
+          "name": "Section · Punctuation & Symbols (1)",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -7434,7 +7434,7 @@
             {
               "type": "frame",
               "id": "a35dd0",
-              "name": "Row \u00b7 Punctuation & Symbols (1)",
+              "name": "Row · Punctuation & Symbols (1)",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -7459,7 +7459,7 @@
                       "name": "Outline",
                       "width": 262,
                       "height": 1000,
-                      "geometry": "M 159.0 599.0 L 103.0 599.0 L 79.0 86.0 L 183.0 86.0 Z M 70.0 746.0 Q 70.0 709.0 87.5 694.0 Q 105.0 679.0 131.0 679.0 Q 155.0 679.0 173.0 694.0 Q 191.0 709.0 191.0 746.0 Q 191.0 782.0 173.0 798.0 Q 155.0 814.0 131.0 814.0 Q 105.0 814.0 87.5 798.0 Q 70.0 782.0 70.0 746.0 Z",
+                      "geometry": "M 159 599 L 103 599 L 79 132 L 183 74 Z M 131 680 L 193 746 L 131 812 L 69 746 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7807,7 +7807,7 @@
                       "name": "Outline",
                       "width": 314,
                       "height": 1000,
-                      "geometry": "M 39.0 571.0 L 39.0 493.0 L 275.0 493.0 L 275.0 571.0 Z",
+                      "geometry": "M 32 571 L 56 493 L 282 493 L 258 571 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7836,7 +7836,7 @@
                       "name": "Outline",
                       "width": 261,
                       "height": 1000,
-                      "geometry": "M 70.0 746.0 Q 70.0 709.0 87.5 694.0 Q 105.0 679.0 130.0 679.0 Q 155.0 679.0 173.0 694.0 Q 191.0 709.0 191.0 746.0 Q 191.0 782.0 173.0 798.0 Q 155.0 814.0 130.0 814.0 Q 105.0 814.0 87.5 798.0 Q 70.0 782.0 70.0 746.0 Z",
+                      "geometry": "M 130 680 L 192 746 L 130 812 L 68 746 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7894,7 +7894,7 @@
                       "name": "Outline",
                       "width": 261,
                       "height": 1000,
-                      "geometry": "M 70.0 318.0 Q 70.0 280.0 87.5 265.0 Q 105.0 250.0 130.0 250.0 Q 155.0 250.0 173.0 265.0 Q 191.0 280.0 191.0 318.0 Q 191.0 354.0 173.0 370.0 Q 155.0 386.0 130.0 386.0 Q 105.0 386.0 87.5 370.0 Q 70.0 354.0 70.0 318.0 Z M 70.0 746.0 Q 70.0 709.0 87.5 694.0 Q 105.0 679.0 130.0 679.0 Q 155.0 679.0 173.0 694.0 Q 191.0 709.0 191.0 746.0 Q 191.0 782.0 173.0 798.0 Q 155.0 814.0 130.0 814.0 Q 105.0 814.0 87.5 798.0 Q 70.0 782.0 70.0 746.0 Z",
+                      "geometry": "M 130 252 L 192 318 L 130 384 L 68 318 Z M 130 680 L 192 746 L 130 812 L 68 746 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -7923,7 +7923,7 @@
                       "name": "Outline",
                       "width": 261,
                       "height": 1000,
-                      "geometry": "M 68.0 318.0 Q 68.0 280.0 85.5 265.0 Q 103.0 250.0 128.0 250.0 Q 153.0 250.0 171.0 265.0 Q 189.0 280.0 189.0 318.0 Q 189.0 354.0 171.0 370.0 Q 153.0 386.0 128.0 386.0 Q 103.0 386.0 85.5 370.0 Q 68.0 354.0 68.0 318.0 Z M 178.0 695.0 Q 166.0 747.0 142.0 811.5 Q 118.0 876.0 95.0 929.0 L 30.0 929.0 Q 40.0 891.0 49.0 847.5 Q 58.0 804.0 66.5 761.5 Q 75.0 719.0 80.0 684.0 L 172.0 684.0 Z",
+                      "geometry": "M 128 252 L 190 318 L 128 384 L 66 318 Z M 178 695 Q 166 747 142 811.5 Q 118 876 95 929 L 30 929 Q 40 891 49 847.5 Q 58 804 66.5 761.5 Q 75 719 80 684 L 172 684 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8039,7 +8039,7 @@
                       "name": "Outline",
                       "width": 423,
                       "height": 1000,
-                      "geometry": "M 136.0 572.0 Q 136.0 534.0 143.5 506.5 Q 151.0 479.0 169.0 454.0 Q 187.0 429.0 218.0 402.0 Q 256.0 369.0 277.0 347.0 Q 298.0 325.0 307.0 304.0 Q 316.0 283.0 316.0 253.0 Q 316.0 205.0 285.5 179.0 Q 255.0 153.0 198.0 153.0 Q 150.0 153.0 113.0 165.5 Q 76.0 178.0 42.0 195.0 L 12.0 125.0 Q 51.0 104.0 98.0 90.0 Q 145.0 76.0 204.0 76.0 Q 296.0 76.0 347.0 123.0 Q 398.0 170.0 398.0 251.0 Q 398.0 296.0 384.0 327.5 Q 370.0 359.0 344.0 385.5 Q 318.0 412.0 283.0 442.0 Q 251.0 470.0 233.5 491.0 Q 216.0 512.0 210.5 532.5 Q 205.0 553.0 205.0 582.0 L 205.0 599.0 L 136.0 599.0 Z M 114.0 746.0 Q 114.0 709.0 131.0 694.0 Q 148.0 679.0 175.0 679.0 Q 199.0 679.0 216.5 694.0 Q 234.0 709.0 234.0 746.0 Q 234.0 782.0 216.5 798.0 Q 199.0 814.0 175.0 814.0 Q 148.0 814.0 131.0 798.0 Q 114.0 782.0 114.0 746.0 Z",
+                      "geometry": "M 136 572 Q 136 534 143.5 506.5 Q 151 479 169 454 Q 187 429 218 402 Q 256 369 277 347 Q 298 325 307 304 Q 316 283 316 253 Q 316 205 285.5 179 Q 255 153 198 153 Q 150 153 113 165.5 Q 76 178 42 195 L 12 125 Q 51 104 98 90 Q 145 76 204 76 Q 296 76 347 123 Q 398 170 398 251 Q 398 296 384 327.5 Q 370 359 344 385.5 Q 318 412 283 442 Q 251 470 233.5 491 Q 216 512 210.5 532.5 Q 205 553 205 582 L 205 599 L 136 599 Z M 174 680 L 236 746 L 174 812 L 112 746 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8231,7 +8231,7 @@
         {
           "type": "frame",
           "id": "62d494",
-          "name": "Section \u00b7 Punctuation & Symbols (2)",
+          "name": "Section · Punctuation & Symbols (2)",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -8250,7 +8250,7 @@
             {
               "type": "frame",
               "id": "164b47",
-              "name": "Row \u00b7 Punctuation & Symbols (2)",
+              "name": "Row · Punctuation & Symbols (2)",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -8318,7 +8318,7 @@
                 {
                   "type": "frame",
                   "id": "3f6113",
-                  "name": "U+00A3 \u00a3",
+                  "name": "U+00A3 £",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8347,7 +8347,7 @@
                 {
                   "type": "frame",
                   "id": "45da92",
-                  "name": "U+00B0 \u00b0",
+                  "name": "U+00B0 °",
                   "width": 417,
                   "height": 1000,
                   "fill": "$panel",
@@ -8376,7 +8376,7 @@
                 {
                   "type": "frame",
                   "id": "9002fd",
-                  "name": "U+00B1 \u00b1",
+                  "name": "U+00B1 ±",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8405,7 +8405,7 @@
                 {
                   "type": "frame",
                   "id": "693634",
-                  "name": "U+00B7 \u00b7",
+                  "name": "U+00B7 ·",
                   "width": 261,
                   "height": 1000,
                   "fill": "$panel",
@@ -8420,7 +8420,7 @@
                       "name": "Outline",
                       "width": 261,
                       "height": 1000,
-                      "geometry": "M 70.0 447.0 Q 70.0 410.0 87.5 395.0 Q 105.0 380.0 130.0 380.0 Q 155.0 380.0 173.0 395.0 Q 191.0 410.0 191.0 447.0 Q 191.0 483.0 173.0 499.0 Q 155.0 515.0 130.0 515.0 Q 105.0 515.0 87.5 499.0 Q 70.0 483.0 70.0 447.0 Z",
+                      "geometry": "M 130 381 L 192 447 L 130 513 L 68 447 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8434,7 +8434,7 @@
                 {
                   "type": "frame",
                   "id": "296458",
-                  "name": "U+00D7 \u00d7",
+                  "name": "U+00D7 ×",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8463,7 +8463,7 @@
                 {
                   "type": "frame",
                   "id": "18aa9d",
-                  "name": "U+00F7 \u00f7",
+                  "name": "U+00F7 ÷",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8478,7 +8478,7 @@
                       "name": "Outline",
                       "width": 558,
                       "height": 1000,
-                      "geometry": "M 277.5 338.0 Q 255.0 338.0 239.0 323.5 Q 223.0 309.0 223.0 277.0 Q 223.0 243.0 239.0 230.0 Q 255.0 217.0 277.5 217.0 Q 300.0 217.0 316.0 230.0 Q 332.0 243.0 332.0 277.0 Q 332.0 309.0 316.0 323.5 Q 300.0 338.0 277.5 338.0 Z M 49.0 483.0 L 49.0 412.0 L 508.0 412.0 L 508.0 483.0 Z M 277.5 679.0 Q 255.0 679.0 239.0 664.5 Q 223.0 650.0 223.0 618.0 Q 223.0 584.0 239.0 571.0 Q 255.0 558.0 277.5 558.0 Q 300.0 558.0 316.0 571.0 Q 332.0 584.0 332.0 618.0 Q 332.0 650.0 316.0 664.5 Q 300.0 679.0 277.5 679.0 Z",
+                      "geometry": "M 278 217 L 334 277 L 278 337 L 222 277 Z M 38 483 L 62 412 L 518 412 L 494 483 Z M 278 558 L 334 618 L 278 678 L 222 618 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8492,7 +8492,7 @@
                 {
                   "type": "frame",
                   "id": "7ca015",
-                  "name": "U+2013 \u2013",
+                  "name": "U+2013 –",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -8507,7 +8507,7 @@
                       "name": "Outline",
                       "width": 488,
                       "height": 1000,
-                      "geometry": "M 39.0 571.0 L 39.0 493.0 L 448.0 493.0 L 448.0 571.0 Z",
+                      "geometry": "M 32 571 L 56 493 L 456 493 L 432 571 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8521,7 +8521,7 @@
                 {
                   "type": "frame",
                   "id": "a9063a",
-                  "name": "U+2014 \u2014",
+                  "name": "U+2014 —",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -8536,7 +8536,7 @@
                       "name": "Outline",
                       "width": 975,
                       "height": 1000,
-                      "geometry": "M 39.0 571.0 L 39.0 493.0 L 936.0 493.0 L 936.0 571.0 Z",
+                      "geometry": "M 32 571 L 56 493 L 944 493 L 920 571 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8550,7 +8550,7 @@
                 {
                   "type": "frame",
                   "id": "2acdc7",
-                  "name": "U+2018 \u2018",
+                  "name": "U+2018 ‘",
                   "width": 171,
                   "height": 1000,
                   "fill": "$panel",
@@ -8579,7 +8579,7 @@
                 {
                   "type": "frame",
                   "id": "1eddb0",
-                  "name": "U+2019 \u2019",
+                  "name": "U+2019 ’",
                   "width": 171,
                   "height": 1000,
                   "fill": "$panel",
@@ -8608,7 +8608,7 @@
                 {
                   "type": "frame",
                   "id": "601b39",
-                  "name": "U+201C \u201c",
+                  "name": "U+201C “",
                   "width": 350,
                   "height": 1000,
                   "fill": "$panel",
@@ -8637,7 +8637,7 @@
                 {
                   "type": "frame",
                   "id": "dd95b8",
-                  "name": "U+201D \u201d",
+                  "name": "U+201D ”",
                   "width": 350,
                   "height": 1000,
                   "fill": "$panel",
@@ -8666,7 +8666,7 @@
                 {
                   "type": "frame",
                   "id": "4d6b63",
-                  "name": "U+2022 \u2022",
+                  "name": "U+2022 •",
                   "width": 367,
                   "height": 1000,
                   "fill": "$panel",
@@ -8681,7 +8681,7 @@
                       "name": "Outline",
                       "width": 367,
                       "height": 1000,
-                      "geometry": "M 75.0 435.0 Q 75.0 367.0 106.0 339.0 Q 137.0 311.0 183.0 311.0 Q 229.0 311.0 260.5 339.0 Q 292.0 367.0 292.0 435.0 Q 292.0 501.0 260.5 530.0 Q 229.0 559.0 183.0 559.0 Q 137.0 559.0 106.0 530.0 Q 75.0 501.0 75.0 435.0 Z",
+                      "geometry": "M 183 321 L 291 435 L 183 549 L 75 435 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8695,7 +8695,7 @@
                 {
                   "type": "frame",
                   "id": "c00ae6",
-                  "name": "U+2026 \u2026",
+                  "name": "U+2026 …",
                   "width": 771,
                   "height": 1000,
                   "fill": "$panel",
@@ -8710,7 +8710,7 @@
                       "name": "Outline",
                       "width": 771,
                       "height": 1000,
-                      "geometry": "M 580.0 746.0 Q 580.0 709.0 597.5 694.0 Q 615.0 679.0 640.0 679.0 Q 665.0 679.0 683.0 694.0 Q 701.0 709.0 701.0 746.0 Q 701.0 782.0 683.0 798.0 Q 665.0 814.0 640.0 814.0 Q 615.0 814.0 597.5 798.0 Q 580.0 782.0 580.0 746.0 Z M 326.0 746.0 Q 326.0 709.0 343.5 694.0 Q 361.0 679.0 385.0 679.0 Q 410.0 679.0 428.5 694.0 Q 447.0 709.0 447.0 746.0 Q 447.0 782.0 428.5 798.0 Q 410.0 814.0 385.0 814.0 Q 361.0 814.0 343.5 798.0 Q 326.0 782.0 326.0 746.0 Z M 70.0 746.0 Q 70.0 709.0 87.5 694.0 Q 105.0 679.0 130.0 679.0 Q 155.0 679.0 173.0 694.0 Q 191.0 709.0 191.0 746.0 Q 191.0 782.0 173.0 798.0 Q 155.0 814.0 130.0 814.0 Q 105.0 814.0 87.5 798.0 Q 70.0 782.0 70.0 746.0 Z",
+                      "geometry": "M 130 682 L 190 746 L 130 810 L 70 746 Z M 385 682 L 445 746 L 385 810 L 325 746 Z M 640 682 L 700 746 L 640 810 L 580 746 Z",
                       "fill": "$ink",
                       "viewBox": [
                         0,
@@ -8724,7 +8724,7 @@
                 {
                   "type": "frame",
                   "id": "a192b7",
-                  "name": "U+2030 \u2030",
+                  "name": "U+2030 ‰",
                   "width": 1148,
                   "height": 1000,
                   "fill": "$panel",
@@ -8753,7 +8753,7 @@
                 {
                   "type": "frame",
                   "id": "b27762",
-                  "name": "U+20AC \u20ac",
+                  "name": "U+20AC €",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8782,7 +8782,7 @@
                 {
                   "type": "frame",
                   "id": "df9e7b",
-                  "name": "U+20BA \u20ba",
+                  "name": "U+20BA ₺",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8811,7 +8811,7 @@
                 {
                   "type": "frame",
                   "id": "85dc9e",
-                  "name": "U+2190 \u2190",
+                  "name": "U+2190 ←",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -8840,7 +8840,7 @@
                 {
                   "type": "frame",
                   "id": "66bbcd",
-                  "name": "U+2191 \u2191",
+                  "name": "U+2191 ↑",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -8869,7 +8869,7 @@
                 {
                   "type": "frame",
                   "id": "9a205d",
-                  "name": "U+2192 \u2192",
+                  "name": "U+2192 →",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -8898,7 +8898,7 @@
                 {
                   "type": "frame",
                   "id": "c8edc7",
-                  "name": "U+2193 \u2193",
+                  "name": "U+2193 ↓",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -8927,7 +8927,7 @@
                 {
                   "type": "frame",
                   "id": "936ae8",
-                  "name": "U+2212 \u2212",
+                  "name": "U+2212 −",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8956,7 +8956,7 @@
                 {
                   "type": "frame",
                   "id": "4e4139",
-                  "name": "U+2264 \u2264",
+                  "name": "U+2264 ≤",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -8985,7 +8985,7 @@
                 {
                   "type": "frame",
                   "id": "ca2b08",
-                  "name": "U+2265 \u2265",
+                  "name": "U+2265 ≥",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -9018,7 +9018,7 @@
         {
           "type": "frame",
           "id": "068382",
-          "name": "Section \u00b7 Punctuation & Symbols (3)",
+          "name": "Section · Punctuation & Symbols (3)",
           "width": "fill_container",
           "height": "fit_content",
           "layout": "vertical",
@@ -9037,7 +9037,7 @@
             {
               "type": "frame",
               "id": "422657",
-              "name": "Row \u00b7 Punctuation & Symbols (3)",
+              "name": "Row · Punctuation & Symbols (3)",
               "width": "fill_container",
               "height": 1040,
               "layout": "horizontal",
@@ -9047,7 +9047,7 @@
                 {
                   "type": "frame",
                   "id": "fa3609",
-                  "name": "U+2039 \u2039",
+                  "name": "U+2039 ‹",
                   "width": 304,
                   "height": 1000,
                   "fill": "$panel",
@@ -9076,7 +9076,7 @@
                 {
                   "type": "frame",
                   "id": "935a33",
-                  "name": "U+203A \u203a",
+                  "name": "U+203A ›",
                   "width": 304,
                   "height": 1000,
                   "fill": "$panel",
@@ -9105,7 +9105,7 @@
                 {
                   "type": "frame",
                   "id": "c40e6b",
-                  "name": "U+00AB \u00ab",
+                  "name": "U+00AB «",
                   "width": 500,
                   "height": 1000,
                   "fill": "$panel",
@@ -9134,7 +9134,7 @@
                 {
                   "type": "frame",
                   "id": "eb9091",
-                  "name": "U+00BB \u00bb",
+                  "name": "U+00BB »",
                   "width": 500,
                   "height": 1000,
                   "fill": "$panel",
@@ -9221,7 +9221,7 @@
                 {
                   "type": "frame",
                   "id": "a7af9c",
-                  "name": "U+2032 \u2032",
+                  "name": "U+2032 ′",
                   "width": 262,
                   "height": 1000,
                   "fill": "$panel",
@@ -9250,7 +9250,7 @@
                 {
                   "type": "frame",
                   "id": "721fd9",
-                  "name": "U+2033 \u2033",
+                  "name": "U+2033 ″",
                   "width": 441,
                   "height": 1000,
                   "fill": "$panel",
@@ -9279,7 +9279,7 @@
                 {
                   "type": "frame",
                   "id": "09712d",
-                  "name": "U+2194 \u2194",
+                  "name": "U+2194 ↔",
                   "width": 975,
                   "height": 1000,
                   "fill": "$panel",
@@ -9308,7 +9308,7 @@
                 {
                   "type": "frame",
                   "id": "b160dc",
-                  "name": "U+2195 \u2195",
+                  "name": "U+2195 ↕",
                   "width": 488,
                   "height": 1000,
                   "fill": "$panel",
@@ -9337,7 +9337,7 @@
                 {
                   "type": "frame",
                   "id": "fabe28",
-                  "name": "U+25B2 \u25b2",
+                  "name": "U+25B2 ▲",
                   "width": 640,
                   "height": 1000,
                   "fill": "$panel",
@@ -9366,7 +9366,7 @@
                 {
                   "type": "frame",
                   "id": "d5cced",
-                  "name": "U+25BC \u25bc",
+                  "name": "U+25BC ▼",
                   "width": 640,
                   "height": 1000,
                   "fill": "$panel",
@@ -9395,7 +9395,7 @@
                 {
                   "type": "frame",
                   "id": "c4a0e6",
-                  "name": "U+25B4 \u25b4",
+                  "name": "U+25B4 ▴",
                   "width": 430,
                   "height": 1000,
                   "fill": "$panel",
@@ -9424,7 +9424,7 @@
                 {
                   "type": "frame",
                   "id": "2303a3",
-                  "name": "U+25BE \u25be",
+                  "name": "U+25BE ▾",
                   "width": 430,
                   "height": 1000,
                   "fill": "$panel",
@@ -9453,7 +9453,7 @@
                 {
                   "type": "frame",
                   "id": "466a11",
-                  "name": "U+25C0 \u25c0",
+                  "name": "U+25C0 ◀",
                   "width": 568,
                   "height": 1000,
                   "fill": "$panel",
@@ -9482,7 +9482,7 @@
                 {
                   "type": "frame",
                   "id": "f7a277",
-                  "name": "U+25B6 \u25b6",
+                  "name": "U+25B6 ▶",
                   "width": 568,
                   "height": 1000,
                   "fill": "$panel",
@@ -9540,7 +9540,7 @@
                 {
                   "type": "frame",
                   "id": "091dd5",
-                  "name": "U+2248 \u2248",
+                  "name": "U+2248 ≈",
                   "width": 558,
                   "height": 1000,
                   "fill": "$panel",
@@ -9569,7 +9569,7 @@
                 {
                   "type": "frame",
                   "id": "489f4e",
-                  "name": "U+00A9 \u00a9",
+                  "name": "U+00A9 ©",
                   "width": 800,
                   "height": 1000,
                   "fill": "$panel",
@@ -9598,7 +9598,7 @@
                 {
                   "type": "frame",
                   "id": "82e515",
-                  "name": "U+25CF \u25cf",
+                  "name": "U+25CF ●",
                   "width": 700,
                   "height": 1000,
                   "fill": "$panel",
@@ -9627,7 +9627,7 @@
                 {
                   "type": "frame",
                   "id": "66e608",
-                  "name": "U+25CB \u25cb",
+                  "name": "U+25CB ○",
                   "width": 700,
                   "height": 1000,
                   "fill": "$panel",
@@ -9656,7 +9656,7 @@
                 {
                   "type": "frame",
                   "id": "801e07",
-                  "name": "U+2605 \u2605",
+                  "name": "U+2605 ★",
                   "width": 720,
                   "height": 1000,
                   "fill": "$panel",
@@ -9685,7 +9685,7 @@
                 {
                   "type": "frame",
                   "id": "7b8c12",
-                  "name": "U+2713 \u2713",
+                  "name": "U+2713 ✓",
                   "width": 780,
                   "height": 1000,
                   "fill": "$panel",
@@ -9714,7 +9714,7 @@
                 {
                   "type": "frame",
                   "id": "160f05",
-                  "name": "U+2717 \u2717",
+                  "name": "U+2717 ✗",
                   "width": 740,
                   "height": 1000,
                   "fill": "$panel",

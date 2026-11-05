@@ -33,7 +33,7 @@ Bengutas is built as a complementary two-part system engineered for high-contras
 | Family | Classification | Intended Use | Distinctive V2 Traits |
 | :--- | :--- | :--- | :--- |
 | **Bengutas Display** | Epigraphic Lapidary | Titles, Headers, Posters, Game UI Badges, Brand Identity | Taut composite-bow (*yay*) quadratic curves (`O, C, D, G, B, P, R, S, U`), pointed stela-arch crests, deep 35°–42° acute chisel V-notches & barbs (`E, F, H, K, L, M, N, T, Z`), diamond-chisel punctuation (`: ; .`), and automatic petite small-caps (`a–z`) with Turkish-aware `locl`. |
-| **Bengutas Sans** | Lapidary Grotesque | Body Copy, UI, Editorial, Lore Descriptions | Clean grotesque proportions with 25°–30° double-chisel terminal cuts (`c, e, s, r`), sharp lapidary stem heads (`I, L, H, E, F, i, l`), broken chevron hooks (`ç, ş`), and strictly flat baselines (`y=800`). |
+| **Bengutas Sans** | Lapidary Grotesque | Body Copy, UI, Editorial, Lore Descriptions | Unified 36°–38° chisel stem heads (`A–Z, a–z`), 22–28 UPM acute V-notch ink-traps at stem junctions (`B, D, E, F, H, L, M, N, P, R`), taut *yay* bowed kick-legs (`K, R, k`), 45° diamond-chisel dots (`i, j, İ, Ö, Ü, ö, ü, : ; . ! ?`), angled chisel breves (`Ğ, ğ`), and strictly flat baselines (`y=800`). |
 
 ---
 
@@ -58,6 +58,15 @@ Paleographic inspection of the *Kül Tigin* and *Tonyukuk* stone rubbings and Vi
 | **4** | **Upward & Downward *Tamga* Barbs** | `𐰞` (*l¹*), `𐰚` (*k²*), `𐰔` (*z*), `𐰡` (*lt*), `𐰴` (*q*) | Linear letters incorporate authentic Orkhon *tamga* signatures: the upward-kicking foot barb of `L` (`𐰞`), the acute upper slash + taut bowed kick-leg of `K` (`𐰚`), the pointed stela crowns and deep inner V-crotches of `M, N` (`𐰡, 𐰇`), and the double-barbed forward slash of `Z` (`𐰔`). |
 | **5** | **Diamond-Chisel Word Dividers** | `⁚` (Orkhon word separator) | Orkhon inscriptions separate words using twin vertical diamond-shaped chisel strikes (`⁚`). All punctuation dots (`. , : ; ! ? … · •`) and Turkish diacritic dots (`İ, Ö, Ü, i.loclTRK, ö, ü`) are sculpted as 45° diamond chisel strikes. |
 | **6** | **Petite Small-Caps & Turkish `locl`** | Monumental majuscule cadence | Lowercase `a–z` renders as `82%` height petite majuscules (`y=215..800`) with full *yay* bow curves and acute notches. Default `i` is dotless (`Village` → `VILLAGE`), while OpenType `locl` restores the diamond-dotted `i.loclTRK` for Turkic languages (`Bilge` → `BİLGE`). |
+
+### How Bengutas Sans V2 Preserves Body-Copy Readability with Orkhon DNA
+
+While **Bengutas Display V2** is built for monumental headlines, **Bengutas Sans V2** translates the same Orkhon chisel and *yay* vocabulary into a clean grotesque engineered for long-form editorial copy and 12px–16px UI labels:
+
+1. **Unified 36°–38° Chisel Stem Heads:** Every vertical stem across uppercase (`B, D, E, F, H, I, J, K, L, M, N, P, R, U`) and lowercase ascenders/stems (`b, d, h, k, l, i, j, m, n, p, q, r, u, ı`) shares a consistent lapidary chisel bevel at its top entry while landing on a **100% flat `y=800` baseline** so the eye tracks effortlessly across lines of text.
+2. **22–28 UPM Acute V-Notch Ink-Traps:** Where horizontal arms, bowls, or diagonals meet a vertical stem (`B, D, E, F, H, L, M, N, P, R, T, b, d, h, m, n, p, r`), a subtle 22–28 UPM acute V-notch echoes the Orkhon chisel groove while functioning as an optical **typographic ink-trap** that prevents dark pixel/ink clumping at small point sizes.
+3. **Taut *Yay* Kick-Legs & Restrained Micro-Barbs:** `K`, `R`, and `k` feature taut composite-bow (*yay*) kick-legs, while linear arms (`E, F, G, L, T, Z, z, 2, 5, 7`) carry restrained 14–18 UPM Orkhon micro-barbs that never drop below the baseline.
+4. **45° Diamond-Chisel Dots (`⁚`) & Angled Chisel Breves:** All dots on `i, j, İ, Ö, Ü, ö, ü` and punctuation (`. : ; ! ? … · • ÷`) use 45° lapidary diamond chisel strikes instead of generic circular blobs, paired with angled chisel-cut breves on `Ğ` and `ğ` and broken chevron cedillas on `Ç, Ş, ç, ş`.
 
 ---
 
