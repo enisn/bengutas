@@ -26,17 +26,29 @@ NOTDEF_SVG = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
 # `locl` feature for the Turkic languages whose uppercase i keeps its dot.
 TURKIC_LANGS = ["TRK", "AZE", "CRT", "KAZ", "TAT"]
 
-def build_locl_fea():
-    systems = "\n".join(f"languagesystem latn {l};" for l in TURKIC_LANGS)
-    rules = "\n".join(f"  language {l} exclude_dflt;\n  sub i by i.loclTRK;" for l in TURKIC_LANGS)
-    return f"""languagesystem DFLT dflt;
-languagesystem latn dflt;
-{systems}
-
+def build_ot_fea(has_locl_trk=False):
+    systems = "\n".join(f"languagesystem latn {l};" for l in TURKIC_LANGS) if has_locl_trk else ""
+    locl_block = ""
+    if has_locl_trk:
+        rules = "\n".join(f"  language {l} exclude_dflt;\n  sub i by i.loclTRK;" for l in TURKIC_LANGS)
+        locl_block = f"""
 feature locl {{
   script latn;
 {rules}
 }} locl;
+"""
+    ccmp_rules = (
+        "  sub i uni0307 by i.loclTRK;\n  sub i.loclTRK uni0307 by i.loclTRK;"
+        if has_locl_trk
+        else "  sub i uni0307 by i;"
+    )
+    return f"""languagesystem DFLT dflt;
+languagesystem latn dflt;
+{systems}
+{locl_block}
+feature ccmp {{
+{ccmp_rules}
+}} ccmp;
 """
 
 def load_glyphs_from_pen(pen_file):
@@ -179,14 +191,24 @@ def compile_family(family_key, is_display=False, turkish_default=False):
                 if g_item["d"] and g_item["d"].strip():
                     import_glyph(g_item["unicode"], g_item["name"], g_item["advance"], g_item["d"])
 
+            # Zero-width U+0307 (COMBINING DOT ABOVE) + OpenType ccmp ligature:
+            # When CSS `text-transform: lowercase` runs in a non-Turkish locale (e.g. lang="en"),
+            # Unicode decomposes U+0130 (İ) into U+0069 (i) + U+0307 (combining dot above).
+            # Defining uni0307 in the font prevents fallback-font double dots, and `ccmp`
+            # maps `i + uni0307` -> `i.loclTRK` (Display) or `i` (Sans / Display TR).
+            comb_dot = font.createChar(0x0307, "uni0307")
+            comb_dot.width = 0
+
             # Dotted petite-cap i for Turkic locales (Display only)
-            if i_dotted_d and not turkish_default:
+            has_locl_trk = bool(i_dotted_d and not turkish_default)
+            if has_locl_trk:
                 i_adv = next(g["advance"] for g in glyphs_db if g["unicode"] == 0x69)
                 import_glyph(-1, "i.loclTRK", i_adv, i_dotted_d)
-                fea_p = os.path.join(temp_dir, "locl.fea")
-                with open(fea_p, "w", encoding="utf-8") as tf:
-                    tf.write(build_locl_fea())
-                font.mergeFeature(fea_p)
+
+            fea_p = os.path.join(temp_dir, "features.fea")
+            with open(fea_p, "w", encoding="utf-8") as tf:
+                tf.write(build_ot_fea(has_locl_trk=has_locl_trk))
+            font.mergeFeature(fea_p)
                     
             # Space & non-breaking space
             space_width = 300 if is_bold else 280
